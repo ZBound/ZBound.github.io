@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo中live2d看板娘手机端禁止加载</title>
+    <title>《餐瘾地城》治好了我的电子阳痿</title>
+    <url>/posts/ff178b38/</url>
+    <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。此作的剧情可以说是核心，前期的荒诞幽默，后期的逐渐深入，都推动着我继续玩下去。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_46-tuya.webp" alt="还真是" /></p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo中live2d看板娘禁用手机端加载</title>
     <url>/posts/b5878383/</url>
     <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
 <p>博客搭建时我加入了一个live2d看板娘，使用的是<a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang/live2d-widget</a>项目。</p>
@@ -11,7 +20,7 @@
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 <p>若是将项目下载到了本地，那就应该是添加了:</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;/live2d-widget/autoload.js&quot;</span>&gt;&lt;/script&gt;   #注意自己的本地路径</span><br></pre></td></tr></table></figure>
-<p>②以下载到本地的为例，首先在你的<code>/live2d-widget/</code>文件夹下新建一个<code>mobile.js</code>  (路径和名称可修改)<br />
+<p>②以下载到本地的为例，首先在你的<code>/live2d-widget/src/</code>文件夹下新建一个<code>mobile.js</code>  (路径和名称可修改)<br />
 内容为:</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">browserRedirect</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> sUserAgent = navigator.<span class="property">userAgent</span>.<span class="title function_">toLowerCase</span>();</span><br><span class="line">    <span class="keyword">var</span> bIsIpad = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/ipad/i</span>) == <span class="string">&quot;ipad&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsIphoneOs = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/iphone os/i</span>) == <span class="string">&quot;iphone os&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsMidp = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/midp/i</span>) == <span class="string">&quot;midp&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsUc7 = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/rv:1.2.3.4/i</span>) == <span class="string">&quot;rv:1.2.3.4&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsUc = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/ucweb/i</span>) == <span class="string">&quot;ucweb&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsAndroid = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/android/i</span>) == <span class="string">&quot;android&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsCE = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/windows ce/i</span>) == <span class="string">&quot;windows ce&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsWM = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/windows mobile/i</span>) == <span class="string">&quot;windows mobile&quot;</span>; </span><br><span class="line">    <span class="keyword">if</span> (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) &#123;&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&#x27;&lt;script src=&quot;/live2d-widget/autoload.js&quot;&gt;&lt;/script&gt; &#x27;</span>);  <span class="comment">//如果不是以上的手机端UA,便加载autoload.js</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">browserRedirect</span>(); </span><br></pre></td></tr></table></figure>
 <p>然后把①中的:</p>
@@ -19,22 +28,38 @@
 <p>替换为```</p>
 <pre class="highlight"><code class="JS">&lt;script src=<span class="string">&quot;/live2d-widget/src/mobile.js&quot;</span>&gt;&lt;/script&gt; 
 </code></pre>
-<p>③观察效果<br />
+<p>③看看效果<br />
 hexo cl<br />
 hexo g<br />
-hexo s</p>
+hexo s<br />
+三连后，上localhost:4000<br />
+<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_47-tuya.webp" alt="localhost:4000" /><br />
+浏览器模拟手机端，可以看到live2d-widget中只有mobile.js加载了，其他css和js并没有加载。</p>
+<p>问题解决😊</p>
 ]]></content>
       <tags>
         <tag>live2d</tag>
       </tags>
   </entry>
   <entry>
-    <title>《餐瘾地城》治好了我的电子阳痿</title>
-    <url>/posts/ff178b38/</url>
-    <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。此作的剧情可以说是核心，前期的荒诞幽默，后期的逐渐深入，都推动着我继续玩下去。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_46-tuya.webp" alt="还真是" /></p>
+    <title>更换FireFox浏览器</title>
+    <url>/posts/9847d699/</url>
+    <content><![CDATA[<p>  近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
+<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
+<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 ]]></content>
       <tags>
-        <tag>游戏</tag>
+        <tag>Windows</tag>
+        <tag>浏览器</tag>
       </tags>
   </entry>
   <entry>
@@ -93,27 +118,6 @@ hexo s</p>
       </tags>
   </entry>
   <entry>
-    <title>更换FireFox浏览器</title>
-    <url>/posts/9847d699/</url>
-    <content><![CDATA[<p>  近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
-<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
-<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>浏览器</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>流氓软件的清除</title>
     <url>/posts/eb137a6e/</url>
     <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
@@ -147,6 +151,19 @@ hexo s</p>
         <tag>Windows</tag>
         <tag>软件</tag>
         <tag>流氓软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>笔记本续航的一篇文章</title>
+    <url>/posts/591ede03/</url>
+    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
+<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
+<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>笔记本电脑</tag>
+        <tag>电源设置</tag>
       </tags>
   </entry>
   <entry>
@@ -302,19 +319,6 @@ hexo s</p>
         <tag>Windows</tag>
         <tag>安全</tag>
         <tag>杀毒软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>笔记本续航的一篇文章</title>
-    <url>/posts/591ede03/</url>
-    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
-<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
-<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>笔记本电脑</tag>
-        <tag>电源设置</tag>
       </tags>
   </entry>
 </search>
