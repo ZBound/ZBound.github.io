@@ -44,37 +44,6 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>新游戏</title>
-    <url>/posts/7de1e3c6/</url>
-    <content><![CDATA[<p>昨天晚上通了火山的女儿一个学士结局， 游戏挺好的，就是不太好。</p>
-]]></content>
-      <tags>
-        <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>更换FireFox浏览器</title>
-    <url>/posts/9847d699/</url>
-    <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
-<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
-<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>浏览器</tag>
-        <tag>私密</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>以高考为途径的大学专业报考指北</title>
     <url>/posts/52e2e8d1/</url>
     <content><![CDATA[<p>如果你看到这个内容，说明你即将从单一的评价体系毕业，来到人生当中第一个与分数不完全相关的抉择——选大学。这里提供一份你可能从未见过 <em>（如果你见过那真是太好了）</em> 的大学报考教程。或许它可以帮助你避免一些常见的误区，或许并不能，但总之，希望能做到一点微小的工作。</p>
@@ -121,6 +90,56 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>新游戏</title>
+    <url>/posts/7de1e3c6/</url>
+    <content><![CDATA[<p>昨天晚上通了火山的女儿一个学士结局， 游戏挺好的，就是不太好。</p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>免费套壳ChatGPT</title>
+    <url>/posts/eacb6cc2/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="d110ae317464b8e144642b75d02573ef87abe4f56297c1d1f1c8609c67cbf8e8">3a79a337c382b69addac2e470a715f0e233e508685e8cd57fc3c255651745d45bda4c030605bd304920fdffc61471a4f376d955b0b87e6d5852e5533c9bead6e3ef3ffd9ad5b09058f25d9d07a8c8a9327afb25b875a81682214a6b48cf15d1c86d14dde8294316f876d816c940cad095c5bd86cd9cd5850d2d0c2ca2e53239a35dcf45581a3d0883be03cae45517906045711a4ccaef74c600a852aee9648f8d9fcab79250084646a08832f74f026918973318532f4f00863ae0fcb3592d7ad4d07efd928dc4535b252d3ad64bdb033affc84c936c05a11306fb448ce8b44cccbe5c4945754c3395f576e0dac092cc34b534de94bfd20c08413c66e49e6146dbc70419e29bd0bec0ced25bc7427479a6283a840d62c358ef42743602ea32e113785804164e395a7dc577750072651753d3ec91179c8b0095bffd65e37eb1b50800e93ac914183c7a802248e0c838cdabdbf9a2e1cb9a73602b13ae050cebdb4cefd85712efa73a80cf9c7a3bffd43b92b8fae92eb156eb50119c8901feae80fc2ae923e517ba687cfb781d8e078d466feb9f847db6ecc397f4a72bc9e435a5c067563540a4977dcd8d93af2a9c1249a730a7178e2f43abb685a4674d8ac498c68cdad0717375316a221db42c6068b7e2aa52735e850fee4d8e35f5db2d562671d3c13326133ba7bfad058ef99f078b2fb373efdefdd967b85cf4ca1f2bb9be8318c491f72a9648f62979f654b161be47fc24a2f4fb5d8d231567dda50d0926fbffb014052aab09a7f370b55d341aa7cf2efaf2054301f5979ef98ef24ba2d0bb65843538e0cc5ec70c05eb4230559c6e5070cfb356a6a99ae7066e5a77dbbd00d956f13906206d41d745859f9ab29dc</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-shrink">
+      <input class="hbe hbe-input-field hbe-input-field-shrink" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-shrink" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-shrink">密码为I am a human</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>ChatGPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>更换FireFox浏览器</title>
+    <url>/posts/9847d699/</url>
+    <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
+<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
+<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>浏览器</tag>
+        <tag>私密</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>流氓软件的清除</title>
     <url>/posts/eb137a6e/</url>
     <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
@@ -154,30 +173,6 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>软件</tag>
         <tag>流氓软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>简单的图片的压缩和超分对比</title>
-    <url>/posts/70bca06b/</url>
-    <content><![CDATA[<p>压缩算法webp和jepg算法<br />
-超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>图片处理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>笔记本续航的一篇文章</title>
-    <url>/posts/591ede03/</url>
-    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
-<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
-<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>笔记本电脑</tag>
-        <tag>电源设置</tag>
       </tags>
   </entry>
   <entry>
@@ -333,6 +328,30 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>安全</tag>
         <tag>杀毒软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>笔记本续航的一篇文章</title>
+    <url>/posts/591ede03/</url>
+    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
+<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
+<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>笔记本电脑</tag>
+        <tag>电源设置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>简单的图片的压缩和超分对比</title>
+    <url>/posts/70bca06b/</url>
+    <content><![CDATA[<p>压缩算法webp和jepg算法<br />
+超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>图片处理</tag>
       </tags>
   </entry>
 </search>
