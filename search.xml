@@ -92,18 +92,18 @@ hexo s<br />
   <entry>
     <title>免费套壳ChatGPT</title>
     <url>/posts/eacb6cc2/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="5a84694cb41d5bdf8ddc256d95d4268e234a5e004bf888874a1e55d8a2b096bf">3a79a337c382b69addac2e470a715f0e233e508685e8cd57fc3c255651745d45bda4c030605bd304920fdffc61471a4f376d955b0b87e6d5852e5533c9bead6e3ef3ffd9ad5b09058f25d9d07a8c8a9327afb25b875a81682214a6b48cf15d1c86d14dde8294316f876d816c940cad095c5bd86cd9cd5850d2d0c2ca2e53239a35dcf45581a3d0883be03cae45517906045711a4ccaef74c600a852aee9648f8d9fcab79250084646a08832f74f026918973318532f4f00863ae0fcb3592d7ad4d07efd928dc4535b252d3ad64bdb033affc84c936c05a11306fb448ce8b44cccbe5c4945754c3395f576e0dac092cc34b534de94bfd20c08413c66e49e6146dbc70419e29bd0bec0ced25bc7427479a6283a840d62c358ef42743602ea32e113785804164e395a7dc577750072651753d3ec91179c8b0095bffd65e37eb1b50800e93ac914183c7a802248e0c838cdabdbf9a2e1cb9a73602b13ae050cebdb4cefd85712efa73a80cf9c7a3bffd43b92b8fae92eb156eb50119c8901feae80fc2ae923e517ba687cfb781d8e078d466feb9f847db6ecc397f4a72bc9e435a5c067563540a4977dcd8d93af2a9c1249a730a7178e2f43abb685a4674d8ac498c027644cb7713831501db32f30b5d2d8dd5fb356d54c4b62bf0a49a341753b95947e27f552de3bc461d7906e06a9ebb3d5b33d7f87f7490ca13cf4aa4b972ab0df52e01f364accb4c2305c18f429379af41b9596045aa22b6d6b6792e393d37bf3be9a0355f1ac203f7ed9d8f10f85c30c4e2da95d04a3186f1f53ab5042e9970f60a7446e7a36b11c7e17e2040ed5dca87af6306a3ef0052c42b85f64f907dd8d105d565981a81bc58436490c8a2737076b3b2a3161471a857bf7add3e84735b8c9d9ee11ed52d85c53642c45042b33fc193d33ef5a4168c0cc2d1e3b1922c8e217bd19995cfdb46107b678eb7a417acfd1e9e9072310f8e424a62641dce9cd95c60bca9b4d2dfaf304dec477bfea31c949e122f705f499ddd93d68261b64017429b66b865802ea6649a978d4538bbeb5cdaa28a118b35a48390eeb4f5678de3fec8f26bb55149d21f3a473a8cb83ba723801695ec8a7fca3cb1be26ca3f9882cebd0012a73e15824dac0679dd767be23240ae8264ac9be2a4785db68bb01a5b040ab79c473e6389b9f9d3c5e067d70cdc4ba88d4bcedb07af3dab07aa9e859428e1f0601be05b27a736d58c758cc9f226636b968003b1f3b037bed2c1354aea72be91d2a1abd864ca71dda6b9ac4680edacd77c74baeedd4f8663bee4e75c1eedf99f74bf12ce8a5b37f5cd51baa61b1819582022737c1ef6b27e9bcbe64377cb3a122d5c48815d045e365f8c4c3e0c</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-shrink">
-      <input class="hbe hbe-input-field hbe-input-field-shrink" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-shrink" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-shrink">密码为I am a human</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <content><![CDATA[<p>3，4月注册的chatgpt账号免费额度7月1号就要过期了，看到身边不太了解网络的同学纷纷在寻找不用翻墙的镜像网站，甚至花高额的金钱购买，还有哪些一开始就不了解翻墙的人们用着各种不知道啥时候跑路的套壳网站。</p>
+<p>于是，我也顺手用开源项目<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next Web</a>搞了个套壳网站<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，免费供我的一些友人使用，顺便分享到博客里，网址在右上角的工具里。</p>
+<p>请勿滥用</p>
+<p>密码：qbusyt3z7k2kdu4a</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>网页调用的是gpt-3.5-turbo模型,与ChatGPT官方网页的回答有着些许差异。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
       <tags>
         <tag>ChatGPT</tag>
       </tags>
