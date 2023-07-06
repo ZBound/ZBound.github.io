@@ -109,15 +109,6 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>新游戏</title>
-    <url>/posts/7de1e3c6/</url>
-    <content><![CDATA[<p>昨天晚上通了火山的女儿一个学士结局， 游戏挺好的，就是不太好。</p>
-]]></content>
-      <tags>
-        <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>更换FireFox浏览器</title>
     <url>/posts/9847d699/</url>
     <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
@@ -137,6 +128,15 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>浏览器</tag>
         <tag>私密</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新游戏</title>
+    <url>/posts/7de1e3c6/</url>
+    <content><![CDATA[<p>昨天晚上通了火山的女儿一个学士结局， 游戏挺好的，就是不太好。</p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
@@ -331,6 +331,17 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>简单的图片的压缩和超分对比</title>
+    <url>/posts/70bca06b/</url>
+    <content><![CDATA[<p>压缩算法webp和jepg算法<br />
+超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>图片处理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>笔记本续航的一篇文章</title>
     <url>/posts/591ede03/</url>
     <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
@@ -344,14 +355,31 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>简单的图片的压缩和超分对比</title>
-    <url>/posts/70bca06b/</url>
-    <content><![CDATA[<p>压缩算法webp和jepg算法<br />
-超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
+    <title>记录我电脑设置微调，大概算是技巧合集</title>
+    <url>/posts/9ab01bc6/</url>
+    <content><![CDATA[<h2 id="网络类"><a class="markdownIt-Anchor" href="#网络类"></a> 网络类</h2>
+<h3 id="1配置电脑dohdns-over-https"><a class="markdownIt-Anchor" href="#1配置电脑dohdns-over-https"></a> 1.配置电脑DoH(DNS over Https)</h3>
+<p>可设置为阿里云或腾讯云的公共DNS<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><br />
+ipv4:<br />
+阿里云DNS:223.5.5.5/223.6.6.6<br />
+DoH地址:<a href="https://dns.alidns.com/dns-query">https://dns.alidns.com/dns-query</a><br />
+腾讯云:DNS119.29.29.29<br />
+DoH地址:<a href="https://doh.pub/dns-query">https://doh.pub/dns-query</a><br />
+ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_53.webp" alt="Win11 22h2以后自带此功能" /></p>
+<h3 id="2smb安全设置"><a class="markdownIt-Anchor" href="#2smb安全设置"></a> 2.SMB安全设置</h3>
+<p>参考来自Jackie的羊毛的文章:<a href="https://post.smzdm.com/p/akxwkxqk/">https://post.smzdm.com/p/akxwkxqk/</a></p>
+<h3 id="3clash-for-windows使用"><a class="markdownIt-Anchor" href="#3clash-for-windows使用"></a> 3.Clash for Windows使用</h3>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>阿里云DNS官网:<a href="https://www.alidns.com">https://www.alidns.com</a><br />
+腾讯云DNS官网:<a href="https://www.dnspod.cn/products/publicdns">https://www.dnspod.cn/products/publicdns</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 ]]></content>
       <tags>
         <tag>Windows</tag>
-        <tag>图片处理</tag>
       </tags>
   </entry>
 </search>
