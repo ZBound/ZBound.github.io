@@ -371,7 +371,7 @@ ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https:
 <h3 id="3clash-for-windowscfw使用"><a class="markdownIt-Anchor" href="#3clash-for-windowscfw使用"></a> 3.Clash for Windows(CFW)使用</h3>
 <pre><code>以下教程均是在CFW监听端口由默认的7890改为1080的前提下进行
 </code></pre>
-<p>因为我在电脑上基本只有浏览器和Telegrarn需要代理，所以习惯只使用CFW开启全局后监听端口，然后用软件内置的代理功能选择socks5协议 127.0.0.1:&lt; clash port&gt;<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/Telegrarn.webp" alt="" /></p>
+<p>因为我在电脑上基本只有浏览器和Telegram需要代理，所以习惯只使用CFW开启全局后监听端口，然后用软件内置的代理功能选择socks5协议 127.0.0.1:&lt; clash port&gt;<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/Telegrarn.webp" alt="Telegram" /></p>
 <p>浏览器代理分流：<br />
 chrome内核:wking的这篇文章不错 <a href="https://wkings.blog/archives/447">https://wkings.blog/archives/447</a><br />
 firefox浏览器:SwitchyOmega在firefox中pac功能无法正常工作，但好在浏览器自带此功能。<br />
