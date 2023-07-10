@@ -373,7 +373,7 @@ ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https:
 </code></pre>
 <p>因为我在电脑上基本只有浏览器和Telegrarn需要代理，所以习惯只使用CFW开启全局后监听端口，然后用软件内置的代理功能选择socks5协议 127.0.0.1:&lt; clash port&gt;<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/Telegrarn.webp" alt="" /></p>
 <p>浏览器代理分流：<br />
-chrome内核:<a href="https://wkings.blog/archives/447">https://wkings.blog/archives/447</a><br />
+chrome内核:wking的这篇文章不错 <a href="https://wkings.blog/archives/447">https://wkings.blog/archives/447</a><br />
 firefox浏览器:SwitchyOmega在firefox中pac功能无法正常工作，但好在浏览器自带此功能。<br />
 在设置中搜索“网络设置”,使用“自动代理配置的 URL(PAC)”，填入白名单<a href="https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/whitelist.pac">https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/whitelist.pac</a> ,如果有想直连的可以填入下面框中。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_58-tuya.webp" alt="" /></p>
 <p>以上的浏览器代理都是基于<a href="https://github.com/pexcn/daily/tree/gh-page">此项目</a>中的白名单，只有白名单内的域名走直连，其他的全部走代理，体验很不错。</p>
