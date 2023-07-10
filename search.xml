@@ -109,6 +109,15 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>新游戏</title>
+    <url>/posts/7de1e3c6/</url>
+    <content><![CDATA[<p>昨天晚上通了火山的女儿一个学士结局， 游戏挺好的，就是不太好。</p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>更换FireFox浏览器</title>
     <url>/posts/9847d699/</url>
     <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
@@ -128,15 +137,6 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>浏览器</tag>
         <tag>私密</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>新游戏</title>
-    <url>/posts/7de1e3c6/</url>
-    <content><![CDATA[<p>昨天晚上通了火山的女儿一个学士结局， 游戏挺好的，就是不太好。</p>
-]]></content>
-      <tags>
-        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
@@ -369,6 +369,8 @@ ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https:
 <h3 id="2smb安全设置"><a class="markdownIt-Anchor" href="#2smb安全设置"></a> 2.SMB安全设置</h3>
 <p>参考来自Jackie的羊毛的文章:<a href="https://post.smzdm.com/p/akxwkxqk/">https://post.smzdm.com/p/akxwkxqk/</a></p>
 <h3 id="3clash-for-windowscfw使用"><a class="markdownIt-Anchor" href="#3clash-for-windowscfw使用"></a> 3.Clash for Windows(CFW)使用</h3>
+<pre><code>以下教程均是在CFW监听端口由默认的7890改为1080的前提下进行
+</code></pre>
 <p>因为我在电脑上基本只有浏览器和Telegrarn需要代理，所以习惯只使用CFW开启全局后监听端口，然后用软件内置的代理功能选择socks5协议 127.0.0.1:&lt; clash port&gt;<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/Telegrarn.webp" alt="" /></p>
 <p>浏览器代理分流：<br />
 chrome内核:<a href="https://wkings.blog/archives/447">https://wkings.blog/archives/447</a><br />
