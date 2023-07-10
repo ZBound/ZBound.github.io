@@ -331,17 +331,6 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>简单的图片的压缩和超分对比</title>
-    <url>/posts/70bca06b/</url>
-    <content><![CDATA[<p>压缩算法webp和jepg算法<br />
-超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>图片处理</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>笔记本续航的一篇文章</title>
     <url>/posts/591ede03/</url>
     <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
@@ -352,6 +341,17 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>笔记本电脑</tag>
         <tag>电源设置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>简单的图片的压缩和超分对比</title>
+    <url>/posts/70bca06b/</url>
+    <content><![CDATA[<p>压缩算法webp和jepg算法<br />
+超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>图片处理</tag>
       </tags>
   </entry>
   <entry>
@@ -368,7 +368,15 @@ DoH地址:<a href="https://doh.pub/dns-query">https://doh.pub/dns-query</a><br /
 ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_53.webp" alt="Win11 22h2以后自带此功能" /></p>
 <h3 id="2smb安全设置"><a class="markdownIt-Anchor" href="#2smb安全设置"></a> 2.SMB安全设置</h3>
 <p>参考来自Jackie的羊毛的文章:<a href="https://post.smzdm.com/p/akxwkxqk/">https://post.smzdm.com/p/akxwkxqk/</a></p>
-<h3 id="3clash-for-windows使用"><a class="markdownIt-Anchor" href="#3clash-for-windows使用"></a> 3.Clash for Windows使用</h3>
+<h3 id="3clash-for-windowscfw使用"><a class="markdownIt-Anchor" href="#3clash-for-windowscfw使用"></a> 3.Clash for Windows(CFW)使用</h3>
+<p>因为我在电脑上基本只有浏览器和Telegrarn需要代理，所以习惯只使用CFW开启全局后监听端口，然后用软件内置的代理功能选择socks5协议 127.0.0.1:&lt; clash port&gt;<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/Telegrarn.webp" alt="" /></p>
+<p>浏览器代理分流：<br />
+chrome内核:<a href="https://wkings.blog/archives/447">https://wkings.blog/archives/447</a><br />
+firefox浏览器:SwitchyOmega在firefox中pac功能无法正常工作，但好在浏览器自带此功能。<br />
+在设置中搜索“网络设置”,使用“自动代理配置的 URL(PAC)”，填入白名单<a href="https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/whitelist.pac">https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/whitelist.pac</a> ,如果有想直连的可以填入下面框中。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_58-tuya.webp" alt="" /></p>
+<p>以上的浏览器代理都是基于<a href="https://github.com/pexcn/daily/tree/gh-page">此项目</a>中的白名单，只有白名单内的域名走直连，其他的全部走代理，体验很不错。</p>
+<p>如果其他软件想使用代理，可以使用CFW的tun模式，本质是建立一张虚拟网卡，所有网络流量都会经过CFW。</p>
+<h3 id="持续更新中"><a class="markdownIt-Anchor" href="#持续更新中"></a> 持续更新中。。。</h3>
 <hr class="footnotes-sep" />
 <section class="footnotes">
 <ol class="footnotes-list">
