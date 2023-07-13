@@ -90,15 +90,6 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>新游戏</title>
-    <url>/posts/7de1e3c6/</url>
-    <content><![CDATA[<p>昨天晚上通了火山的女儿一个学士结局， 游戏挺好的，就是不太好。</p>
-]]></content>
-      <tags>
-        <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>免费套壳ChatGPT</title>
     <url>/posts/eacb6cc2/</url>
     <content><![CDATA[<p>3，4月注册的chatgpt账号免费额度7月1号就要过期了，看到身边不太了解网络的同学纷纷在寻找不用翻墙的镜像网站，甚至花高额的金钱购买，还有哪些一开始就不了解翻墙的人们用着各种不知道啥时候跑路的套壳网站。</p>
@@ -115,6 +106,15 @@ hexo s<br />
 ]]></content>
       <tags>
         <tag>ChatGPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新游戏</title>
+    <url>/posts/7de1e3c6/</url>
+    <content><![CDATA[<p>昨天晚上通了火山的女儿一个学士结局， 游戏挺好的，就是不太好。</p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
@@ -173,6 +173,30 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>软件</tag>
         <tag>流氓软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>笔记本续航的一篇文章</title>
+    <url>/posts/591ede03/</url>
+    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
+<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
+<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>笔记本电脑</tag>
+        <tag>电源设置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>简单的图片的压缩和超分对比</title>
+    <url>/posts/70bca06b/</url>
+    <content><![CDATA[<p>压缩算法webp和jepg算法<br />
+超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>图片处理</tag>
       </tags>
   </entry>
   <entry>
@@ -331,30 +355,6 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>笔记本续航的一篇文章</title>
-    <url>/posts/591ede03/</url>
-    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
-<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
-<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>笔记本电脑</tag>
-        <tag>电源设置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>简单的图片的压缩和超分对比</title>
-    <url>/posts/70bca06b/</url>
-    <content><![CDATA[<p>压缩算法webp和jepg算法<br />
-超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>图片处理</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>记录我电脑设置微调，大概算是技巧合集</title>
     <url>/posts/9ab01bc6/</url>
     <content><![CDATA[<h2 id="网络类"><a class="markdownIt-Anchor" href="#网络类"></a> 网络类</h2>
@@ -373,11 +373,22 @@ ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https:
 </code></pre>
 <p>因为我在电脑上基本只有浏览器和Telegram需要代理，所以习惯只使用CFW开启全局后监听端口，然后用软件内置的代理功能选择socks5协议 127.0.0.1:&lt; clash port&gt;<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/Telegrarn.webp" alt="Telegram" /></p>
 <p>浏览器代理分流：<br />
-(1)chrome内核:wking的这篇文章不错 <a href="https://wkings.blog/archives/447">https://wkings.blog/archives/447</a></p>
+(1)chrome内核浏览器:wking的这篇文章不错 <a href="https://wkings.blog/archives/447">https://wkings.blog/archives/447</a></p>
 <p>(2)firefox浏览器:SwitchyOmega在firefox中pac功能无法正常工作，但好在浏览器自带此功能。<br />
 在设置中搜索“网络设置”,使用“自动代理配置的 URL(PAC)”，填入白名单<a href="https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/whitelist.pac">https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/whitelist.pac</a> ,如果有想直连的可以填入下面框中。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_58-tuya.webp" alt="" /></p>
 <p>以上的浏览器代理都是基于<a href="https://github.com/pexcn/daily/tree/gh-page">此项目</a>中的白名单，只有白名单内的域名走直连，其他的全部走代理，体验很不错。</p>
-<p>如果其他软件想使用代理，可以使用CFW的tun模式，本质是建立一张虚拟网卡，所有网络流量都会经过CFW。</p>
+<p>如果其他软件想使用代理，可以使用CFW的tun模式，本质是建立一张虚拟网卡，所有网络流量都会经过CFW。<br />
+7月13日更新<br />
+卡巴斯基用户请在 <strong>安全设置→高级设置→网络设置</strong> 中关闭<strong>注入脚本到Web流量从而与网页交互</strong>功能或者将”*.kis.v2.scr.kaspersky-labs.com“加入代理白名单</p>
+<h3 id="4浏览器拓展与脚本"><a class="markdownIt-Anchor" href="#4浏览器拓展与脚本"></a> 4.浏览器拓展与脚本</h3>
+<p><font size=4>长期运行:</font><br />
+(1)Infinity 新标签页 (Pro)<br />
+一个经典新标签页插件，支持chrome内核浏览器和FireFox浏览器<br />
+官网:<a href="https://www.infinitytab.com/zh/">https://www.infinitytab.com/zh/</a><br />
+(2)沙拉查词<br />
+好用，常用的划词翻译插件<br />
+(3)uBlock Origin/AdGuard<br />
+任选其一</p>
 <h3 id="持续更新中"><a class="markdownIt-Anchor" href="#持续更新中"></a> 持续更新中。。。</h3>
 <hr class="footnotes-sep" />
 <section class="footnotes">
