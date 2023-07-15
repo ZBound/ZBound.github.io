@@ -90,6 +90,56 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>免费套壳ChatGPT</title>
+    <url>/posts/eacb6cc2/</url>
+    <content><![CDATA[<p>3，4月注册的chatgpt账号免费额度7月1号就要过期了，看到身边不太了解网络的同学纷纷在寻找不用翻墙的镜像网站，甚至花高额的金钱购买，还有哪些一开始就不了解翻墙的人们用着各种不知道啥时候跑路的套壳网站。</p>
+<p>于是，我也顺手用开源项目<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next Web</a>搞了个套壳网站<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，免费供我的一些友人使用，顺便分享到博客里，网址在右上角的工具里。</p>
+<p>请勿滥用</p>
+<p>密码：qbusyt3z7k2kdu4a</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>网页调用的是gpt-3.5-turbo模型,与ChatGPT官方网页的回答有着些许差异。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>ChatGPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新游戏</title>
+    <url>/posts/7de1e3c6/</url>
+    <content><![CDATA[<p>昨天晚上通了火山的女儿一个学士结局， 游戏挺好的，就是不太好。</p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>更换FireFox浏览器</title>
+    <url>/posts/9847d699/</url>
+    <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
+<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
+<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>浏览器</tag>
+        <tag>私密</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>流氓软件的清除</title>
     <url>/posts/eb137a6e/</url>
     <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
@@ -281,28 +331,6 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>更换FireFox浏览器</title>
-    <url>/posts/9847d699/</url>
-    <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
-<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
-<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>浏览器</tag>
-        <tag>私密</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>笔记本续航的一篇文章</title>
     <url>/posts/591ede03/</url>
     <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
@@ -353,20 +381,20 @@ ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https:
 <p>卡巴斯基用户如果感觉网页加载缓慢，请在 <strong>安全设置→高级设置→网络设置</strong> 中关闭<strong>注入脚本到Web流量从而与网页交互</strong>功能<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>或者将<font color=#1DA189>*.kis.v2.scr.kaspersky-labs.com</font>加入代理白名单</p>
 <h3 id="4浏览器拓展与脚本"><a class="markdownIt-Anchor" href="#4浏览器拓展与脚本"></a> 4.浏览器拓展与脚本</h3>
 <p><font size=4>长期运行:</font><br />
-(1)Infinity 新标签页 (Pro)<br />
+(1)<strong>Infinity 新标签页 (Pro)</strong><br />
 一个经典新标签页插件，支持Chromium内核浏览器和FireFox浏览器<br />
 官网:<a href="https://www.infinitytab.com/zh/">https://www.infinitytab.com/zh/</a><br />
-(2)沙拉查词<br />
+(2)<strong>沙拉查词</strong><br />
 好用，常用的划词翻译插件<br />
-(3)uBlock Origin/AdGuard<br />
+(3)<strong>uBlock Origin/AdGuard</strong><br />
 好用的广告屏蔽器，两个任选其一<br />
 我个人习惯Firefox上使用uBO，Chromium系使用ADG<br />
 过滤规则可以参考<strong>奔跑的奶酪</strong>的这篇<a href="https://www.runningcheese.com/adblock">文章</a><br />
-(4)Bitwarden<br />
+(4)<strong>Bitwarden</strong><br />
 开源，免费功能够用的密码管理器<br />
-(5)Header Editor<br />
+(5)<strong>Header Editor</strong><br />
 开源免费的强大浏览器请求修改工具<br />
-(6)uBlacklist<br />
+(6)<strong>uBlacklist</strong><br />
 谷歌搜索结果屏蔽器<br />
 我用来过滤谷歌搜索中的内容农场<br />
 规则:<a href="https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist">https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist</a></p>
@@ -385,34 +413,6 @@ ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https:
 ]]></content>
       <tags>
         <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>免费套壳ChatGPT</title>
-    <url>/posts/eacb6cc2/</url>
-    <content><![CDATA[<p>3，4月注册的chatgpt账号免费额度7月1号就要过期了，看到身边不太了解网络的同学纷纷在寻找不用翻墙的镜像网站，甚至花高额的金钱购买，还有哪些一开始就不了解翻墙的人们用着各种不知道啥时候跑路的套壳网站。</p>
-<p>于是，我也顺手用开源项目<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next Web</a>搞了个套壳网站<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，免费供我的一些友人使用，顺便分享到博客里，网址在右上角的工具里。</p>
-<p>请勿滥用</p>
-<p>密码：qbusyt3z7k2kdu4a</p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>网页调用的是gpt-3.5-turbo模型,与ChatGPT官方网页的回答有着些许差异。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>ChatGPT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>新游戏</title>
-    <url>/posts/7de1e3c6/</url>
-    <content><![CDATA[<p>昨天晚上通了火山的女儿一个学士结局， 游戏挺好的，就是不太好。</p>
-]]></content>
-      <tags>
-        <tag>游戏</tag>
       </tags>
   </entry>
 </search>
