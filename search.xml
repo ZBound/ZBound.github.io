@@ -109,6 +109,15 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>新游戏</title>
+    <url>/posts/7de1e3c6/</url>
+    <content><![CDATA[<p>昨天晚上通了火山的女儿一个学士结局， 游戏挺好的，就是不太好。</p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>更换FireFox浏览器</title>
     <url>/posts/9847d699/</url>
     <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
@@ -322,15 +331,6 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>新游戏</title>
-    <url>/posts/7de1e3c6/</url>
-    <content><![CDATA[<p>昨天晚上通了火山的女儿一个学士结局， 游戏挺好的，就是不太好。</p>
-]]></content>
-      <tags>
-        <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>笔记本续航的一篇文章</title>
     <url>/posts/591ede03/</url>
     <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
@@ -342,6 +342,16 @@ hexo s<br />
         <tag>笔记本电脑</tag>
         <tag>电源设置</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>简单教程</title>
+    <url>/posts/ae13edce/</url>
+    <content><![CDATA[<p><img src="https://s2.loli.net/2023/07/20/z1OWYAlqu5mD7Ur.png" alt="" /><br />
+<img src="https://s2.loli.net/2023/07/20/TAvFlyxbjBItuWo.png" alt="" /><br />
+<img src="https://s2.loli.net/2023/07/20/vChf5IUwaGEzc84.png" alt="" /><br />
+<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_68.png" alt="" /></p>
+<p>用这个注册链接 <a href="https://www.mojie.mx/#/register?code=OKEZMgqP">https://www.mojie.mx/#/register?code=OKEZMgqP</a></p>
+]]></content>
   </entry>
   <entry>
     <title>简单的图片的压缩和超分对比</title>
@@ -420,15 +430,5 @@ ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https:
       <tags>
         <tag>Windows</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>简单教程</title>
-    <url>/posts/ae13edce/</url>
-    <content><![CDATA[<p><img src="https://s2.loli.net/2023/07/20/z1OWYAlqu5mD7Ur.png" alt="" /><br />
-<img src="https://s2.loli.net/2023/07/20/TAvFlyxbjBItuWo.png" alt="" /><br />
-<img src="https://s2.loli.net/2023/07/20/vChf5IUwaGEzc84.png" alt="" /><br />
-<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_68.png" alt="" /></p>
-<p>用这个注册链接 <a href="https://www.mojie.me/#/register?code=OKEZMgqP">https://www.mojie.me/#/register?code=OKEZMgqP</a></p>
-]]></content>
   </entry>
 </search>
