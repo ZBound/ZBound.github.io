@@ -34,6 +34,12 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>买了个小米平板</title>
+    <url>/posts/276198c5/</url>
+    <content><![CDATA[<p>买了个小米平板 5 pro，解bl，刷官改包，root后搞了一些模块，GPU降压超频。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>《餐瘾地城》治好了我的电子阳痿</title>
     <url>/posts/ff178b38/</url>
     <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。剧情和人物对话是本作的精华所在，前期的荒诞幽默，后期的逐渐扩充世界观，推动着玩家不断向前。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_46-tuya.webp" alt="还真是" />因为我有比较严重的3d眩晕症，所以几乎和第一人称游戏告别了，画面摇晃厉害的第三人称游戏也只能限着时间游玩。因此挑选一款好玩的游戏对我来说还是有些难度的，前些时间我到处搜集各式各样的2d游戏，《餐瘾地城》也是其中之一，当时平平无奇的它也并没有引起我太大注意，在库里吃灰许久，偶然间在刷b站时看到游玩视频，引起了我的兴趣。</p>
@@ -42,12 +48,6 @@ hexo s<br />
       <tags>
         <tag>游戏</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>买了个小米平板</title>
-    <url>/posts/276198c5/</url>
-    <content><![CDATA[<p>买了个小米平板 5 pro，解bl，刷官改包，root后搞了一些模块，GPU降压超频。</p>
-]]></content>
   </entry>
   <entry>
     <title>以高考为途径的大学专业报考指北</title>
@@ -115,10 +115,17 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>地震了</title>
-    <url>/posts/2fdb2896/</url>
-    <content><![CDATA[<p>山东德州5.5级地震，凌晨被地震晃醒了。</p>
+    <title>公益/公费emby服体验</title>
+    <url>/posts/b606e372/</url>
+    <content><![CDATA[<p>去年想过自己用电脑自建emby本地服，因为太麻烦放弃了。同时也听说有网上有免费的公益服，但听说有门槛和保号之类的于是作罢。暑假闲来无事，在tg里找到个emby公益服导航，试着注册了几个，发现了新天地。</p>
+<p>我自己看一些动画比较多，体验比较良好的就属PiliPili和纸片人了，都是无保号的公益服，自己主用PiliPili，可以求片，挂代理的情况加载速度很快。我在群里偶尔也发一些字幕和磁力链，减少一些服主工作量，少一点是一点。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_79.png" alt="PiliPili主页" /></p>
+<p>公费服比较成熟的就<a href="https://t.me/MisakaF_Emby">MisakaF</a>，本地硬盘服，跑路几率较小，资源量也是不错的。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_80.png" alt="MisakaF主页" /></p>
+<p>看emby公益服挂代理是必要条件，随便找个便宜量大的机场用就可以，ip质量基本无要求。</p>
 ]]></content>
+      <tags>
+        <tag>emby</tag>
+        <tag>公益</tag>
+      </tags>
   </entry>
   <entry>
     <title>新游戏</title>
@@ -150,6 +157,12 @@ hexo s<br />
         <tag>浏览器</tag>
         <tag>私密</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>地震了</title>
+    <url>/posts/2fdb2896/</url>
+    <content><![CDATA[<p>山东德州5.5级地震，凌晨被地震晃醒了。</p>
+]]></content>
   </entry>
   <entry>
     <title>流氓软件的清除</title>
@@ -343,6 +356,17 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>简单的图片的压缩和超分对比</title>
+    <url>/posts/70bca06b/</url>
+    <content><![CDATA[<p>压缩算法webp和jepg算法<br />
+超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>图片处理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>笔记本续航的一篇文章</title>
     <url>/posts/591ede03/</url>
     <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
@@ -353,17 +377,6 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>笔记本电脑</tag>
         <tag>电源设置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>简单的图片的压缩和超分对比</title>
-    <url>/posts/70bca06b/</url>
-    <content><![CDATA[<p>压缩算法webp和jepg算法<br />
-超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>图片处理</tag>
       </tags>
   </entry>
   <entry>
