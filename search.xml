@@ -1,53 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo中live2d看板娘禁用手机端加载</title>
-    <url>/posts/b5878383/</url>
-    <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
-<p>博客搭建时我加入了一个live2d看板娘，使用的是<a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang/live2d-widget</a>项目。</p>
-<p>前两天我发现手机端虽然看不到，但还是会加载css和js，影响手机端加载速度，项目中也没找到相关配置项，引入一个js便可以解决此问题。</p>
-<h2 id="正文"><a class="markdownIt-Anchor" href="#正文"></a> 正文</h2>
-<p>①我这里以Butterfly主题为例，在引入live2d-widget时会在<code>主题配置文件</code>中的<code>inject.bottom</code>里添加:</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-<p>若是将项目下载到了本地，那就应该是添加了:</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;/live2d-widget/autoload.js&quot;</span>&gt;&lt;/script&gt;   #注意自己的本地路径</span><br></pre></td></tr></table></figure>
-<p>②以下载到本地的为例，首先在你的<code>/live2d-widget/src/</code>文件夹下新建一个<code>mobile.js</code>  (路径和名称可修改)<br />
-内容为:</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">browserRedirect</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> sUserAgent = navigator.<span class="property">userAgent</span>.<span class="title function_">toLowerCase</span>();</span><br><span class="line">    <span class="keyword">var</span> bIsIpad = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/ipad/i</span>) == <span class="string">&quot;ipad&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsIphoneOs = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/iphone os/i</span>) == <span class="string">&quot;iphone os&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsMidp = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/midp/i</span>) == <span class="string">&quot;midp&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsUc7 = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/rv:1.2.3.4/i</span>) == <span class="string">&quot;rv:1.2.3.4&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsUc = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/ucweb/i</span>) == <span class="string">&quot;ucweb&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsAndroid = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/android/i</span>) == <span class="string">&quot;android&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsCE = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/windows ce/i</span>) == <span class="string">&quot;windows ce&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsWM = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/windows mobile/i</span>) == <span class="string">&quot;windows mobile&quot;</span>; </span><br><span class="line">    <span class="keyword">if</span> (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) &#123;&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&#x27;&lt;script src=&quot;/live2d-widget/autoload.js&quot;&gt;&lt;/script&gt; &#x27;</span>);  <span class="comment">//如果不是以上的手机端UA,便加载autoload.js</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">browserRedirect</span>(); </span><br></pre></td></tr></table></figure>
-<p>然后把①中的:</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;/live2d-widget/autoload.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-<p>替换为</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;/live2d-widget/src/mobile.js&quot;</span>&gt;&lt;/script&gt; </span><br></pre></td></tr></table></figure>
-<p>③看看效果<br />
-hexo cl<br />
-hexo g<br />
-hexo s<br />
-三连后，上localhost:4000<br />
-<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_47-tuya.webp" alt="localhost:4000" /><br />
-浏览器模拟手机端，可以看到live2d-widget中只有mobile.js加载了，其他css和js并没有加载。</p>
-<p>问题解决😊</p>
-<hr />
-<p>参考链接:<a href="https://imbhj.com/37579d1">https://imbhj.com/37579d1</a></p>
-]]></content>
-      <tags>
-        <tag>live2d</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>买了个小米平板</title>
     <url>/posts/276198c5/</url>
     <content><![CDATA[<p>买了个小米平板 5 pro，解bl，刷官改包，root后搞了一些模块，GPU降压超频。</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>《餐瘾地城》治好了我的电子阳痿</title>
-    <url>/posts/ff178b38/</url>
-    <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。剧情和人物对话是本作的精华所在，前期的荒诞幽默，后期的逐渐扩充世界观，推动着玩家不断向前。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_46-tuya.webp" alt="还真是" />因为我有比较严重的3d眩晕症，所以几乎和第一人称游戏告别了，画面摇晃厉害的第三人称游戏也只能限着时间游玩。因此挑选一款好玩的游戏对我来说还是有些难度的，前些时间我到处搜集各式各样的2d游戏，《餐瘾地城》也是其中之一，当时平平无奇的它也并没有引起我太大注意，在库里吃灰许久，偶然间在刷b站时看到游玩视频，引起了我的兴趣。</p>
-<p>整体游戏难度不大，剧情不错，普通难度通关时间在17个小时左右，阿区值得购买，国区价格见仁见智。</p>
-]]></content>
-      <tags>
-        <tag>游戏</tag>
-      </tags>
   </entry>
   <entry>
     <title>以高考为途径的大学专业报考指北</title>
@@ -96,6 +53,62 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>Hexo中live2d看板娘禁用手机端加载</title>
+    <url>/posts/b5878383/</url>
+    <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
+<p>博客搭建时我加入了一个live2d看板娘，使用的是<a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang/live2d-widget</a>项目。</p>
+<p>前两天我发现手机端虽然看不到，但还是会加载css和js，影响手机端加载速度，项目中也没找到相关配置项，引入一个js便可以解决此问题。</p>
+<h2 id="正文"><a class="markdownIt-Anchor" href="#正文"></a> 正文</h2>
+<p>①我这里以Butterfly主题为例，在引入live2d-widget时会在<code>主题配置文件</code>中的<code>inject.bottom</code>里添加:</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p>若是将项目下载到了本地，那就应该是添加了:</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;/live2d-widget/autoload.js&quot;</span>&gt;&lt;/script&gt;   #注意自己的本地路径</span><br></pre></td></tr></table></figure>
+<p>②以下载到本地的为例，首先在你的<code>/live2d-widget/src/</code>文件夹下新建一个<code>mobile.js</code>  (路径和名称可修改)<br />
+内容为:</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">browserRedirect</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> sUserAgent = navigator.<span class="property">userAgent</span>.<span class="title function_">toLowerCase</span>();</span><br><span class="line">    <span class="keyword">var</span> bIsIpad = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/ipad/i</span>) == <span class="string">&quot;ipad&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsIphoneOs = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/iphone os/i</span>) == <span class="string">&quot;iphone os&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsMidp = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/midp/i</span>) == <span class="string">&quot;midp&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsUc7 = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/rv:1.2.3.4/i</span>) == <span class="string">&quot;rv:1.2.3.4&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsUc = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/ucweb/i</span>) == <span class="string">&quot;ucweb&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsAndroid = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/android/i</span>) == <span class="string">&quot;android&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsCE = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/windows ce/i</span>) == <span class="string">&quot;windows ce&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsWM = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/windows mobile/i</span>) == <span class="string">&quot;windows mobile&quot;</span>; </span><br><span class="line">    <span class="keyword">if</span> (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) &#123;&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&#x27;&lt;script src=&quot;/live2d-widget/autoload.js&quot;&gt;&lt;/script&gt; &#x27;</span>);  <span class="comment">//如果不是以上的手机端UA,便加载autoload.js</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">browserRedirect</span>(); </span><br></pre></td></tr></table></figure>
+<p>然后把①中的:</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;/live2d-widget/autoload.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p>替换为</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;/live2d-widget/src/mobile.js&quot;</span>&gt;&lt;/script&gt; </span><br></pre></td></tr></table></figure>
+<p>③看看效果<br />
+hexo cl<br />
+hexo g<br />
+hexo s<br />
+三连后，上localhost:4000<br />
+<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_47-tuya.webp" alt="localhost:4000" /><br />
+浏览器模拟手机端，可以看到live2d-widget中只有mobile.js加载了，其他css和js并没有加载。</p>
+<p>问题解决😊</p>
+<hr />
+<p>参考链接:<a href="https://imbhj.com/37579d1">https://imbhj.com/37579d1</a></p>
+]]></content>
+      <tags>
+        <tag>live2d</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《餐瘾地城》治好了我的电子阳痿</title>
+    <url>/posts/ff178b38/</url>
+    <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。剧情和人物对话是本作的精华所在，前期的荒诞幽默，后期的逐渐扩充世界观，推动着玩家不断向前。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_46-tuya.webp" alt="还真是" />因为我有比较严重的3d眩晕症，所以几乎和第一人称游戏告别了，画面摇晃厉害的第三人称游戏也只能限着时间游玩。因此挑选一款好玩的游戏对我来说还是有些难度的，前些时间我到处搜集各式各样的2d游戏，《餐瘾地城》也是其中之一，当时平平无奇的它也并没有引起我太大注意，在库里吃灰许久，偶然间在刷b站时看到游玩视频，引起了我的兴趣。</p>
+<p>整体游戏难度不大，剧情不错，普通难度通关时间在17个小时左右，阿区值得购买，国区价格见仁见智。</p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>公益/公费emby服体验</title>
+    <url>/posts/b606e372/</url>
+    <content><![CDATA[<p>去年想过自己用电脑自建emby本地服，因为太麻烦放弃了。同时也听说有网上有免费的公益服，但听说有门槛和保号之类的于是作罢。暑假闲来无事，在tg里找到个emby公益服导航，试着注册了几个，发现了新天地。</p>
+<p>我自己看一些动画比较多，体验比较良好的就属PiliPili和纸片人了，都是无保号的公益服，自己主用PiliPili，可以求片，挂代理的情况加载速度很快。我在群里偶尔也发一些字幕和磁力链，减少一些服主工作量，少一点是一点。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_79.png" alt="PiliPili主页" /></p>
+<p>公费服比较成熟的就<a href="https://t.me/MisakaF_Emby">MisakaF</a>，本地硬盘服，跑路几率较小，资源量也是不错的。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_80.png" alt="MisakaF主页" /></p>
+<p>看emby公益服挂代理是必要条件，随便找个便宜量大的机场用就可以，ip质量基本无要求。</p>
+]]></content>
+      <tags>
+        <tag>emby</tag>
+        <tag>公益</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>免费套壳ChatGPT</title>
     <url>/posts/eacb6cc2/</url>
     <content><![CDATA[<p>3，4月注册的chatgpt账号免费额度7月1号就要过期了，看到身边不太了解网络的同学纷纷在寻找不用翻墙的镜像网站，甚至花高额的金钱购买，还有哪些一开始就不了解翻墙的人们用着各种不知道啥时候跑路的套壳网站。</p>
@@ -115,17 +128,10 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>公益/公费emby服体验</title>
-    <url>/posts/b606e372/</url>
-    <content><![CDATA[<p>去年想过自己用电脑自建emby本地服，因为太麻烦放弃了。同时也听说有网上有免费的公益服，但听说有门槛和保号之类的于是作罢。暑假闲来无事，在tg里找到个emby公益服导航，试着注册了几个，发现了新天地。</p>
-<p>我自己看一些动画比较多，体验比较良好的就属PiliPili和纸片人了，都是无保号的公益服，自己主用PiliPili，可以求片，挂代理的情况加载速度很快。我在群里偶尔也发一些字幕和磁力链，减少一些服主工作量，少一点是一点。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_79.png" alt="PiliPili主页" /></p>
-<p>公费服比较成熟的就<a href="https://t.me/MisakaF_Emby">MisakaF</a>，本地硬盘服，跑路几率较小，资源量也是不错的。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_80.png" alt="MisakaF主页" /></p>
-<p>看emby公益服挂代理是必要条件，随便找个便宜量大的机场用就可以，ip质量基本无要求。</p>
+    <title>地震了</title>
+    <url>/posts/2fdb2896/</url>
+    <content><![CDATA[<p>山东德州5.5级地震，凌晨被地震晃醒了。</p>
 ]]></content>
-      <tags>
-        <tag>emby</tag>
-        <tag>公益</tag>
-      </tags>
   </entry>
   <entry>
     <title>新游戏</title>
@@ -135,34 +141,6 @@ hexo s<br />
       <tags>
         <tag>游戏</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>更换FireFox浏览器</title>
-    <url>/posts/9847d699/</url>
-    <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
-<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
-<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>浏览器</tag>
-        <tag>私密</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>地震了</title>
-    <url>/posts/2fdb2896/</url>
-    <content><![CDATA[<p>山东德州5.5级地震，凌晨被地震晃醒了。</p>
-]]></content>
   </entry>
   <entry>
     <title>流氓软件的清除</title>
@@ -198,6 +176,28 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>软件</tag>
         <tag>流氓软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>更换FireFox浏览器</title>
+    <url>/posts/9847d699/</url>
+    <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
+<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
+<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>浏览器</tag>
+        <tag>私密</tag>
       </tags>
   </entry>
   <entry>
@@ -356,17 +356,6 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>简单的图片的压缩和超分对比</title>
-    <url>/posts/70bca06b/</url>
-    <content><![CDATA[<p>压缩算法webp和jepg算法<br />
-超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>图片处理</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>笔记本续航的一篇文章</title>
     <url>/posts/591ede03/</url>
     <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
@@ -377,6 +366,17 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>笔记本电脑</tag>
         <tag>电源设置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>简单的图片的压缩和超分对比</title>
+    <url>/posts/70bca06b/</url>
+    <content><![CDATA[<p>压缩算法webp和jepg算法<br />
+超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>图片处理</tag>
       </tags>
   </entry>
   <entry>
