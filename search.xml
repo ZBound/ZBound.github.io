@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>买了个pad</title>
-    <url>/posts/276198c5/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="9f463c1b4fc1a0f9ea3f527949de3ba950e095ed37949f7d231b5e064547721e">d0248057e181d0b1b34cc18bc75f19861814b2ceeac39df969ec47a0890335214bffdf81c1fbf0b081f19e61a512d036e7afa88f0f943a6e6cb7b522eeb02af4c6f15bf93503af8c9295289eb95b16678f904dd815810a9940eb7a48411d6bc1fdc0373d8f77e368785fd9112cf59dacd266602286cea36a31bcc44e5e25bc28f5a09015edebe72122ecd5cf327217bb</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
     <title>Hexo中live2d看板娘禁用手机端加载</title>
     <url>/posts/b5878383/</url>
     <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
@@ -60,23 +44,20 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>免费套壳ChatGPT</title>
-    <url>/posts/eacb6cc2/</url>
-    <content><![CDATA[<p>3，4月注册的chatgpt账号免费额度7月1号就要过期了，看到身边不太了解网络的同学纷纷在寻找不用翻墙的镜像网站，甚至花高额的金钱购买，还有哪些一开始就不了解翻墙的人们用着各种不知道啥时候跑路的套壳网站。</p>
-<p>于是，我也顺手用开源项目<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next Web</a>搞了个套壳网站<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，免费供我的一些友人使用，顺便分享到博客里，网址在右上角的工具里。</p>
-<p>请勿滥用</p>
-<p>密码：qbusyt3z7k2kdu4a</p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>网页调用的是gpt-3.5-turbo模型,与ChatGPT官方网页的回答有着些许差异。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>ChatGPT</tag>
-      </tags>
+    <title>买了个pad</title>
+    <url>/posts/276198c5/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="9f463c1b4fc1a0f9ea3f527949de3ba950e095ed37949f7d231b5e064547721e">d0248057e181d0b1b34cc18bc75f19861814b2ceeac39df969ec47a0890335214bffdf81c1fbf0b081f19e61a512d036e7afa88f0f943a6e6cb7b522eeb02af4c6f15bf93503af8c9295289eb95b16678f904dd815810a9940eb7a48411d6bc1fdc0373d8f77e368785fd9112cf59dacd266602286cea36a31bcc44e5e25bc28f5a09015edebe72122ecd5cf327217bb</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>以高考为途径的大学专业报考指北</title>
@@ -122,6 +103,25 @@ hexo s<br />
       <tags>
         <tag>学习</tag>
         <tag>大学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>免费套壳ChatGPT</title>
+    <url>/posts/eacb6cc2/</url>
+    <content><![CDATA[<p>3，4月注册的chatgpt账号免费额度7月1号就要过期了，看到身边不太了解网络的同学纷纷在寻找不用翻墙的镜像网站，甚至花高额的金钱购买，还有哪些一开始就不了解翻墙的人们用着各种不知道啥时候跑路的套壳网站。</p>
+<p>于是，我也顺手用开源项目<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next Web</a>搞了个套壳网站<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，免费供我的一些友人使用，顺便分享到博客里，网址在右上角的工具里。</p>
+<p>请勿滥用</p>
+<p>密码：qbusyt3z7k2kdu4a</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>网页调用的是gpt-3.5-turbo模型,与ChatGPT官方网页的回答有着些许差异。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>ChatGPT</tag>
       </tags>
   </entry>
   <entry>
@@ -235,6 +235,19 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>软件</tag>
         <tag>流氓软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>笔记本续航的一篇文章</title>
+    <url>/posts/591ede03/</url>
+    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
+<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
+<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>笔记本电脑</tag>
+        <tag>电源设置</tag>
       </tags>
   </entry>
   <entry>
@@ -393,17 +406,47 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>笔记本续航的一篇文章</title>
-    <url>/posts/591ede03/</url>
-    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
-<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
-<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
+    <title>测试</title>
+    <url>/posts/9daba997/</url>
+    <content><![CDATA[<ul>
+<li>
+<p>[x] 搜索</p>
+</li>
+<li>
+<p>[x] 文件基本信息</p>
+</li>
+<li>
+<p>[x] 自定义结果数量</p>
+</li>
+<li>
+<p>[x] 文件直链</p>
+</li>
+<li>
+<p>[x] 存储</p>
+</li>
+<li>
+<p>[x] 开关存储</p>
+</li>
+<li>
+<p>[x] 删除存储</p>
+</li>
+<li>
+<p>[x] 复制存储</p>
+</li>
+<li>
+<p>[x] 新建存储</p>
+</li>
+<li>
+<p>[x] 自动排序</p>
+</li>
+<li>
+<p>[x] 批量新建存储</p>
+</li>
+<li>
+<p>[x] Cloudflare节点管理</p>
+</li>
+</ul>
 ]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>笔记本电脑</tag>
-        <tag>电源设置</tag>
-      </tags>
   </entry>
   <entry>
     <title>简单的图片的压缩和超分对比</title>
