@@ -34,16 +34,6 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>《餐瘾地城》治好了我的电子阳痿</title>
-    <url>/posts/ff178b38/</url>
-    <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。剧情和人物对话是本作的精华所在，前期的荒诞幽默，后期的逐渐扩充世界观，推动着玩家不断向前。<img src="https://img.112203.xyz/2023/12/964f9e7a0a2c58f5383c27f77b2d279b.webp" alt="还真是" />因为我有比较严重的3d眩晕症，所以几乎和第一人称游戏告别了，画面摇晃厉害的第三人称游戏也只能限着时间游玩。因此挑选一款好玩的游戏对我来说还是有些难度的，前些时间我到处搜集各式各样的2d游戏，《餐瘾地城》也是其中之一，当时平平无奇的它也并没有引起我太大注意，在库里吃灰许久，偶然间在刷b站时看到游玩视频，引起了我的兴趣。</p>
-<p>整体游戏难度不大，剧情不错，普通难度通关时间在17个小时左右，阿区值得购买，国区价格见仁见智。</p>
-]]></content>
-      <tags>
-        <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>买了个pad</title>
     <url>/posts/276198c5/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -58,6 +48,16 @@ hexo s<br />
   </div>
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
+    <title>《餐瘾地城》治好了我的电子阳痿</title>
+    <url>/posts/ff178b38/</url>
+    <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。剧情和人物对话是本作的精华所在，前期的荒诞幽默，后期的逐渐扩充世界观，推动着玩家不断向前。<img src="https://img.112203.xyz/2023/12/964f9e7a0a2c58f5383c27f77b2d279b.webp" alt="还真是" />因为我有比较严重的3d眩晕症，所以几乎和第一人称游戏告别了，画面摇晃厉害的第三人称游戏也只能限着时间游玩。因此挑选一款好玩的游戏对我来说还是有些难度的，前些时间我到处搜集各式各样的2d游戏，《餐瘾地城》也是其中之一，当时平平无奇的它也并没有引起我太大注意，在库里吃灰许久，偶然间在刷b站时看到游玩视频，引起了我的兴趣。</p>
+<p>整体游戏难度不大，剧情不错，普通难度通关时间在17个小时左右，阿区值得购买，国区价格见仁见智。</p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
+      </tags>
   </entry>
   <entry>
     <title>以高考为途径的大学专业报考指北</title>
@@ -238,26 +238,13 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>笔记本续航的一篇文章</title>
-    <url>/posts/591ede03/</url>
-    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
-<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
-<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>笔记本电脑</tag>
-        <tag>电源设置</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>浅谈Windows杀毒软件的推荐 (一)</title>
     <url>/posts/d1ab4fde/</url>
     <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
 <p>本系列文章介绍市面上的一些个人安全软件的使用体验和以及我自己对它们使用场景的理解，测试数据部分来自卡饭论坛和AV-C <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。</p>
 <hr />
 <span id="more"></span> 
-<p>  「杀毒软件」，一个仿佛被丢进时代垃圾箱的过时词语。在2023年的今天，网络攻击、木马病毒还有各种各样的盗号器已经久许未进入大众视野，但互联网真如表面一样这么波澜不惊吗？我们来看一下下面这张图片🧐。<a href="https://cybermap.kaspersky.com/cn"><img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/p9QJzi6.png" alt="卡巴斯基网络威胁实时地图" title="卡巴斯基网络威胁实时地图" /></a>  此图上显示了卡巴斯基依靠云端所统计出来其用户的全球网络威胁情况，我们由此可以稍微一窥这庞大繁杂的互联网中网络攻击的冰山一角。现在的恶意程序已经从中国互联网发展初期的破坏性为主转为隐蔽性为主，不知不觉中将你的隐私或者账号窃取，甚至成为「黑客」口中的「肉鸡」。<br />
+<p>  「杀毒软件」，一个仿佛被丢进时代垃圾箱的过时词语。在2023年的今天，网络攻击、木马病毒还有各种各样的盗号器已经久许未进入大众视野，但互联网真如表面一样这么波澜不惊吗？我们来看一下下面这张图片🧐。<a href="https://cybermap.kaspersky.com/cn"><img src="https://img.112203.xyz/2023/12/86b57c7ce24a93a8849bf671d87837c9.png" alt="卡巴斯基网络威胁实时地图" title="卡巴斯基网络威胁实时地图" /></a>  此图上显示了卡巴斯基依靠云端所统计出来其用户的全球网络威胁情况，我们由此可以稍微一窥这庞大繁杂的互联网中网络攻击的冰山一角。现在的恶意程序已经从中国互联网发展初期的破坏性为主转为隐蔽性为主，不知不觉中将你的隐私或者账号窃取，甚至成为「黑客」口中的「肉鸡」。<br />
   因有利可图，勒索病毒和挖矿病毒近两年也层出不穷。最近PC游戏圈的「Wallpaper Engine事件<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>」也是闹得沸沸扬扬，中招的人在贴吧和各大游戏论坛并不在少数。我认为这可能与近两年网民电脑使用习惯和各大软件上一些博主的「小白电脑必装软件」文章有着些许关系。在电脑使用习惯中，关闭Windows Defender可能是很多人装好系统最常干的一件事，网上求助如何关闭的帖子也是一大把，关闭后大批小白便开始裸奔或者用博主们「某绒」😶。<br />
   笔者在一年多之前也用过「某绒」安软。它确实如博主们所说的安静不流氓，无打扰，一些小工具即开即用也比较方便，但从我中了挖矿病毒后，「某绒」还无动于衷时，便开始思考「某绒」的定位，听着博主们的推荐文案，仿佛杀毒软件的主要作用是安静，而火绒的自定义规则他们也几乎不提及，小白们更不会去主动编写或去各论坛里下载。我认为这种明知道自己的内容受众是广大电脑小白，还给其输入这种观念是极不负责的行为😢。</p>
 <p><font size=4><strong>于是便有了这篇文章。</strong></font></p>
@@ -406,6 +393,19 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>笔记本续航的一篇文章</title>
+    <url>/posts/591ede03/</url>
+    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
+<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
+<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>笔记本电脑</tag>
+        <tag>电源设置</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>简单的图片的压缩和超分对比</title>
     <url>/posts/70bca06b/</url>
     <content><![CDATA[<p>压缩算法webp和jepg算法<br />
@@ -427,21 +427,11 @@ ipv4:<br />
 DoH地址:<a href="https://dns.alidns.com/dns-query">https://dns.alidns.com/dns-query</a><br />
 腾讯云DNS：119.29.29.29<br />
 DoH地址:<a href="https://doh.pub/dns-query">https://doh.pub/dns-query</a><br />
-ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_60-tuya.webp" alt="Win11 22h2以后自带此功能" /></p>
+ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https://img.112203.xyz/2023/12/d585127f788a73b81882fd625852b7b3.webp" alt="Win11 22h2以后自带此功能" /></p>
 <h3 id="2smb安全设置"><a class="markdownIt-Anchor" href="#2smb安全设置"></a> 2.SMB安全设置</h3>
 <p>参考来自Jackie的羊毛的<a href="https://post.smzdm.com/p/akxwkxqk/">文章</a><br />
 <a href="https://web.archive.org/web/20221030141854/https://post.smzdm.com/p/akxwkxqk/">备份</a></p>
-<h3 id="3clash-for-windowscfw使用"><a class="markdownIt-Anchor" href="#3clash-for-windowscfw使用"></a> 3.Clash for Windows(CFW)使用</h3>
-<pre><code>本教程仅供非中国大陆地区的用户进行技术交流与学习探讨，请遵守所在地区的法律法规。
-以下教程均是在CFW监听端口由默认的7890改为1080的前提下进行
-</code></pre>
-<p>因为我在电脑上基本只有浏览器和Telegram需要代理，所以习惯只使用CFW开启全局后监听端口，然后用软件内置的代理功能选择socks5协议 127.0.0.1:&lt; clash port&gt;<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/Telegrarn.webp" alt="Telegram" /></p>
-<p>浏览器代理分流：<br />
-(1)<strong>Chromium系配置</strong>:wking的这篇<a href="https://wkings.blog/archives/447">文章</a>不错<br />
-(2)<strong>FireFox浏览器</strong>:SwitchyOmega在firefox中pac功能无法正常工作，但好在浏览器自带此功能。<br />
-在设置中搜索“网络设置”,使用“自动代理配置的 URL(PAC)”，填入白名单链接<a href="https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/whitelist.pac">https://raw.githubusercontent.com/pexcn/daily/gh-pages/pac/whitelist.pac</a> ,如果有想直连的可以填入下面框中。<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_58-tuya.webp" alt="" /></p>
-<p>以上的浏览器代理都是基于<a href="https://github.com/pexcn/daily/tree/gh-page">此项目</a>中的白名单，只有白名单内的域名走直连，其他的全部走代理，体验很不错。</p>
-<p>如果其他软件想使用代理，可以使用CFW的tun模式，本质是建立一张虚拟网卡，所有网络流量都会经过CFW。</p>
+<h3 id="3clash三大核停止更新-已切换为singbox系"><a class="markdownIt-Anchor" href="#3clash三大核停止更新-已切换为singbox系"></a> 3.CLASH三大核停止更新 已切换为singbox系</h3>
 <p>卡巴斯基用户如果感觉网页加载缓慢，请在 <strong>安全设置→高级设置→网络设置</strong> 中关闭<strong>注入脚本到Web流量从而与网页交互</strong>功能<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>或者将<font color=#1DA189>*.kis.v2.scr.kaspersky-labs.com</font>加入代理白名单</p>
 <h3 id="4浏览器拓展与脚本"><a class="markdownIt-Anchor" href="#4浏览器拓展与脚本"></a> 4.浏览器拓展与脚本</h3>
 <p><font size=4>长期运行:</font><br />
