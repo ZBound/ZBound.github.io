@@ -1,155 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>记录电脑设置</title>
-    <url>/posts/9ab01bc6/</url>
-    <content><![CDATA[<h2 id="网络类"><a class="markdownIt-Anchor" href="#网络类"></a> 网络类</h2>
-<h3 id="1配置电脑dohdns-over-https"><a class="markdownIt-Anchor" href="#1配置电脑dohdns-over-https"></a> 1.配置电脑DoH(DNS over Https)</h3>
-<p>可设置为阿里云或腾讯云的公共DNS<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><br />
-ipv4:<br />
-阿里云DNS：223.5.5.5/223.6.6.6<br />
-DoH地址:<a href="https://dns.alidns.com/dns-query">https://dns.alidns.com/dns-query</a><br />
-腾讯云DNS：119.29.29.29<br />
-DoH地址:<a href="https://doh.pub/dns-query">https://doh.pub/dns-query</a><br />
-ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https://img.112203.xyz/2023/12/d585127f788a73b81882fd625852b7b3.webp" alt="Win11 22h2以后自带此功能" /></p>
-<h3 id="2smb安全设置"><a class="markdownIt-Anchor" href="#2smb安全设置"></a> 2.SMB安全设置</h3>
-<p>参考来自Jackie的羊毛的<a href="https://post.smzdm.com/p/akxwkxqk/">文章</a><br />
-<a href="https://web.archive.org/web/20221030141854/https://post.smzdm.com/p/akxwkxqk/">备份</a></p>
-<h3 id="3clash三大核停止更新-已切换为singbox系"><a class="markdownIt-Anchor" href="#3clash三大核停止更新-已切换为singbox系"></a> 3.CLASH三大核停止更新 已切换为singbox系</h3>
-<p>卡巴斯基用户如果感觉网页加载缓慢，请在 <strong>安全设置→高级设置→网络设置</strong> 中关闭<strong>注入脚本到Web流量从而与网页交互</strong>功能<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>或者将<font color=#1DA189>*.kis.v2.scr.kaspersky-labs.com</font>加入代理白名单</p>
-<h3 id="4浏览器拓展与脚本"><a class="markdownIt-Anchor" href="#4浏览器拓展与脚本"></a> 4.浏览器拓展与脚本</h3>
-<p><font size=4>长期运行:</font><br />
-(1)<strong>Infinity 新标签页 (Pro)</strong><br />
-一个经典新标签页插件，支持Chromium内核浏览器和FireFox浏览器<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup><br />
-<a href="https://www.infinitytab.com/zh/">官网地址</a><br />
-(2)<strong>沙拉查词</strong><br />
-好用，常用的划词翻译插件<br />
-(3)<strong>uBlock Origin/AdGuard</strong><br />
-好用的广告屏蔽器，两个任选其一<br />
-我个人习惯Firefox上使用uBO，Chromium系使用ADG<br />
-过滤规则可以参考<strong>奔跑的奶酪</strong>的这篇<a href="https://www.runningcheese.com/adblock">文章</a><br />
-(4)<strong>Bitwarden</strong><br />
-开源，免费功能够用的密码管理器<br />
-(5)<strong>Header Editor</strong><br />
-开源免费的强大浏览器请求修改工具<br />
-(6)<strong>uBlacklist</strong><br />
-谷歌搜索结果屏蔽器<br />
-我用来过滤谷歌搜索中的内容农场<br />
-<a href="https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist">规则地址</a><br />
-(7)<strong>Violentmonkey/Tampermonkey</strong><br />
-脚本管理器。Tampermonkey(篡改猴)更加热门，不过Violentmonkey(暴力猴)是开源的，并且功能性上大差不差。<br />
-我个人在用Violentmonkey</p>
-<blockquote>
-<p>脚本推荐<br />
-1.<a href="https://github.com/the1812/Bilibili-Evolved">Bilibili Evolved</a><br />
-2.<a href="https://greasyfork.org/zh-CN/scripts/459541">YouTube去广告</a><br />
-3.<a href="https://greasyfork.org/zh-CN/scripts/30766">Pixiv Previewer</a><br />
-4.<a href="https://greasyfork.org/scripts/416688">字体渲染</a><br />
-5.<a href="https://greasyfork.org/zh-CN/scripts/24300">简繁自由切换</a><br />
-6.<a href="https://greasyfork.org/zh-CN/scripts/440871">骚扰拦截</a><br />
-7.<a href="https://greasyfork.org/zh-CN/scripts/438656">自动展开</a><br />
-8.<a href="https://greasyfork.org/zh-CN/scripts/443670">链接管理</a></p>
-</blockquote>
-<h3 id="持续更新中"><a class="markdownIt-Anchor" href="#持续更新中"></a> 持续更新中。。。</h3>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>阿里云DNS官网:<a href="https://www.alidns.com">https://www.alidns.com</a><br />
-腾讯云DNS官网:<a href="https://www.dnspod.cn/products/publicdns">https://www.dnspod.cn/products/publicdns</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>据卡巴斯基用户支持论坛版主所说，关闭此功能对杀毒软件影响很小<br />
-<a href="https://forum.kaspersky.com/topic/what-is-kaspersky-labscom-ffkisv2scrkaspersky-labscom-21484/">https://forum.kaspersky.com/topic/what-is-kaspersky-labscom-ffkisv2scrkaspersky-labscom-21484/</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn3" class="footnote-item"><p>firefox可以自己改css文件自定义新标签和主页,加载速度更快 <a href="#fnref3" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>公益/公费emby服体验</title>
-    <url>/posts/b606e372/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="ebd04766d409e1b9d63588543ac22a7390fa77d1e88edc8e92dc2d92cebb19f9">d0248057e181d0b1b34cc18bc75f198662d801e0b5632e08428fe173535c2bdf204d3020a8f1c9805e4d1f71a42963a9dfdf02f4ecbb132aa29d53d0d1e66a1d3ea41a062d82d24640d88dd1df4cb205d3c5c79db6e537ce87fa0e8a62dc8904555c32e31d5439b5c4718f876ba34fdd7d3c5923eb115465eb63330a6fd753d7dfe5f6750e19ccbcb779f4ab47bd36870dceb70f4c80f545bee8570a2e27713bad62f7b311895ac86728753268760a73f8a86cc56ef9b2fa4232e4622e471020a56fe04b353e36ed52a827ce6bfd25f512269b50bfe8ff7f8a93f63c23460aca66c8a1daa0620bb2fa238863c42f8f756fb752bd75378ad68907132c4f3b1508e5e7f397472f804b16c0c57de1d700e538058f1543c65e021bfe8a50085dfe2e414b8a4821193472b5940725fef0cd7e611a05b50e438c6878db0583bd1656667746938178ab7d16cf4245c5474cd7c09cb2d07a36d1da50373b0c51f68cf77980332984fb4d262ec027a5208f51944f3b9883e18e89e42e9aeba33ae6256be7ada1cbfadc1276d8f4ace2acf1f26695b602b38d9fdd5f89d318175e1fdba5681e181f20d6fbf8599c6e23cf3218caab843dd00980440e55e46828c0765f2b3e4e3393290ab62928a93049c9dfc31e9e544c0dec146b5ba5e9a9481b7e7c4c5bc1fdbd5421bd86eb9d580bc859b1ba011f7eacc1ab5008d764522fa8dd626ff633ffcc6c0021e6f6335ca5c8f924e40b76d7f7055c7547fcda53f1a44305cf695401cdc966858789f717d6d1e6b9f9af1784f348b21e2a266b9705519dc532922dfbafb73463bbd22bed13ae31a0c28b17936f40c383e551a0bc4bb20959c37313ef74b7cc1b5c600bb0c11c9cd59170d46b0e3d1f0f0f8546af4b79f64a95381ec8875ea3beea505857423545b62bedcc88c94d0fcad74da20edb59947f25b308d67b8a47f49390a766c4a3252758e95bd2deff196b0f1c580878712afc23293a508f3868aa284cedd718380c4aa7a2ed8e72ec7f9c5b9260ecb2c53e567b77b8d474cb6cb0a37b5b84071abd371148256e2544165eaf6a613b7d49067dd04310dcc5c7fe1fc3ffeff08f8e3daa0a4907b2eb7314a0b9a17f1236b289cf57705ddacc3e147dbb14f1644782822b6e27e4ea9470bb1b624f7f63da2d022915b70fa105eb91ed75ad8ae062ea30229343b99165e36f05aaa5eff89a05149119ea0ba368a5eca35e982846f6dc2e28486bb2f51f4fdadfa5cd2d45fb607f1cac06f523cfb71518a6c6ed4f17e7fa987365fda0679f3505a8058c77af38ae8aa9d9ab0be479e227a51d2a6af5c4c80bc58580b843ac1beff05c85c3ddbc09c4ad13183c08d08fdc21ba276b248bc63f7a2bd697a0c211e6803c0012ccb65f14afd58a2dabddf8be658d29ab400d0ea902ea025226d8cb0c6b0d94b4142acc8fd85eeebdf2d5304c8e5ca4128432b0f4439d517c37c59be813a4f86303a0bd66b78012e3cd5f7b66257a8738669fe6528cce5756e4d7fef83c77d3f8e92f9bc4e083142ef5d6adef1b543afacac5c425987a</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>emby</tag>
-        <tag>公益</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>买了个pad</title>
-    <url>/posts/276198c5/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="9f463c1b4fc1a0f9ea3f527949de3ba950e095ed37949f7d231b5e064547721e">d0248057e181d0b1b34cc18bc75f19861814b2ceeac39df969ec47a0890335214bffdf81c1fbf0b081f19e61a512d036e7afa88f0f943a6e6cb7b522eeb02af4c6f15bf93503af8c9295289eb95b16678f904dd815810a9940eb7a48411d6bc1fdc0373d8f77e368785fd9112cf59dacd266602286cea36a31bcc44e5e25bc28f5a09015edebe72122ecd5cf327217bb</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
-    <title>最近的大事</title>
-    <url>/posts/2fdb2896/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="b58cd66703b1a4f4119e11e0c0945ac3960d92953a43908d3dda5debad4481c8">d0248057e181d0b1b34cc18bc75f198654bc6f418b6fa95082ba8fdafb422e7e0f1df3f962620d604d604904db4e997d37d116c2fac0866ed87a1e50fcf48f649f4561f1e05f5cf1ebbec6f0183dc15973022465fd8fce901a8c8121c9ff03e3</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
-    <title>免费套壳ChatGPT</title>
-    <url>/posts/eacb6cc2/</url>
-    <content><![CDATA[<p>3，4月注册的chatgpt账号免费额度7月1号就要过期了，看到身边不太了解网络的同学纷纷在寻找不用翻墙的镜像网站，甚至花高额的金钱购买，还有哪些一开始就不了解翻墙的人们用着各种不知道啥时候跑路的套壳网站。</p>
-<p>于是，我也顺手用开源项目<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next Web</a>搞了个套壳网站<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，免费供我的一些友人使用，顺便分享到博客里，网址在右上角的工具里。</p>
-<p>请勿滥用</p>
-<p>密码：qbusyt3z7k2kdu4a</p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>网页调用的是gpt-3.5-turbo模型,与ChatGPT官方网页的回答有着些许差异。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>ChatGPT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>简单的图片的压缩和超分对比</title>
-    <url>/posts/70bca06b/</url>
-    <content><![CDATA[<p>压缩算法webp和jepg算法<br />
-超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>图片处理</tag>
-      </tags>
+    <title>Windows电脑裸奔简单指南</title>
+    <url>/posts/dbe428da/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>Hexo中live2d看板娘禁用手机端加载</title>
@@ -195,39 +49,20 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>更换FireFox浏览器</title>
-    <url>/posts/9847d699/</url>
-    <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
-<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
-<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>浏览器</tag>
-        <tag>私密</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>笔记本续航的一篇文章</title>
-    <url>/posts/591ede03/</url>
-    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
-<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
-<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>笔记本电脑</tag>
-        <tag>电源设置</tag>
-      </tags>
+    <title>买了个pad</title>
+    <url>/posts/276198c5/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="9f463c1b4fc1a0f9ea3f527949de3ba950e095ed37949f7d231b5e064547721e">d0248057e181d0b1b34cc18bc75f19861814b2ceeac39df969ec47a0890335214bffdf81c1fbf0b081f19e61a512d036e7afa88f0f943a6e6cb7b522eeb02af4c6f15bf93503af8c9295289eb95b16678f904dd815810a9940eb7a48411d6bc1fdc0373d8f77e368785fd9112cf59dacd266602286cea36a31bcc44e5e25bc28f5a09015edebe72122ecd5cf327217bb</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>以高考为途径的大学专业报考指北</title>
@@ -276,6 +111,45 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>免费套壳ChatGPT</title>
+    <url>/posts/eacb6cc2/</url>
+    <content><![CDATA[<p>3，4月注册的chatgpt账号免费额度7月1号就要过期了，看到身边不太了解网络的同学纷纷在寻找不用翻墙的镜像网站，甚至花高额的金钱购买，还有哪些一开始就不了解翻墙的人们用着各种不知道啥时候跑路的套壳网站。</p>
+<p>于是，我也顺手用开源项目<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next Web</a>搞了个套壳网站<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，免费供我的一些友人使用，顺便分享到博客里，网址在右上角的工具里。</p>
+<p>请勿滥用</p>
+<p>密码：qbusyt3z7k2kdu4a</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>网页调用的是gpt-3.5-turbo模型,与ChatGPT官方网页的回答有着些许差异。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>ChatGPT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>公益/公费emby服体验</title>
+    <url>/posts/b606e372/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="57c16e8465fa944b9aebe8d50b7eed9e9a29b9f8c96593802b74030564b163f7">d0248057e181d0b1b34cc18bc75f198662d801e0b5632e08428fe173535c2bdf204d3020a8f1c9805e4d1f71a42963a9dfdf02f4ecbb132aa29d53d0d1e66a1d3ea41a062d82d24640d88dd1df4cb205d3c5c79db6e537ce87fa0e8a62dc8904555c32e31d5439b5c4718f876ba34fdd7d3c5923eb115465eb63330a6fd753d7dfe5f6750e19ccbcb779f4ab47bd36870dceb70f4c80f545bee8570a2e27713bad62f7b311895ac86728753268760a73f8a86cc56ef9b2fa4232e4622e471020a56fe04b353e36ed52a827ce6bfd25f512269b50bfe8ff7f8a93f63c23460aca66c8a1daa0620bb2fa238863c42f8f756fb752bd75378ad68907132c4f3b1508e5e7f397472f804b16c0c57de1d700e538058f1543c65e021bfe8a50085dfe2e414b8a4821193472b5940725fef0cd7e611a05b50e438c6878db0583bd1656667746938178ab7d16cf4245c5474cd7c09cb2d07a36d1da50373b0c51f68cf77980332984fb4d262ec027a5208f51944f3b9883e18e89e42e9aeba33ae6256be7ada1cbfadc1276d8f4ace2acf1f26695b602b38d9fdd5f89d318175e1fdba5681e181f20d6fbf8599c6e23cf3218caab843dd00980440e55e46828c0765f2b3e4e3393290ab62928a93049c9dfc31e9e544c0dec146b5ba5e9a9481b7e7c4c5bc1fdbd5421bd86eb9d580bc859b1ba011f7eacc1ab5008d764522fa8dd626ff633ffcc6c0021e6f6335ca5c8f924e40b76d7f7055c7547fcda53f1a44305cf695401cdc966858789f717d6d1e6b9f9af1784f348b21e2a266b9705519dc532922dfbafb73463bbd22bed13ae31a0c28b17936f40c383e551a0bc4bb20959c37313ef74b7cc1b5c600bb0c11c9cd5917059706309a96d8a75b21e3c9e3ed62f683ae098a48e9f8e4ef1c425d453572710008874390857a321ccdf86c8f4ea9979dccace82887ef1d7520db1449a9e14de1bd13e329f2b9cc913c93f5147b98a490df598f0ee682cb73c96ea440343cc430cd75866c603d9caab3d429f5955e28009df8a89327b6a26ef60dd5645dfebde69bd32bd93fed87f18040464809c74597bf57b896c4289834631165d4c7f36c38c175156b48b125fa0252f3dcd33b8daf1bf55be9e9f690b179f5819cc4d58e94da651e81079baee7f1c85d060f6552c7cc814b39af55feebefd4413ac988f97da014b3504d38dde57959a21dd5baaaaa4a22ff57d769168b69d27fa7f5a844f636ac2ea5b24c1cdabbf8ec438d67ae3d0d80d8cbe0fdf83893ee397e19b5c1c54791e63cc19e7650e7883d7b5f04e090ee4243c41971a85329fd9f5c234bfeadef4d68e0beb167e26b6846cc9a2428318da4a4541de5d7f7818aeefb704de05241dd534b24ee2540a968f0761722518eaac213df1091332922bd64734561b303bbacff86b60bb4274e7c362d3e91336ccd1afdf3e4702cf52e7f4c44677463928b99a137c5ff89d10ed10c632951b1202f652015146ad231155916bc45d169734d88201a4fa8e49b1c2b969783037cf4f3b9088e08129cb098ae5f70788c87d</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>emby</tag>
+        <tag>公益</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>新游戏</title>
     <url>/posts/7de1e3c6/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -293,6 +167,44 @@ hexo s<br />
       <tags>
         <tag>游戏</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>更换FireFox浏览器</title>
+    <url>/posts/9847d699/</url>
+    <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
+<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
+<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>浏览器</tag>
+        <tag>私密</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最近的大事</title>
+    <url>/posts/2fdb2896/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="b58cd66703b1a4f4119e11e0c0945ac3960d92953a43908d3dda5debad4481c8">d0248057e181d0b1b34cc18bc75f198654bc6f418b6fa95082ba8fdafb422e7e0f1df3f962620d604d604904db4e997d37d116c2fac0866ed87a1e50fcf48f649f4561f1e05f5cf1ebbec6f0183dc15973022465fd8fce901a8c8121c9ff03e3</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>流氓软件的清除</title>
@@ -483,6 +395,99 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>安全</tag>
         <tag>杀毒软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>笔记本续航的一篇文章</title>
+    <url>/posts/591ede03/</url>
+    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
+<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
+<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>笔记本电脑</tag>
+        <tag>电源设置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>简单的图片的压缩和超分对比</title>
+    <url>/posts/70bca06b/</url>
+    <content><![CDATA[<p>压缩算法webp和jepg算法<br />
+超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>图片处理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记录电脑设置</title>
+    <url>/posts/9ab01bc6/</url>
+    <content><![CDATA[<h2 id="网络类"><a class="markdownIt-Anchor" href="#网络类"></a> 网络类</h2>
+<h3 id="1配置电脑dohdns-over-https"><a class="markdownIt-Anchor" href="#1配置电脑dohdns-over-https"></a> 1.配置电脑DoH(DNS over Https)</h3>
+<p>可设置为阿里云或腾讯云的公共DNS<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><br />
+ipv4:<br />
+阿里云DNS：223.5.5.5/223.6.6.6<br />
+DoH地址:<a href="https://dns.alidns.com/dns-query">https://dns.alidns.com/dns-query</a><br />
+腾讯云DNS：119.29.29.29<br />
+DoH地址:<a href="https://doh.pub/dns-query">https://doh.pub/dns-query</a><br />
+ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https://img.112203.xyz/2023/12/d585127f788a73b81882fd625852b7b3.webp" alt="Win11 22h2以后自带此功能" /></p>
+<h3 id="2smb安全设置"><a class="markdownIt-Anchor" href="#2smb安全设置"></a> 2.SMB安全设置</h3>
+<p>参考来自Jackie的羊毛的<a href="https://post.smzdm.com/p/akxwkxqk/">文章</a><br />
+<a href="https://web.archive.org/web/20221030141854/https://post.smzdm.com/p/akxwkxqk/">备份</a></p>
+<h3 id="3clash三大核停止更新-已切换为singbox系"><a class="markdownIt-Anchor" href="#3clash三大核停止更新-已切换为singbox系"></a> 3.CLASH三大核停止更新 已切换为singbox系</h3>
+<p>卡巴斯基用户如果感觉网页加载缓慢，请在 <strong>安全设置→高级设置→网络设置</strong> 中关闭<strong>注入脚本到Web流量从而与网页交互</strong>功能<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>或者将<font color=#1DA189>*.kis.v2.scr.kaspersky-labs.com</font>加入代理白名单</p>
+<h3 id="4浏览器拓展与脚本"><a class="markdownIt-Anchor" href="#4浏览器拓展与脚本"></a> 4.浏览器拓展与脚本</h3>
+<p><font size=4>长期运行:</font><br />
+(1)<strong>Infinity 新标签页 (Pro)</strong><br />
+一个经典新标签页插件，支持Chromium内核浏览器和FireFox浏览器<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup><br />
+<a href="https://www.infinitytab.com/zh/">官网地址</a><br />
+(2)<strong>沙拉查词</strong><br />
+好用，常用的划词翻译插件<br />
+(3)<strong>uBlock Origin/AdGuard</strong><br />
+好用的广告屏蔽器，两个任选其一<br />
+我个人习惯Firefox上使用uBO，Chromium系使用ADG<br />
+过滤规则可以参考<strong>奔跑的奶酪</strong>的这篇<a href="https://www.runningcheese.com/adblock">文章</a><br />
+(4)<strong>Bitwarden</strong><br />
+开源，免费功能够用的密码管理器<br />
+(5)<strong>Header Editor</strong><br />
+开源免费的强大浏览器请求修改工具<br />
+(6)<strong>uBlacklist</strong><br />
+谷歌搜索结果屏蔽器<br />
+我用来过滤谷歌搜索中的内容农场<br />
+<a href="https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist">规则地址</a><br />
+(7)<strong>Violentmonkey/Tampermonkey</strong><br />
+脚本管理器。Tampermonkey(篡改猴)更加热门，不过Violentmonkey(暴力猴)是开源的，并且功能性上大差不差。<br />
+我个人在用Violentmonkey</p>
+<blockquote>
+<p>脚本推荐<br />
+1.<a href="https://github.com/the1812/Bilibili-Evolved">Bilibili Evolved</a><br />
+2.<a href="https://greasyfork.org/zh-CN/scripts/459541">YouTube去广告</a><br />
+3.<a href="https://greasyfork.org/zh-CN/scripts/30766">Pixiv Previewer</a><br />
+4.<a href="https://greasyfork.org/scripts/416688">字体渲染</a><br />
+5.<a href="https://greasyfork.org/zh-CN/scripts/24300">简繁自由切换</a><br />
+6.<a href="https://greasyfork.org/zh-CN/scripts/440871">骚扰拦截</a><br />
+7.<a href="https://greasyfork.org/zh-CN/scripts/438656">自动展开</a><br />
+8.<a href="https://greasyfork.org/zh-CN/scripts/443670">链接管理</a></p>
+</blockquote>
+<h3 id="持续更新中"><a class="markdownIt-Anchor" href="#持续更新中"></a> 持续更新中。。。</h3>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>阿里云DNS官网:<a href="https://www.alidns.com">https://www.alidns.com</a><br />
+腾讯云DNS官网:<a href="https://www.dnspod.cn/products/publicdns">https://www.dnspod.cn/products/publicdns</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>据卡巴斯基用户支持论坛版主所说，关闭此功能对杀毒软件影响很小<br />
+<a href="https://forum.kaspersky.com/topic/what-is-kaspersky-labscom-ffkisv2scrkaspersky-labscom-21484/">https://forum.kaspersky.com/topic/what-is-kaspersky-labscom-ffkisv2scrkaspersky-labscom-21484/</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>firefox可以自己改css文件自定义新标签和主页,加载速度更快 <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
       </tags>
   </entry>
 </search>
