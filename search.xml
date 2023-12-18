@@ -249,19 +249,6 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>笔记本续航的一篇文章</title>
-    <url>/posts/591ede03/</url>
-    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
-<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
-<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>笔记本电脑</tag>
-        <tag>电源设置</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>浅谈 Windows 杀毒软件的推荐 (一)</title>
     <url>/posts/d1ab4fde/</url>
     <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
@@ -414,6 +401,19 @@ hexo s<br />
         <tag>杀毒软件</tag>
         <tag>Windows</tag>
         <tag>安全</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>笔记本续航的一篇文章</title>
+    <url>/posts/591ede03/</url>
+    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
+<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
+<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>笔记本电脑</tag>
+        <tag>电源设置</tag>
       </tags>
   </entry>
   <entry>
