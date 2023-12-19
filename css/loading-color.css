@@ -1,0 +1,9 @@
+/* 日间模式页面调整 */
+[data-theme=light] {
+    --loading-bg-color: rgba(255,255,255,1) !important; /* 加载背景调整 */
+}
+
+/* 夜间模式页面调整 */
+[data-theme=dark] {
+    --loading-bg-color: rgba(13,13,13, 1) !important; /* 加载背景调整 */
+}
