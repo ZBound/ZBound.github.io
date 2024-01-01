@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>《餐瘾地城》治好了我的电子阳痿</title>
-    <url>/posts/ff178b38/</url>
-    <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。剧情和人物对话是本作的精华所在，前期的荒诞幽默，后期的逐渐扩充世界观，推动着玩家不断向前。<img src="https://img.112203.xyz/2023/12/964f9e7a0a2c58f5383c27f77b2d279b.webp" alt="还真是" />因为我有比较严重的3d眩晕症，所以几乎和第一人称游戏告别了，画面摇晃厉害的第三人称游戏也只能限着时间游玩。因此挑选一款好玩的游戏对我来说还是有些难度的，前些时间我到处搜集各式各样的2d游戏，《餐瘾地城》也是其中之一，当时平平无奇的它也并没有引起我太大注意，在库里吃灰许久，偶然间在刷b站时看到游玩视频，引起了我的兴趣。</p>
-<p>整体游戏难度不大，剧情不错，普通难度通关时间在17个小时左右，阿区值得购买，国区价格见仁见智。</p>
-]]></content>
-      <tags>
-        <tag>游戏</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Windows电脑“裸奔”教程</title>
     <url>/posts/dbe428da/</url>
     <content><![CDATA[<h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
@@ -22,22 +12,23 @@
 <p><img src="https://img.112203.xyz/2023/12/1703951181559.webp" alt="" /></p>
 <center>安全中心病毒库版本</center>
 <h2 id="具体步骤"><a class="markdownIt-Anchor" href="#具体步骤"></a> 具体步骤</h2>
-<p>1.进入edge浏览器，打开<code>设置</code>找到<code>隐私、搜索和服务</code>，关闭图中红圈所圈住的两项。<br />
+<p>1.关闭彻底你电脑上已经下载的第三方杀毒软件，让MD接管Windows安全中心。<br />
+2.进入edge浏览器，打开<code>设置</code>找到<code>隐私、搜索和服务</code>，关闭图中红圈所圈住的两项。<br />
 <img src="https://img.112203.xyz/2023/12/1703952453600.webp" alt="" /><br />
-2.检查<code>设备安全性→内核隔离→内存完整性</code>是否开启，这项设置相当于创建了个虚拟环境，将Windows内核给保护起来，会影响一定性能和其他虚拟化软件使用。</p>
+3.检查<code>设备安全性→内核隔离→内存完整性</code>是否开启，这项设置相当于创建了个虚拟环境，将Windows内核给保护起来，会影响一定性能和其他虚拟化软件使用。</p>
 <blockquote>
 <p>PS:虽然此项Windows默认关闭，但我在这提一嘴以防有人打开而不自知，如果你知道这项会产生什么影响当然也可以开启。</p>
 </blockquote>
 <p><img src="https://img.112203.xyz/2023/12/1703953167508.webp" alt="" /><br />
 <img src="https://img.112203.xyz/2023/12/1703953174319.webp" alt="1703953174319.webp" /><img src="https://img.112203.xyz/2024/01/1704090020883.webp" alt="" /><br />
-3.进入<code>病毒和威胁防护</code>中的<code>管理设置</code>关闭<strong>实时保护</strong>和<strong>篡改防护</strong>。<br />
+4.进入<code>病毒和威胁防护</code>中的<code>管理设置</code>关闭<strong>实时保护</strong>和<strong>篡改防护</strong>。<br />
 <img src="https://img.112203.xyz/2023/12/1703954341583.webp" alt="" /><br />
 <img src="https://img.112203.xyz/2023/12/1703954249279.webp" alt="" /><br />
-4.使用来自远景大佬<a href="https://i.pcbeta.com/space-uid-794912.html">chiannet</a>的脚本工具，来自<a href="https://bbs.pcbeta.com/viewthread-1913968-1-1.html">此贴</a><br />
+5.使用来自远景大佬<a href="https://i.pcbeta.com/space-uid-794912.html">chiannet</a>的脚本工具，来自<a href="https://bbs.pcbeta.com/viewthread-1913968-1-1.html">此贴</a><br />
 将其中MD和WU开关拿了出来，蓝奏云链接:<a href="https://www.lanzout.com/iUc2K1jfn8fc">https://www.lanzout.com/iUc2K1jfn8fc</a><br />
 <img src="https://img.112203.xyz/2023/12/1703955557206.webp" alt="" /></p>
 <center>解压后使用方法一目了然</center>
-<p>运行前一定要检查一下第3步中的<strong>实时保护</strong>是否关闭，这一项是会自动开启的，运行完后重启系统，此时你的电脑就已经完成了“裸奔”。</p>
+<p>运行前一定要检查一下第4步中的<strong>实时保护</strong>是否关闭，这一项是会自动开启的，运行完后重启系统，此时你的电脑就已经完成了“裸奔”。</p>
 ]]></content>
       <tags>
         <tag>Windows</tag>
@@ -79,11 +70,21 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>《餐瘾地城》治好了我的电子阳痿</title>
+    <url>/posts/ff178b38/</url>
+    <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。剧情和人物对话是本作的精华所在，前期的荒诞幽默，后期的逐渐扩充世界观，推动着玩家不断向前。<img src="https://img.112203.xyz/2023/12/964f9e7a0a2c58f5383c27f77b2d279b.webp" alt="还真是" />因为我有比较严重的3d眩晕症，所以几乎和第一人称游戏告别了，画面摇晃厉害的第三人称游戏也只能限着时间游玩。因此挑选一款好玩的游戏对我来说还是有些难度的，前些时间我到处搜集各式各样的2d游戏，《餐瘾地城》也是其中之一，当时平平无奇的它也并没有引起我太大注意，在库里吃灰许久，偶然间在刷b站时看到游玩视频，引起了我的兴趣。</p>
+<p>整体游戏难度不大，剧情不错，普通难度通关时间在17个小时左右，阿区值得购买，国区价格见仁见智。</p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>个人自用mpv配置</title>
     <url>/posts/93603f4e/</url>
     <content><![CDATA[<p>蓝奏下载链接<br />
-<a href="https://www.lanzout.com/iUPD01jirh4h">https://www.lanzout.com/iUPD01jirh4h</a></p>
-<p>使用方法晚点更新</p>
+<a href="https://www.lanzout.com/ib1AH1jnbecb">https://www.lanzout.com/ib1AH1jnbecb</a><br />
+使用方法晚点更新</p>
 ]]></content>
       <tags>
         <tag>Windows</tag>
@@ -208,28 +209,6 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>更换FireFox浏览器</title>
-    <url>/posts/9847d699/</url>
-    <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
-<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
-<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>浏览器</tag>
-        <tag>私密</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>新游戏</title>
     <url>/posts/7de1e3c6/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -263,6 +242,28 @@ hexo s<br />
   </div>
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
+    <title>更换FireFox浏览器</title>
+    <url>/posts/9847d699/</url>
+    <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
+<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
+<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>浏览器</tag>
+        <tag>私密</tag>
+      </tags>
   </entry>
   <entry>
     <title>流氓软件的清除</title>
