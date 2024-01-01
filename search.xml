@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>《餐瘾地城》治好了我的电子阳痿</title>
+    <url>/posts/ff178b38/</url>
+    <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。剧情和人物对话是本作的精华所在，前期的荒诞幽默，后期的逐渐扩充世界观，推动着玩家不断向前。<img src="https://img.112203.xyz/2023/12/964f9e7a0a2c58f5383c27f77b2d279b.webp" alt="还真是" />因为我有比较严重的3d眩晕症，所以几乎和第一人称游戏告别了，画面摇晃厉害的第三人称游戏也只能限着时间游玩。因此挑选一款好玩的游戏对我来说还是有些难度的，前些时间我到处搜集各式各样的2d游戏，《餐瘾地城》也是其中之一，当时平平无奇的它也并没有引起我太大注意，在库里吃灰许久，偶然间在刷b站时看到游玩视频，引起了我的兴趣。</p>
+<p>整体游戏难度不大，剧情不错，普通难度通关时间在17个小时左右，阿区值得购买，国区价格见仁见智。</p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Windows电脑“裸奔”教程</title>
     <url>/posts/dbe428da/</url>
     <content><![CDATA[<h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
@@ -19,7 +29,7 @@
 <p>PS:虽然此项Windows默认关闭，但我在这提一嘴以防有人打开而不自知，如果你知道这项会产生什么影响当然也可以开启。</p>
 </blockquote>
 <p><img src="https://img.112203.xyz/2023/12/1703953167508.webp" alt="" /><br />
-<img src="https://img.112203.xyz/2023/12/1703953174319.webp" alt="1703953174319.webp" /><img src="https://img.112203.xyz/2023/12/1703953100738.webp" alt="" /><br />
+<img src="https://img.112203.xyz/2023/12/1703953174319.webp" alt="1703953174319.webp" /><img src="https://img.112203.xyz/2024/01/1704090020883.webp" alt="" /><br />
 3.进入<code>病毒和威胁防护</code>中的<code>管理设置</code>关闭<strong>实时保护</strong>和<strong>篡改防护</strong>。<br />
 <img src="https://img.112203.xyz/2023/12/1703954341583.webp" alt="" /><br />
 <img src="https://img.112203.xyz/2023/12/1703954249279.webp" alt="" /><br />
@@ -33,16 +43,6 @@
         <tag>Windows</tag>
         <tag>安全</tag>
         <tag>杀毒软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《餐瘾地城》治好了我的电子阳痿</title>
-    <url>/posts/ff178b38/</url>
-    <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。剧情和人物对话是本作的精华所在，前期的荒诞幽默，后期的逐渐扩充世界观，推动着玩家不断向前。<img src="https://img.112203.xyz/2023/12/964f9e7a0a2c58f5383c27f77b2d279b.webp" alt="还真是" />因为我有比较严重的3d眩晕症，所以几乎和第一人称游戏告别了，画面摇晃厉害的第三人称游戏也只能限着时间游玩。因此挑选一款好玩的游戏对我来说还是有些难度的，前些时间我到处搜集各式各样的2d游戏，《餐瘾地城》也是其中之一，当时平平无奇的它也并没有引起我太大注意，在库里吃灰许久，偶然间在刷b站时看到游玩视频，引起了我的兴趣。</p>
-<p>整体游戏难度不大，剧情不错，普通难度通关时间在17个小时左右，阿区值得购买，国区价格见仁见智。</p>
-]]></content>
-      <tags>
-        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
@@ -108,25 +108,6 @@ hexo s<br />
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
-    <title>免费套壳ChatGPT</title>
-    <url>/posts/eacb6cc2/</url>
-    <content><![CDATA[<p>3，4月注册的 chatgpt 账号免费额度7月1号就要过期了，看到身边不太了解网络的同学纷纷在寻找不用翻墙的镜像网站，甚至花高额的金钱购买，还有哪些一开始就不了解翻墙的人们用着各种不知道啥时候跑路的套壳网站。</p>
-<p>于是，我也顺手用开源项目<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next Web</a>搞了个套壳网站<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，免费供我的一些友人使用，顺便分享到博客里，网址在右上角的工具里。</p>
-<p>请勿滥用</p>
-<p>密码：qbusyt3z7k2kdu4a</p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>网页调用的是gpt-3.5-turbo模型,与ChatGPT官方网页的回答有着些许差异。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>ChatGPT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>以高考为途径的大学专业报考指北</title>
     <url>/posts/52e2e8d1/</url>
     <content><![CDATA[<p>如果你看到这个内容，说明你即将从单一的评价体系毕业，来到人生当中第一个与分数不完全相关的抉择——选大学。这里提供一份你可能从未见过 <em>（如果你见过那真是太好了）</em> 的大学报考教程。或许它可以帮助你避免一些常见的误区，或许并不能，但总之，希望能做到一点微小的工作。</p>
@@ -173,22 +154,22 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>新游戏</title>
-    <url>/posts/7de1e3c6/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="3f06799a035136d6986ed744065fac305a4de36de23d799682da53709a32f8e4">dc898b41545c63879ebb034cb7dcab0411a76fcce2ae6296dad244eaef92f8dfe3a103e8e75f4904c1636cd71d392964abb8c2c58c09770aca924cbca5d19634298287b4f8fc4a223fe1373d457ebef7e3d3ee8a00ac7d46d22f93f0815ad42b14d0acfa6e259cb5aaf774488a334616ee93213b27d3f88e3d85a67d8713c548</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>免费套壳ChatGPT</title>
+    <url>/posts/eacb6cc2/</url>
+    <content><![CDATA[<p>3，4月注册的 chatgpt 账号免费额度7月1号就要过期了，看到身边不太了解网络的同学纷纷在寻找不用翻墙的镜像网站，甚至花高额的金钱购买，还有哪些一开始就不了解翻墙的人们用着各种不知道啥时候跑路的套壳网站。</p>
+<p>于是，我也顺手用开源项目<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next Web</a>搞了个套壳网站<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，免费供我的一些友人使用，顺便分享到博客里，网址在右上角的工具里。</p>
+<p>请勿滥用</p>
+<p>密码：qbusyt3z7k2kdu4a</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>网页调用的是gpt-3.5-turbo模型,与ChatGPT官方网页的回答有着些许差异。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
       <tags>
-        <tag>游戏</tag>
+        <tag>ChatGPT</tag>
       </tags>
   </entry>
   <entry>
@@ -212,6 +193,21 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>搬运图片的压缩和超分科普文章</title>
+    <url>/posts/70bca06b/</url>
+    <content><![CDATA[<p>压缩算法webp和jepg算法</p>
+<p>压缩算法文章推荐:<br />
+<a href="https://blog.kaciras.com/article/19/Introduction-to-Web-Image-Formats">Web 优化：图片压缩简介</a><br />
+<a href="https://blog.kaciras.com/article/24/analyze-WebP-encode-options">Web 优化：WebP 参数分析</a><br />
+<a href="https://ic-analyzer.kaciras.com/">ICAnalyzer</a></p>
+<p>超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>图片处理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>更换FireFox浏览器</title>
     <url>/posts/9847d699/</url>
     <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
@@ -231,6 +227,25 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>浏览器</tag>
         <tag>私密</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新游戏</title>
+    <url>/posts/7de1e3c6/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="3f06799a035136d6986ed744065fac305a4de36de23d799682da53709a32f8e4">dc898b41545c63879ebb034cb7dcab0411a76fcce2ae6296dad244eaef92f8dfe3a103e8e75f4904c1636cd71d392964abb8c2c58c09770aca924cbca5d19634298287b4f8fc4a223fe1373d457ebef7e3d3ee8a00ac7d46d22f93f0815ad42b14d0acfa6e259cb5aaf774488a334616ee93213b27d3f88e3d85a67d8713c548</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
@@ -283,21 +298,6 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>软件</tag>
         <tag>流氓软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>简单的图片的压缩和超分对比</title>
-    <url>/posts/70bca06b/</url>
-    <content><![CDATA[<p>压缩算法webp和jepg算法</p>
-<p>压缩算法文章推荐:<br />
-<a href="https://blog.kaciras.com/article/19/Introduction-to-Web-Image-Formats">Web 优化：图片压缩简介</a><br />
-<a href="https://blog.kaciras.com/article/24/analyze-WebP-encode-options">Web 优化：WebP 参数分析</a><br />
-<a href="https://ic-analyzer.kaciras.com/">ICAnalyzer</a></p>
-<p>超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>图片处理</tag>
       </tags>
   </entry>
   <entry>
