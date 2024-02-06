@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yoyz.org/bangumi/index.html</loc>
+    <loc>https://blog.yoyz.org/link/index.html</loc>
     
     <lastmod>2023-12-30</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yoyz.org/link/index.html</loc>
+    <loc>https://blog.yoyz.org/bangumi/index.html</loc>
     
     <lastmod>2023-12-30</lastmod>
     
@@ -228,6 +228,13 @@
   </url>
   
   <url>
+    <loc>https://blog.yoyz.org/tags/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2024-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yoyz.org/tags/mpv/</loc>
     <lastmod>2024-02-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -242,7 +249,21 @@
   </url>
   
   <url>
-    <loc>https://blog.yoyz.org/tags/%E6%B8%B8%E6%88%8F/</loc>
+    <loc>https://blog.yoyz.org/tags/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2024-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yoyz.org/tags/%E5%A4%A7%E5%AD%A6/</loc>
+    <lastmod>2024-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yoyz.org/tags/ChatGPT/</loc>
     <lastmod>2024-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -257,27 +278,6 @@
   
   <url>
     <loc>https://blog.yoyz.org/tags/%E5%85%AC%E7%9B%8A/</loc>
-    <lastmod>2024-02-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yoyz.org/tags/ChatGPT/</loc>
-    <lastmod>2024-02-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yoyz.org/tags/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2024-02-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yoyz.org/tags/%E5%A4%A7%E5%AD%A6/</loc>
     <lastmod>2024-02-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
