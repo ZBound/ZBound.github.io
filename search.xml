@@ -1,42 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Windows电脑“裸奔”教程</title>
-    <url>/posts/dbe428da/</url>
-    <content><![CDATA[<h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
-<p>“裸奔”指的是Windows系统下将Microsoft Defender（以下简称MD）关闭的同时没有安装其他第三方杀毒软件的行为。我一向是不赞成Windows电脑裸奔的，但最近发现即使在安装第三方杀软的情况下MD依然不老实，今天写篇简单的关闭教程。</p>
-<h1 id="正文"><a class="markdownIt-Anchor" href="#正文"></a> 正文</h1>
-<p>首先这是一个刚从微软官方下载镜像安装的Windows 11 专业版。理论上版本越高，MD的防关闭手段越强，所以低于我图中版本的Win10，Win11应该都可按此方法关闭。<br />
-<img src="https://img.112203.xyz/2023/12/1703951104976.webp" alt="" /></p>
-<center>系统版本</center>
-<p><img src="https://img.112203.xyz/2023/12/1703951181559.webp" alt="" /></p>
-<center>安全中心病毒库版本</center>
-<h2 id="具体步骤"><a class="markdownIt-Anchor" href="#具体步骤"></a> 具体步骤</h2>
-<p>1.关闭彻底你电脑上已经下载的第三方杀毒软件，让MD接管Windows安全中心。<br />
-2.进入edge浏览器，打开<code>设置</code>找到<code>隐私、搜索和服务</code>，关闭图中红圈所圈住的两项。<br />
-<img src="https://img.112203.xyz/2023/12/1703952453600.webp" alt="" /><br />
-3.检查<code>设备安全性→内核隔离→内存完整性</code>是否开启，这项设置相当于创建了个虚拟环境，将Windows内核给保护起来，会影响一定性能和其他虚拟化软件使用。</p>
-<blockquote>
-<p>PS:虽然此项Windows默认关闭，但我在这提一嘴以防有人打开而不自知，如果你知道这项会产生什么影响当然也可以开启。</p>
-</blockquote>
-<p><img src="https://img.112203.xyz/2023/12/1703953167508.webp" alt="" /><br />
-<img src="https://img.112203.xyz/2023/12/1703953174319.webp" alt="1703953174319.webp" /><img src="https://img.112203.xyz/2024/01/1704090020883.webp" alt="" /><br />
-4.进入<code>病毒和威胁防护</code>中的<code>管理设置</code>关闭<strong>实时保护</strong>和<strong>篡改防护</strong>。<br />
-<img src="https://img.112203.xyz/2023/12/1703954341583.webp" alt="" /><br />
-<img src="https://img.112203.xyz/2023/12/1703954249279.webp" alt="" /><br />
-5.使用来自远景大佬<a href="https://i.pcbeta.com/space-uid-794912.html">chiannet</a>的脚本工具，来自<a href="https://bbs.pcbeta.com/viewthread-1913968-1-1.html">此贴</a><br />
-将其中MD和WU开关拿了出来，蓝奏云链接:<a href="https://www.lanzout.com/iUc2K1jfn8fc">https://www.lanzout.com/iUc2K1jfn8fc</a><br />
-<img src="https://img.112203.xyz/2023/12/1703955557206.webp" alt="" /></p>
-<center>解压后使用方法一目了然</center>
-<p>运行前一定要检查一下第4步中的<strong>实时保护</strong>是否关闭，这一项是会自动开启的，运行完后重启系统，此时你的电脑就已经完成了“裸奔”。</p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>安全</tag>
-        <tag>杀毒软件</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo中live2d看板娘禁用手机端加载</title>
     <url>/posts/b5878383/</url>
     <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
@@ -80,6 +44,74 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>个人自用mpv配置</title>
+    <url>/posts/93603f4e/</url>
+    <content><![CDATA[<h1 id="展示"><a class="markdownIt-Anchor" href="#展示"></a> 展示</h1>
+<p><img src="https://img.112203.xyz/2024/02/1707229564.webp" alt="" /></p>
+<p><img src="https://img.112203.xyz/2024/02/1707229559.webp" alt="" /></p>
+<p><img src="https://img.112203.xyz/2024/02/1707229548.webp" alt="" /></p>
+<h1 id="说明"><a class="markdownIt-Anchor" href="#说明"></a> 说明</h1>
+<p>一直使用着<a href="https://github.com/hooke007/mpv.net_CM">mpv.net_CM</a>，最近感觉功能性上有些欠缺，且已经停更，故转而使用其他懒人包分支<br />
+我所寻找到的有这些方案</p>
+<ul>
+<li><a href="https://github.com/hooke007/MPV_lazy">MPV_lazy</a></li>
+<li><a href="https://github.com/dyphire/mpv-config/">mpv-config</a></li>
+<li><a href="https://github.com/diana7127/mpv.net-DW">mpv.net-DW</a></li>
+<li><a href="https://github.com/422658476/MPV-EASY-Player">MPV-EASY-Player</a></li>
+</ul>
+<h2 id=""><a class="markdownIt-Anchor" href="#"></a> </h2>
+<p>本来是想去使用使用和mpv.net_CM相同作者的mpv-lazy了，抱着试试看的心思去尝试了下mpv-config，发现功能挺符合我胃口的，就是用起来没有原来mpv.net_CM的那种爽快感，反应速度总是感觉慢半拍。</p>
+<p>于是我删除了一些用不到的组件，调整了一下快捷键和一点mpv.conf基础配置，还有部分细节调整<s>其实是我忘了有啥</s></p>
+<p>不定期更新，自用软件一般也没有人天天折腾吧</p>
+<p>主程序可自行在这更新覆盖<br />
+<a href="https://sourceforge.net/projects/mpv-player-windows/files/">https://sourceforge.net/projects/mpv-player-windows/files/</a></p>
+<hr />
+<p>GITHUB地址 求star<br />
+<a href="https://github.com/ZBound/mpv_config">https://github.com/ZBound/mpv_config</a></p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>mpv</tag>
+        <tag>视频播放器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows电脑“裸奔”教程</title>
+    <url>/posts/dbe428da/</url>
+    <content><![CDATA[<h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
+<p>“裸奔”指的是Windows系统下将Microsoft Defender（以下简称MD）关闭的同时没有安装其他第三方杀毒软件的行为。我一向是不赞成Windows电脑裸奔的，但最近发现即使在安装第三方杀软的情况下MD依然不老实，今天写篇简单的关闭教程。</p>
+<h1 id="正文"><a class="markdownIt-Anchor" href="#正文"></a> 正文</h1>
+<p>首先这是一个刚从微软官方下载镜像安装的Windows 11 专业版。理论上版本越高，MD的防关闭手段越强，所以低于我图中版本的Win10，Win11应该都可按此方法关闭。<br />
+<img src="https://img.112203.xyz/2023/12/1703951104976.webp" alt="" /></p>
+<center>系统版本</center>
+<p><img src="https://img.112203.xyz/2023/12/1703951181559.webp" alt="" /></p>
+<center>安全中心病毒库版本</center>
+<h2 id="具体步骤"><a class="markdownIt-Anchor" href="#具体步骤"></a> 具体步骤</h2>
+<p>1.关闭彻底你电脑上已经下载的第三方杀毒软件，让MD接管Windows安全中心。<br />
+2.进入edge浏览器，打开<code>设置</code>找到<code>隐私、搜索和服务</code>，关闭图中红圈所圈住的两项。<br />
+<img src="https://img.112203.xyz/2023/12/1703952453600.webp" alt="" /><br />
+3.检查<code>设备安全性→内核隔离→内存完整性</code>是否开启，这项设置相当于创建了个虚拟环境，将Windows内核给保护起来，会影响一定性能和其他虚拟化软件使用。</p>
+<blockquote>
+<p>PS:虽然此项Windows默认关闭，但我在这提一嘴以防有人打开而不自知，如果你知道这项会产生什么影响当然也可以开启。</p>
+</blockquote>
+<p><img src="https://img.112203.xyz/2023/12/1703953167508.webp" alt="" /><br />
+<img src="https://img.112203.xyz/2023/12/1703953174319.webp" alt="1703953174319.webp" /><img src="https://img.112203.xyz/2024/01/1704090020883.webp" alt="" /><br />
+4.进入<code>病毒和威胁防护</code>中的<code>管理设置</code>关闭<strong>实时保护</strong>和<strong>篡改防护</strong>。<br />
+<img src="https://img.112203.xyz/2023/12/1703954341583.webp" alt="" /><br />
+<img src="https://img.112203.xyz/2023/12/1703954249279.webp" alt="" /><br />
+5.使用来自远景大佬<a href="https://i.pcbeta.com/space-uid-794912.html">chiannet</a>的脚本工具，来自<a href="https://bbs.pcbeta.com/viewthread-1913968-1-1.html">此贴</a><br />
+将其中MD和WU开关拿了出来，蓝奏云链接:<a href="https://www.lanzout.com/iUc2K1jfn8fc">https://www.lanzout.com/iUc2K1jfn8fc</a><br />
+<img src="https://img.112203.xyz/2023/12/1703955557206.webp" alt="" /></p>
+<center>解压后使用方法一目了然</center>
+<p>运行前一定要检查一下第4步中的<strong>实时保护</strong>是否关闭，这一项是会自动开启的，运行完后重启系统，此时你的电脑就已经完成了“裸奔”。</p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>安全</tag>
+        <tag>杀毒软件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>买了个pad</title>
     <url>/posts/276198c5/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -94,6 +126,25 @@ hexo s<br />
   </div>
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
+    <title>免费套壳ChatGPT</title>
+    <url>/posts/eacb6cc2/</url>
+    <content><![CDATA[<p>3，4月注册的 chatgpt 账号免费额度7月1号就要过期了，看到身边不太了解网络的同学纷纷在寻找不用翻墙的镜像网站，甚至花高额的金钱购买，还有哪些一开始就不了解翻墙的人们用着各种不知道啥时候跑路的套壳网站。</p>
+<p>于是，我也顺手用开源项目<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next Web</a>搞了个套壳网站<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，免费供我的一些友人使用，顺便分享到博客里，网址在右上角的工具里。</p>
+<p>请勿滥用</p>
+<p>密码：qbusyt3z7k2kdu4a</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>网页调用的是gpt-3.5-turbo模型,与ChatGPT官方网页的回答有着些许差异。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>ChatGPT</tag>
+      </tags>
   </entry>
   <entry>
     <title>以高考为途径的大学专业报考指北</title>
@@ -142,72 +193,6 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>个人自用mpv配置</title>
-    <url>/posts/93603f4e/</url>
-    <content><![CDATA[<h1 id="展示"><a class="markdownIt-Anchor" href="#展示"></a> 展示</h1>
-<p><img src="https://img.112203.xyz/2024/02/1707229564.webp" alt="" /></p>
-<p><img src="https://img.112203.xyz/2024/02/1707229559.webp" alt="" /></p>
-<p><img src="https://img.112203.xyz/2024/02/1707229548.webp" alt="" /></p>
-<h1 id="说明"><a class="markdownIt-Anchor" href="#说明"></a> 说明</h1>
-<p>一直使用着<a href="https://github.com/hooke007/mpv.net_CM">mpv.net_CM</a>，最近感觉功能性上有些欠缺，且已经停更，故转而使用其他懒人包分支<br />
-我所寻找到的有这些方案</p>
-<ul>
-<li><a href="https://github.com/hooke007/MPV_lazy">MPV_lazy</a></li>
-<li><a href="https://github.com/dyphire/mpv-config/">mpv-config</a></li>
-<li><a href="https://github.com/diana7127/mpv.net-DW">mpv.net-DW</a></li>
-<li><a href="https://github.com/422658476/MPV-EASY-Player">MPV-EASY-Player</a></li>
-</ul>
-<h2 id=""><a class="markdownIt-Anchor" href="#"></a> </h2>
-<p>本来是想去使用使用和mpv.net_CM相同作者的mpv-lazy了，抱着试试看的心思去尝试了下mpv-config，发现功能挺符合我胃口的，就是用起来没有原来mpv.net_CM的那种爽快感，反应速度总是感觉慢半拍。</p>
-<p>于是我删除了一些用不到的组件，调整了一下快捷键和一点mpv.conf基础配置，还有部分细节调整<s>其实是我忘了有啥</s></p>
-<p>不定期更新，自用软件一般也没有人天天折腾吧</p>
-<p>主程序可自行在这更新覆盖<br />
-<a href="https://sourceforge.net/projects/mpv-player-windows/files/">https://sourceforge.net/projects/mpv-player-windows/files/</a></p>
-<hr />
-<p>GITHUB地址 求star<br />
-<a href="https://github.com/ZBound/mpv_config">https://github.com/ZBound/mpv_config</a></p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>mpv</tag>
-        <tag>视频播放器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>免费套壳ChatGPT</title>
-    <url>/posts/eacb6cc2/</url>
-    <content><![CDATA[<p>3，4月注册的 chatgpt 账号免费额度7月1号就要过期了，看到身边不太了解网络的同学纷纷在寻找不用翻墙的镜像网站，甚至花高额的金钱购买，还有哪些一开始就不了解翻墙的人们用着各种不知道啥时候跑路的套壳网站。</p>
-<p>于是，我也顺手用开源项目<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next Web</a>搞了个套壳网站<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，免费供我的一些友人使用，顺便分享到博客里，网址在右上角的工具里。</p>
-<p>请勿滥用</p>
-<p>密码：qbusyt3z7k2kdu4a</p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>网页调用的是gpt-3.5-turbo模型,与ChatGPT官方网页的回答有着些许差异。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>ChatGPT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搬运图片的压缩和超分科普文章</title>
-    <url>/posts/70bca06b/</url>
-    <content><![CDATA[<p>压缩算法webp和jepg算法</p>
-<p>压缩算法文章推荐:<br />
-<a href="https://blog.kaciras.com/article/19/Introduction-to-Web-Image-Formats">Web 优化：图片压缩简介</a><br />
-<a href="https://blog.kaciras.com/article/24/analyze-WebP-encode-options">Web 优化：WebP 参数分析</a><br />
-<a href="https://ic-analyzer.kaciras.com/">ICAnalyzer</a></p>
-<p>超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>图片处理</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>公益/公费emby服体验</title>
     <url>/posts/b606e372/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -228,6 +213,21 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>搬运图片的压缩和超分科普文章</title>
+    <url>/posts/70bca06b/</url>
+    <content><![CDATA[<p>压缩算法webp和jepg算法</p>
+<p>压缩算法文章推荐:<br />
+<a href="https://blog.kaciras.com/article/19/Introduction-to-Web-Image-Formats">Web 优化：图片压缩简介</a><br />
+<a href="https://blog.kaciras.com/article/24/analyze-WebP-encode-options">Web 优化：WebP 参数分析</a><br />
+<a href="https://ic-analyzer.kaciras.com/">ICAnalyzer</a></p>
+<p>超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>图片处理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>新游戏</title>
     <url>/posts/7de1e3c6/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -244,6 +244,28 @@ hexo s<br />
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>更换FireFox浏览器</title>
+    <url>/posts/9847d699/</url>
+    <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
+<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
+<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>浏览器</tag>
+        <tag>私密</tag>
       </tags>
   </entry>
   <entry>
@@ -299,25 +321,85 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>更换FireFox浏览器</title>
-    <url>/posts/9847d699/</url>
-    <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
-<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
-<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
+    <title>笔记本续航的一篇文章</title>
+    <url>/posts/591ede03/</url>
+    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
+<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
+<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>笔记本电脑</tag>
+        <tag>电源设置</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记录电脑设置</title>
+    <url>/posts/9ab01bc6/</url>
+    <content><![CDATA[<h2 id="网络类"><a class="markdownIt-Anchor" href="#网络类"></a> 网络类</h2>
+<h3 id="1配置电脑dohdns-over-https"><a class="markdownIt-Anchor" href="#1配置电脑dohdns-over-https"></a> 1.配置电脑DoH(DNS over Https)</h3>
+<p>可设置为阿里云或腾讯云的公共DNS<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><br />
+ipv4:<br />
+阿里云DNS：223.5.5.5/223.6.6.6<br />
+DoH地址:<a href="https://dns.alidns.com/dns-query">https://dns.alidns.com/dns-query</a><br />
+腾讯云DNS：119.29.29.29<br />
+DoH地址:<a href="https://doh.pub/dns-query">https://doh.pub/dns-query</a><br />
+ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https://img.112203.xyz/2023/12/d585127f788a73b81882fd625852b7b3.webp" alt="Win11 22h2以后自带此功能" /></p>
+<h3 id="2smb安全设置"><a class="markdownIt-Anchor" href="#2smb安全设置"></a> 2.SMB安全设置</h3>
+<p>参考来自Jackie的羊毛的<a href="https://post.smzdm.com/p/akxwkxqk/">文章</a><br />
+<a href="https://web.archive.org/web/20221030141854/https://post.smzdm.com/p/akxwkxqk/">备份</a></p>
+<h3 id="3clash三大核停止更新-已切换为singbox系"><a class="markdownIt-Anchor" href="#3clash三大核停止更新-已切换为singbox系"></a> 3.CLASH三大核停止更新 已切换为singbox系</h3>
+<p>卡巴斯基用户如果感觉网页加载缓慢，请在 <strong>安全设置→高级设置→网络设置</strong> 中关闭<strong>注入脚本到Web流量从而与网页交互</strong>功能<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>或者将<font color=#1DA189>*.kis.v2.scr.kaspersky-labs.com</font>加入代理白名单</p>
+<h3 id="4浏览器拓展与脚本"><a class="markdownIt-Anchor" href="#4浏览器拓展与脚本"></a> 4.浏览器拓展与脚本</h3>
+<p><font size=4>长期运行:</font><br />
+(1)<strong>Infinity 新标签页 (Pro)</strong><br />
+一个经典新标签页插件，支持Chromium内核浏览器和FireFox浏览器<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup><br />
+<a href="https://www.infinitytab.com/zh/">官网地址</a><br />
+(2)<strong>沙拉查词</strong><br />
+好用，常用的划词翻译插件<br />
+(3)<strong>uBlock Origin/AdGuard</strong><br />
+好用的广告屏蔽器，两个任选其一<br />
+我个人习惯Firefox上使用uBO，Chromium系使用ADG<br />
+过滤规则可以参考<strong>奔跑的奶酪</strong>的这篇<a href="https://www.runningcheese.com/adblock">文章</a><br />
+(4)<strong>Bitwarden</strong><br />
+开源，免费功能够用的密码管理器<br />
+(5)<strong>Header Editor</strong><br />
+开源免费的强大浏览器请求修改工具<br />
+(6)<strong>uBlacklist</strong><br />
+谷歌搜索结果屏蔽器<br />
+我用来过滤谷歌搜索中的内容农场<br />
+<a href="https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist">规则地址</a><br />
+(7)<strong>Violentmonkey/Tampermonkey</strong><br />
+脚本管理器。Tampermonkey(篡改猴)更加热门，不过Violentmonkey(暴力猴)是开源的，并且功能性上大差不差。<br />
+我个人在用Violentmonkey</p>
+<blockquote>
+<p>脚本推荐<br />
+1.<a href="https://github.com/the1812/Bilibili-Evolved">Bilibili Evolved</a><br />
+2.<a href="https://greasyfork.org/zh-CN/scripts/459541">YouTube去广告</a><br />
+3.<a href="https://greasyfork.org/zh-CN/scripts/30766">Pixiv Previewer</a><br />
+4.<a href="https://greasyfork.org/scripts/416688">字体渲染</a><br />
+5.<a href="https://greasyfork.org/zh-CN/scripts/24300">简繁自由切换</a><br />
+6.<a href="https://greasyfork.org/zh-CN/scripts/440871">骚扰拦截</a><br />
+7.<a href="https://greasyfork.org/zh-CN/scripts/438656">自动展开</a><br />
+8.<a href="https://greasyfork.org/zh-CN/scripts/443670">链接管理</a></p>
+</blockquote>
+<h3 id="持续更新中"><a class="markdownIt-Anchor" href="#持续更新中"></a> 持续更新中。。。</h3>
 <hr class="footnotes-sep" />
 <section class="footnotes">
 <ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+<li id="fn1" class="footnote-item"><p>阿里云DNS官网:<a href="https://www.alidns.com">https://www.alidns.com</a><br />
+腾讯云DNS官网:<a href="https://www.dnspod.cn/products/publicdns">https://www.dnspod.cn/products/publicdns</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+<li id="fn2" class="footnote-item"><p>据卡巴斯基用户支持论坛版主所说，关闭此功能对杀毒软件影响很小<br />
+<a href="https://forum.kaspersky.com/topic/what-is-kaspersky-labscom-ffkisv2scrkaspersky-labscom-21484/">https://forum.kaspersky.com/topic/what-is-kaspersky-labscom-ffkisv2scrkaspersky-labscom-21484/</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>firefox可以自己改css文件自定义新标签和主页,加载速度更快 <a href="#fnref3" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section>
 ]]></content>
       <tags>
         <tag>Windows</tag>
-        <tag>浏览器</tag>
-        <tag>私密</tag>
       </tags>
   </entry>
   <entry>
@@ -473,88 +555,6 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>安全</tag>
         <tag>杀毒软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>笔记本续航的一篇文章</title>
-    <url>/posts/591ede03/</url>
-    <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
-<p>文章链接：<a href="https://www.bilibili.com/read/cv18942103">https://www.bilibili.com/read/cv18942103</a></p>
-<p>文章中用的软件:<a href="https://www.lanzout.com/ihRFZ0wmshza">蓝奏云</a></p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>笔记本电脑</tag>
-        <tag>电源设置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记录电脑设置</title>
-    <url>/posts/9ab01bc6/</url>
-    <content><![CDATA[<h2 id="网络类"><a class="markdownIt-Anchor" href="#网络类"></a> 网络类</h2>
-<h3 id="1配置电脑dohdns-over-https"><a class="markdownIt-Anchor" href="#1配置电脑dohdns-over-https"></a> 1.配置电脑DoH(DNS over Https)</h3>
-<p>可设置为阿里云或腾讯云的公共DNS<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><br />
-ipv4:<br />
-阿里云DNS：223.5.5.5/223.6.6.6<br />
-DoH地址:<a href="https://dns.alidns.com/dns-query">https://dns.alidns.com/dns-query</a><br />
-腾讯云DNS：119.29.29.29<br />
-DoH地址:<a href="https://doh.pub/dns-query">https://doh.pub/dns-query</a><br />
-ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https://img.112203.xyz/2023/12/d585127f788a73b81882fd625852b7b3.webp" alt="Win11 22h2以后自带此功能" /></p>
-<h3 id="2smb安全设置"><a class="markdownIt-Anchor" href="#2smb安全设置"></a> 2.SMB安全设置</h3>
-<p>参考来自Jackie的羊毛的<a href="https://post.smzdm.com/p/akxwkxqk/">文章</a><br />
-<a href="https://web.archive.org/web/20221030141854/https://post.smzdm.com/p/akxwkxqk/">备份</a></p>
-<h3 id="3clash三大核停止更新-已切换为singbox系"><a class="markdownIt-Anchor" href="#3clash三大核停止更新-已切换为singbox系"></a> 3.CLASH三大核停止更新 已切换为singbox系</h3>
-<p>卡巴斯基用户如果感觉网页加载缓慢，请在 <strong>安全设置→高级设置→网络设置</strong> 中关闭<strong>注入脚本到Web流量从而与网页交互</strong>功能<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>或者将<font color=#1DA189>*.kis.v2.scr.kaspersky-labs.com</font>加入代理白名单</p>
-<h3 id="4浏览器拓展与脚本"><a class="markdownIt-Anchor" href="#4浏览器拓展与脚本"></a> 4.浏览器拓展与脚本</h3>
-<p><font size=4>长期运行:</font><br />
-(1)<strong>Infinity 新标签页 (Pro)</strong><br />
-一个经典新标签页插件，支持Chromium内核浏览器和FireFox浏览器<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup><br />
-<a href="https://www.infinitytab.com/zh/">官网地址</a><br />
-(2)<strong>沙拉查词</strong><br />
-好用，常用的划词翻译插件<br />
-(3)<strong>uBlock Origin/AdGuard</strong><br />
-好用的广告屏蔽器，两个任选其一<br />
-我个人习惯Firefox上使用uBO，Chromium系使用ADG<br />
-过滤规则可以参考<strong>奔跑的奶酪</strong>的这篇<a href="https://www.runningcheese.com/adblock">文章</a><br />
-(4)<strong>Bitwarden</strong><br />
-开源，免费功能够用的密码管理器<br />
-(5)<strong>Header Editor</strong><br />
-开源免费的强大浏览器请求修改工具<br />
-(6)<strong>uBlacklist</strong><br />
-谷歌搜索结果屏蔽器<br />
-我用来过滤谷歌搜索中的内容农场<br />
-<a href="https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist">规则地址</a><br />
-(7)<strong>Violentmonkey/Tampermonkey</strong><br />
-脚本管理器。Tampermonkey(篡改猴)更加热门，不过Violentmonkey(暴力猴)是开源的，并且功能性上大差不差。<br />
-我个人在用Violentmonkey</p>
-<blockquote>
-<p>脚本推荐<br />
-1.<a href="https://github.com/the1812/Bilibili-Evolved">Bilibili Evolved</a><br />
-2.<a href="https://greasyfork.org/zh-CN/scripts/459541">YouTube去广告</a><br />
-3.<a href="https://greasyfork.org/zh-CN/scripts/30766">Pixiv Previewer</a><br />
-4.<a href="https://greasyfork.org/scripts/416688">字体渲染</a><br />
-5.<a href="https://greasyfork.org/zh-CN/scripts/24300">简繁自由切换</a><br />
-6.<a href="https://greasyfork.org/zh-CN/scripts/440871">骚扰拦截</a><br />
-7.<a href="https://greasyfork.org/zh-CN/scripts/438656">自动展开</a><br />
-8.<a href="https://greasyfork.org/zh-CN/scripts/443670">链接管理</a></p>
-</blockquote>
-<h3 id="持续更新中"><a class="markdownIt-Anchor" href="#持续更新中"></a> 持续更新中。。。</h3>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>阿里云DNS官网:<a href="https://www.alidns.com">https://www.alidns.com</a><br />
-腾讯云DNS官网:<a href="https://www.dnspod.cn/products/publicdns">https://www.dnspod.cn/products/publicdns</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>据卡巴斯基用户支持论坛版主所说，关闭此功能对杀毒软件影响很小<br />
-<a href="https://forum.kaspersky.com/topic/what-is-kaspersky-labscom-ffkisv2scrkaspersky-labscom-21484/">https://forum.kaspersky.com/topic/what-is-kaspersky-labscom-ffkisv2scrkaspersky-labscom-21484/</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn3" class="footnote-item"><p>firefox可以自己改css文件自定义新标签和主页,加载速度更快 <a href="#fnref3" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
       </tags>
   </entry>
 </search>

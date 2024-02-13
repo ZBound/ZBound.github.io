@@ -38,15 +38,6 @@
   </url>
   
   <url>
-    <loc>https://blog.yoyz.org/tags/index.html</loc>
-    
-    <lastmod>2023-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.yoyz.org/link/index.html</loc>
     
     <lastmod>2023-12-30</lastmod>
@@ -57,6 +48,15 @@
   
   <url>
     <loc>https://blog.yoyz.org/bangumi/index.html</loc>
+    
+    <lastmod>2023-12-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yoyz.org/tags/index.html</loc>
     
     <lastmod>2023-12-30</lastmod>
     
@@ -191,27 +191,6 @@
 
   
   <url>
-    <loc>https://blog.yoyz.org/tags/Windows/</loc>
-    <lastmod>2024-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yoyz.org/tags/%E5%AE%89%E5%85%A8/</loc>
-    <lastmod>2024-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yoyz.org/tags/%E6%9D%80%E6%AF%92%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2024-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.yoyz.org/tags/live2d/</loc>
     <lastmod>2024-02-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -226,14 +205,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yoyz.org/tags/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2024-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yoyz.org/tags/%E5%A4%A7%E5%AD%A6/</loc>
+    <loc>https://blog.yoyz.org/tags/Windows/</loc>
     <lastmod>2024-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -254,6 +226,20 @@
   </url>
   
   <url>
+    <loc>https://blog.yoyz.org/tags/%E5%AE%89%E5%85%A8/</loc>
+    <lastmod>2024-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yoyz.org/tags/%E6%9D%80%E6%AF%92%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2024-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.yoyz.org/tags/ChatGPT/</loc>
     <lastmod>2024-02-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -261,7 +247,14 @@
   </url>
   
   <url>
-    <loc>https://blog.yoyz.org/tags/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/</loc>
+    <loc>https://blog.yoyz.org/tags/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2024-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yoyz.org/tags/%E5%A4%A7%E5%AD%A6/</loc>
     <lastmod>2024-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -282,14 +275,7 @@
   </url>
   
   <url>
-    <loc>https://blog.yoyz.org/tags/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2024-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.yoyz.org/tags/%E6%B5%81%E6%B0%93%E8%BD%AF%E4%BB%B6/</loc>
+    <loc>https://blog.yoyz.org/tags/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/</loc>
     <lastmod>2024-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -304,6 +290,20 @@
   
   <url>
     <loc>https://blog.yoyz.org/tags/%E7%A7%81%E5%AF%86/</loc>
+    <lastmod>2024-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yoyz.org/tags/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2024-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.yoyz.org/tags/%E6%B5%81%E6%B0%93%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2024-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
