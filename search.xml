@@ -37,6 +37,16 @@
       </tags>
   </entry>
   <entry>
+    <title>《餐瘾地城》治好了我的电子阳痿</title>
+    <url>/posts/ff178b38/</url>
+    <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。剧情和人物对话是本作的精华所在，前期的荒诞幽默，后期的逐渐扩充世界观，推动着玩家不断向前。<img src="https://img.112203.xyz/2023/12/964f9e7a0a2c58f5383c27f77b2d279b.webp" alt="还真是" />因为我有比较严重的3d眩晕症，所以几乎和第一人称游戏告别了，画面摇晃厉害的第三人称游戏也只能限着时间游玩。因此挑选一款好玩的游戏对我来说还是有些难度的，前些时间我到处搜集各式各样的2d游戏，《餐瘾地城》也是其中之一，当时平平无奇的它也并没有引起我太大注意，在库里吃灰许久，偶然间在刷b站时看到游玩视频，引起了我的兴趣。</p>
+<p>整体游戏难度不大，剧情不错，普通难度通关时间在17个小时左右，阿区值得购买，国区价格见仁见智。</p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo中live2d看板娘禁用手机端加载</title>
     <url>/posts/b5878383/</url>
     <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
@@ -67,16 +77,6 @@ hexo s<br />
 ]]></content>
       <tags>
         <tag>live2d</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《餐瘾地城》治好了我的电子阳痿</title>
-    <url>/posts/ff178b38/</url>
-    <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。剧情和人物对话是本作的精华所在，前期的荒诞幽默，后期的逐渐扩充世界观，推动着玩家不断向前。<img src="https://img.112203.xyz/2023/12/964f9e7a0a2c58f5383c27f77b2d279b.webp" alt="还真是" />因为我有比较严重的3d眩晕症，所以几乎和第一人称游戏告别了，画面摇晃厉害的第三人称游戏也只能限着时间游玩。因此挑选一款好玩的游戏对我来说还是有些难度的，前些时间我到处搜集各式各样的2d游戏，《餐瘾地城》也是其中之一，当时平平无奇的它也并没有引起我太大注意，在库里吃灰许久，偶然间在刷b站时看到游玩视频，引起了我的兴趣。</p>
-<p>整体游戏难度不大，剧情不错，普通难度通关时间在17个小时左右，阿区值得购买，国区价格见仁见智。</p>
-]]></content>
-      <tags>
-        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
@@ -228,6 +228,78 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>新游戏</title>
+    <url>/posts/7de1e3c6/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="3f06799a035136d6986ed744065fac305a4de36de23d799682da53709a32f8e4">dc898b41545c63879ebb034cb7dcab0411a76fcce2ae6296dad244eaef92f8dfe3a103e8e75f4904c1636cd71d392964abb8c2c58c09770aca924cbca5d19634298287b4f8fc4a223fe1373d457ebef7e3d3ee8a00ac7d46d22f93f0815ad42b14d0acfa6e259cb5aaf774488a334616ee93213b27d3f88e3d85a67d8713c548</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>低成本自建一个ChatGPT套壳</title>
+    <url>/posts/13ff01e9/</url>
+    <content><![CDATA[<h1 id="所需材料"><a class="markdownIt-Anchor" href="#所需材料"></a> 所需材料</h1>
+<p>1.一个Github账号<br />
+2.一个良好的网络环境<br />
+3.一个可用的 <a href="https://platform.openai.com/account/api-keys">OpenAI API Key</a>，或第三方中转key<br />
+4.一个域名(可选)<br />
+5.双手和大脑</p>
+<h1 id="正文"><a class="markdownIt-Anchor" href="#正文"></a> 正文</h1>
+<h2 id="部署chatgpt-next-web"><a class="markdownIt-Anchor" href="#部署chatgpt-next-web"></a> 部署ChatGPT-Next-Web</h2>
+<h3 id="进行fork"><a class="markdownIt-Anchor" href="#进行fork"></a> 进行Fork</h3>
+<p>首先登录自己的Github账号，然后进入<a href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web">ChatGPT-Next-Web</a>项目，点击fork按钮，将库fork到自己账户<br />
+<img src="https://img.112203.xyz/2024/03/1711371349.webp" alt="image.png" /><br />
+<img src="https://img.112203.xyz/2024/03/1711371980.webp" alt="image.png" /></p>
+<h3 id="开启自动更新"><a class="markdownIt-Anchor" href="#开启自动更新"></a> 开启自动更新</h3>
+<p>进入Actions栏，点击“I understand my workflows,go ahead and enable them”<br />
+<img src="https://img.112203.xyz/2024/03/1711372185.webp" alt="image.png" /><br />
+进入&quot;Upstream Sync&quot;，点击“Enable workflow”即可开启自动同步<br />
+<img src="https://img.112203.xyz/2024/03/1711372440.webp" alt="image.png" /></p>
+<h2 id="vercel的部署"><a class="markdownIt-Anchor" href="#vercel的部署"></a> Vercel的部署</h2>
+<p>进入<a href="https://vercel.com/login">Vercel登录界面</a>，点击使用Github登录<br />
+<img src="https://img.112203.xyz/2024/03/1711373300.webp" alt="image.png" /><br />
+点击右上角的“Add New”，选择“Project”<br />
+<img src="https://img.112203.xyz/2024/03/1711373760.webp" alt="image.png" /><br />
+找到你刚才从Github添加的ChatGPT-Next-Web库，点击“Import”<br />
+<img src="https://img.112203.xyz/2024/03/1711373714.webp" alt="image.png" /></p>
+<p>找到&quot;Environment Variables&quot;，并新建几个项</p>
+<p><code>OPENAI_API_KEY</code> （必填项）</p>
+<p>OpanAI 密钥，你在 openai 账户页面申请的 api key<br />
+也可以从<a href="https://www.ohmygpt.com?aff=rUXZUxou">Ohmygpt</a>购买中转api，付款方便，不需要代理，同时价格便宜</p>
+<p><code>CODE</code>（可选，建议填写此选项）</p>
+<p>访问密码，可选，可以使用逗号隔开多个密码。</p>
+<p><strong>警告</strong>：如果不填写此项，则任何人都可以直接使用你部署后的网站，可能会导致你的 token 被急速消耗完毕。</p>
+<p><code>BASE_URL</code> （可选）</p>
+<p>默认: <a href="https://api.openai.com">https://api.openai.com</a><br />
+使用ohmygpt的api key 填写:  <a href="https://apic.ohmygpt.com">https://apic.ohmygpt.com</a></p>
+<p>填写完成后点击“Deploy”，等待部署完成</p>
+<p><img src="https://img.112203.xyz/2024/03/1711374270.webp" alt="image.png" /></p>
+<h2 id="自定义域名"><a class="markdownIt-Anchor" href="#自定义域名"></a> 自定义域名</h2>
+<p>这就是你的项目部署出来的可访问的域名，但容易被墙，国内访问不了，所以我们可以自定义域名，换成我们自己的<br />
+<img src="https://img.112203.xyz/2024/03/1711375309.webp" alt="image.png" /><br />
+点击&quot;Domains&quot;，在红框内输入你拥有的域名，点击“Add”<br />
+<img src="https://img.112203.xyz/2024/03/1711375426.webp" alt="image.png" /><br />
+<img src="https://img.112203.xyz/2024/03/1711375487.webp" alt="image.png" /><br />
+然后在你域名的DNS解析管理器中使用CNAME类型，指向<code>cname-china.vercel-dns.com</code><br />
+<img src="https://img.112203.xyz/2024/03/1711375757.webp" alt="image.png" /></p>
+]]></content>
+      <tags>
+        <tag>ChatGPT</tag>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>更换FireFox浏览器</title>
     <url>/posts/9847d699/</url>
     <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
@@ -247,25 +319,6 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>浏览器</tag>
         <tag>私密</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>新游戏</title>
-    <url>/posts/7de1e3c6/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="3f06799a035136d6986ed744065fac305a4de36de23d799682da53709a32f8e4">dc898b41545c63879ebb034cb7dcab0411a76fcce2ae6296dad244eaef92f8dfe3a103e8e75f4904c1636cd71d392964abb8c2c58c09770aca924cbca5d19634298287b4f8fc4a223fe1373d457ebef7e3d3ee8a00ac7d46d22f93f0815ad42b14d0acfa6e259cb5aaf774488a334616ee93213b27d3f88e3d85a67d8713c548</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
