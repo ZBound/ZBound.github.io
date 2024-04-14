@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>123</title>
-    <url>/posts/884863d2/</url>
-    <content><![CDATA[]]></content>
+    <title>Windows电脑“裸奔”教程</title>
+    <url>/posts/dbe428da/</url>
+    <content><![CDATA[<h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
+<p>“裸奔”指的是Windows系统下将Microsoft Defender（以下简称MD）关闭的同时没有安装其他第三方杀毒软件的行为。我一向是不赞成Windows电脑裸奔的，但最近发现即使在安装第三方杀软的情况下MD依然不老实，今天写篇简单的关闭教程。</p>
+<h1 id="正文"><a class="markdownIt-Anchor" href="#正文"></a> 正文</h1>
+<p>首先这是一个刚从微软官方下载镜像安装的Windows 11 专业版。理论上版本越高，MD的防关闭手段越强，所以低于我图中版本的Win10，Win11应该都可按此方法关闭。<br />
+<img src="https://img.112203.xyz/2023/12/1703951104976.webp" alt="" /></p>
+<center>系统版本</center>
+<p><img src="https://img.112203.xyz/2023/12/1703951181559.webp" alt="" /></p>
+<center>安全中心病毒库版本</center>
+<h2 id="具体步骤"><a class="markdownIt-Anchor" href="#具体步骤"></a> 具体步骤</h2>
+<p>1.关闭彻底你电脑上已经下载的第三方杀毒软件，让MD接管Windows安全中心。<br />
+2.进入edge浏览器，打开<code>设置</code>找到<code>隐私、搜索和服务</code>，关闭图中红圈所圈住的两项。<br />
+<img src="https://img.112203.xyz/2023/12/1703952453600.webp" alt="" /><br />
+3.检查<code>设备安全性→内核隔离→内存完整性</code>是否开启，这项设置相当于创建了个虚拟环境，将Windows内核给保护起来，会影响一定性能和其他虚拟化软件使用。</p>
+<blockquote>
+<p>PS:虽然此项Windows默认关闭，但我在这提一嘴以防有人打开而不自知，如果你知道这项会产生什么影响当然也可以开启。</p>
+</blockquote>
+<p><img src="https://img.112203.xyz/2023/12/1703953167508.webp" alt="" /><br />
+<img src="https://img.112203.xyz/2023/12/1703953174319.webp" alt="1703953174319.webp" /><img src="https://img.112203.xyz/2024/01/1704090020883.webp" alt="" /><br />
+4.进入<code>病毒和威胁防护</code>中的<code>管理设置</code>关闭<strong>实时保护</strong>和<strong>篡改防护</strong>。<br />
+<img src="https://img.112203.xyz/2023/12/1703954341583.webp" alt="" /><br />
+<img src="https://img.112203.xyz/2023/12/1703954249279.webp" alt="" /><br />
+5.使用来自远景大佬<a href="https://i.pcbeta.com/space-uid-794912.html">chiannet</a>的脚本工具，来自<a href="https://bbs.pcbeta.com/viewthread-1913968-1-1.html">此贴</a><br />
+将其中MD和WU开关拿了出来，蓝奏云链接:<a href="https://www.lanzout.com/iUc2K1jfn8fc">https://www.lanzout.com/iUc2K1jfn8fc</a><br />
+<img src="https://img.112203.xyz/2023/12/1703955557206.webp" alt="" /></p>
+<center>解压后使用方法一目了然</center>
+<p>运行前一定要检查一下第4步中的<strong>实时保护</strong>是否关闭，这一项是会自动开启的，运行完后重启系统，此时你的电脑就已经完成了“裸奔”。</p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>安全</tag>
+        <tag>杀毒软件</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hexo中live2d看板娘禁用手机端加载</title>
@@ -49,6 +80,22 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>买了个pad</title>
+    <url>/posts/276198c5/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="476a72b290b74c63ef5e641cf5acac5068eadfa3c786a74504e0139d328aba07">dc898b41545c63879ebb034cb7dcab04dba016bdbb79f62a3f4a2df322fbe03b687cd691fe7e624cc47cc558c209fbe43a002a31bfcb09f9f3ac377a531e97b131969fc07e1af7f37caaacfa6f5e9e6e8975180894f938f21e80912bd4dfde3688801ff297a2dcb536d2339ef0b0b7a52c6f9f993fce6c8493efaaddcf5bb2273346344e10f4d7cdeae8af3c75128fe7</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
     <title>个人自用mpv配置</title>
     <url>/posts/93603f4e/</url>
     <content><![CDATA[<h1 id="展示"><a class="markdownIt-Anchor" href="#展示"></a> 展示</h1>
@@ -78,6 +125,52 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>mpv</tag>
         <tag>视频播放器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>以高考为途径的大学专业报考指北</title>
+    <url>/posts/52e2e8d1/</url>
+    <content><![CDATA[<p>如果你看到这个内容，说明你即将从单一的评价体系毕业，来到人生当中第一个与分数不完全相关的抉择——选大学。这里提供一份你可能从未见过 <em>（如果你见过那真是太好了）</em> 的大学报考教程。或许它可以帮助你避免一些常见的误区，或许并不能，但总之，希望能做到一点微小的工作。</p>
+<h2 id="一-与分数匹配的学校"><a class="markdownIt-Anchor" href="#一-与分数匹配的学校"></a> 一、与分数匹配的学校</h2>
+<p>在你拿到了你的高考分数和相应的排名后，你应该会去寻找与你的排名相近的学校或者学校的部分专业。</p>
+<p>你可能会对选专业还是选学校有一定疑惑。这件事并没有绝对的优先级，除了部分学校打造的所谓「王牌专业」外，每个学校的每个专业 <strong>(此处我们假设它们讲授同样的内容)</strong> 可能差别不大。因此，如果你对内卷已经深恶痛绝，不希望再浪费一年的生命在转专业考核上，可以优先考虑匹配自己的专业；如果你认为需要把分数利用最大化，同时对内卷仍然能够耐受一年，又有足够的把握确信能转专业成功的话，可以优先考虑匹配学校。</p>
+<p>如果你对打算去的学校里那些比较顶尖的专业，或者不直接招生的那些专业感兴趣，记得提前了解好情况。</p>
+<p>如果你对专业没有想法，请尽快有个想法。如果还是没有，那就直接选学校即可；<strong>尽管这可能并不是一个好的决定。</strong></p>
+<p>不过，其实选学校这件事本身也可能是充满疑惑的——你的选择可能是一件充满偶然性的事，它给你带来的后果（或者，用光明一点的话说，未来）可能需要你在四年之后才能感受到。因此，没有必要期望做出一个 100％ 概率的最优解，找到一个目前的答案就好了。剩下的，只能交给时间去解答。</p>
+<h2 id="二-招生办"><a class="markdownIt-Anchor" href="#二-招生办"></a> 二、招生办</h2>
+<p>你肯定会需要咨询各个学校的招生办来了解情况。</p>
+<p>对于招生办给你的解答，<strong>不要全信，不要自动过滤「可能」，明确进一步的问题。</strong></p>
+<p>招生办告诉你的，往往只是大学的冰山一角。只靠他们的解答远远不够，你还需要自己去了解更多的内容。</p>
+<h2 id="三-你选的专业究竟是什么"><a class="markdownIt-Anchor" href="#三-你选的专业究竟是什么"></a> 三、你选的专业究竟是什么</h2>
+<p>终极答案是：<strong>看培养方案。</strong></p>
+<p>当你对某个学校的某个专业产生兴趣时，请在搜索引擎上花时间找找它的培养方案，了解你的大学生活需要学什么。请注意，同名专业在不同大学的内容可能完全不相同。如果你找不到，尽可能地问学长学姐或者招生组要到。如果你看不懂课程名称或介绍，可以稍微去搜索一下，有一个简要的了解。不过，理所当然地，课程名和专业名一样不靠谱，但是再去找课程大纲的成本可能非常高，因此多问是一个好选择。</p>
+<p><strong>如果你遇到的是大类招生</strong>——请提起 998244353％ 的<strong>小心</strong>。一定一定一定问清楚专业分流的情况，预估一下你有可能会被分向什么专业，并做好最坏的打算，尤其是当一个专业组里出现极其不同的两个专业的情况。如果你需要在大一获得很好的成绩来分流到好的专业，从而被迫在大学的第一年继续参与到内卷当中，请尽情内卷，只要你清楚这可能是最后一次你依赖这个单一的评价体系。（对于研究生申请，请应润尽润）</p>
+<h2 id="四-你真正应该关注的变量"><a class="markdownIt-Anchor" href="#四-你真正应该关注的变量"></a> 四、你真正应该关注的变量</h2>
+<ul>
+<li>
+<p>专业评级需要关注吗？除了<strong>高校声明了针对本科生的资源分配</strong>的情况（如清华叉院，上交ACM班等），其他情况估计率不需要。比如，你可能感觉不出一个专业评定为 A- 的学校和专业评定为 C 的学校的同一个专业上起来有什么区别，因为它们有可能一样烂。</p>
+</li>
+<li>
+<p>学校氛围需要关注吗？是的，这很重要。一个学校的整体氛围很可能会隐性地塑造你的未来发展。学校整体提供的资源、学术倾向和氛围、日常生活的方方面面甚至是文艺氛围都会影响你的生活与发展。因此，可能的话，问问学长学姐平常的生活是怎么样的，多问几个，然后对比。</p>
+</li>
+<li>
+<p>生活水平重要吗？是的，它比相当一部分内容要重要。现在关于大学生活水平已经有了非常好的参考，即 <strong><a href="https://colleges.chat">colleges.chat</a></strong>，你可以访问这个网站获得非常详细的信息；同时你也可以问问学长学姐。如果有不能忍受的条件，请一定一定慎重考虑。</p>
+</li>
+<li>
+<p>教学水平重要吗？无比重要，但没有用。既然你选择在国内就读本科，那么不要对教学水平抱有任何期望。总体上来说，如果把视线放在三本到一本，那么分数越高，遇到优质教学的概率就越大；但如果把视野放到所有 985 这样的小范围里，那么教学质量具有高度随机性。你必须做好自学的准备。当然，你还是可以向学长学姐们打听教学水平——如果他们只是说某几个老师的教学不错，那就要小心了。</p>
+</li>
+<li>
+<p>（补充）科研水平重要吗？不一定重要。本来是想写不重要的，但现在也已经有一些学校愿意给本科生充足的真正的科研机会，因此 it depends。总体上来说，科研相关的内容与低年级本科生的关联不大，因此即使一个高校的某个学科成为特色，也不妨碍它的教学很烂。同时，对于本科生来说，科研在很多时候都是成为劳动力，尽管学习如何成为合格的劳动力也很重要，但这可能与你想象的科研生活相差甚远；同时，早入实验室有时候并不是一件好事。因此，如果你对科研有强烈的意愿，请了解你期望的学校愿意给你哪些机会，同时请理性地面对科研和学术共同体在这个时代下的现实。</p>
+</li>
+</ul>
+<h2 id="五-如果你已经做出了选择"><a class="markdownIt-Anchor" href="#五-如果你已经做出了选择"></a> 五、如果你已经做出了选择</h2>
+<p>首先恭喜你，你可以继续过幸福快乐的暑假了。对那些让你自学的人说拜拜，因为这是你的<strong>最后一个没有压力、可以认真地感受这个世界的暑假</strong>。把时间浪费在学一些通识课程上是相当糟糕的选择。</p>
+<p>当然，你也可以选择一些感兴趣的内容随便学学。暑假两个月学习的内容开学可能两周就讲完了，所以学多少内容不重要。</p>
+<p>最后，希望你从此开始，不再是一个孩子。</p>
+]]></content>
+      <tags>
+        <tag>学习</tag>
+        <tag>大学</tag>
       </tags>
   </entry>
   <entry>
@@ -136,104 +229,6 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>Windows电脑“裸奔”教程</title>
-    <url>/posts/dbe428da/</url>
-    <content><![CDATA[<h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
-<p>“裸奔”指的是Windows系统下将Microsoft Defender（以下简称MD）关闭的同时没有安装其他第三方杀毒软件的行为。我一向是不赞成Windows电脑裸奔的，但最近发现即使在安装第三方杀软的情况下MD依然不老实，今天写篇简单的关闭教程。</p>
-<h1 id="正文"><a class="markdownIt-Anchor" href="#正文"></a> 正文</h1>
-<p>首先这是一个刚从微软官方下载镜像安装的Windows 11 专业版。理论上版本越高，MD的防关闭手段越强，所以低于我图中版本的Win10，Win11应该都可按此方法关闭。<br />
-<img src="https://img.112203.xyz/2023/12/1703951104976.webp" alt="" /></p>
-<center>系统版本</center>
-<p><img src="https://img.112203.xyz/2023/12/1703951181559.webp" alt="" /></p>
-<center>安全中心病毒库版本</center>
-<h2 id="具体步骤"><a class="markdownIt-Anchor" href="#具体步骤"></a> 具体步骤</h2>
-<p>1.关闭彻底你电脑上已经下载的第三方杀毒软件，让MD接管Windows安全中心。<br />
-2.进入edge浏览器，打开<code>设置</code>找到<code>隐私、搜索和服务</code>，关闭图中红圈所圈住的两项。<br />
-<img src="https://img.112203.xyz/2023/12/1703952453600.webp" alt="" /><br />
-3.检查<code>设备安全性→内核隔离→内存完整性</code>是否开启，这项设置相当于创建了个虚拟环境，将Windows内核给保护起来，会影响一定性能和其他虚拟化软件使用。</p>
-<blockquote>
-<p>PS:虽然此项Windows默认关闭，但我在这提一嘴以防有人打开而不自知，如果你知道这项会产生什么影响当然也可以开启。</p>
-</blockquote>
-<p><img src="https://img.112203.xyz/2023/12/1703953167508.webp" alt="" /><br />
-<img src="https://img.112203.xyz/2023/12/1703953174319.webp" alt="1703953174319.webp" /><img src="https://img.112203.xyz/2024/01/1704090020883.webp" alt="" /><br />
-4.进入<code>病毒和威胁防护</code>中的<code>管理设置</code>关闭<strong>实时保护</strong>和<strong>篡改防护</strong>。<br />
-<img src="https://img.112203.xyz/2023/12/1703954341583.webp" alt="" /><br />
-<img src="https://img.112203.xyz/2023/12/1703954249279.webp" alt="" /><br />
-5.使用来自远景大佬<a href="https://i.pcbeta.com/space-uid-794912.html">chiannet</a>的脚本工具，来自<a href="https://bbs.pcbeta.com/viewthread-1913968-1-1.html">此贴</a><br />
-将其中MD和WU开关拿了出来，蓝奏云链接:<a href="https://www.lanzout.com/iUc2K1jfn8fc">https://www.lanzout.com/iUc2K1jfn8fc</a><br />
-<img src="https://img.112203.xyz/2023/12/1703955557206.webp" alt="" /></p>
-<center>解压后使用方法一目了然</center>
-<p>运行前一定要检查一下第4步中的<strong>实时保护</strong>是否关闭，这一项是会自动开启的，运行完后重启系统，此时你的电脑就已经完成了“裸奔”。</p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>安全</tag>
-        <tag>杀毒软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>买了个pad</title>
-    <url>/posts/276198c5/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="476a72b290b74c63ef5e641cf5acac5068eadfa3c786a74504e0139d328aba07">dc898b41545c63879ebb034cb7dcab04dba016bdbb79f62a3f4a2df322fbe03b687cd691fe7e624cc47cc558c209fbe43a002a31bfcb09f9f3ac377a531e97b131969fc07e1af7f37caaacfa6f5e9e6e8975180894f938f21e80912bd4dfde3688801ff297a2dcb536d2339ef0b0b7a52c6f9f993fce6c8493efaaddcf5bb2273346344e10f4d7cdeae8af3c75128fe7</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
-    <title>以高考为途径的大学专业报考指北</title>
-    <url>/posts/52e2e8d1/</url>
-    <content><![CDATA[<p>如果你看到这个内容，说明你即将从单一的评价体系毕业，来到人生当中第一个与分数不完全相关的抉择——选大学。这里提供一份你可能从未见过 <em>（如果你见过那真是太好了）</em> 的大学报考教程。或许它可以帮助你避免一些常见的误区，或许并不能，但总之，希望能做到一点微小的工作。</p>
-<h2 id="一-与分数匹配的学校"><a class="markdownIt-Anchor" href="#一-与分数匹配的学校"></a> 一、与分数匹配的学校</h2>
-<p>在你拿到了你的高考分数和相应的排名后，你应该会去寻找与你的排名相近的学校或者学校的部分专业。</p>
-<p>你可能会对选专业还是选学校有一定疑惑。这件事并没有绝对的优先级，除了部分学校打造的所谓「王牌专业」外，每个学校的每个专业 <strong>(此处我们假设它们讲授同样的内容)</strong> 可能差别不大。因此，如果你对内卷已经深恶痛绝，不希望再浪费一年的生命在转专业考核上，可以优先考虑匹配自己的专业；如果你认为需要把分数利用最大化，同时对内卷仍然能够耐受一年，又有足够的把握确信能转专业成功的话，可以优先考虑匹配学校。</p>
-<p>如果你对打算去的学校里那些比较顶尖的专业，或者不直接招生的那些专业感兴趣，记得提前了解好情况。</p>
-<p>如果你对专业没有想法，请尽快有个想法。如果还是没有，那就直接选学校即可；<strong>尽管这可能并不是一个好的决定。</strong></p>
-<p>不过，其实选学校这件事本身也可能是充满疑惑的——你的选择可能是一件充满偶然性的事，它给你带来的后果（或者，用光明一点的话说，未来）可能需要你在四年之后才能感受到。因此，没有必要期望做出一个 100％ 概率的最优解，找到一个目前的答案就好了。剩下的，只能交给时间去解答。</p>
-<h2 id="二-招生办"><a class="markdownIt-Anchor" href="#二-招生办"></a> 二、招生办</h2>
-<p>你肯定会需要咨询各个学校的招生办来了解情况。</p>
-<p>对于招生办给你的解答，<strong>不要全信，不要自动过滤「可能」，明确进一步的问题。</strong></p>
-<p>招生办告诉你的，往往只是大学的冰山一角。只靠他们的解答远远不够，你还需要自己去了解更多的内容。</p>
-<h2 id="三-你选的专业究竟是什么"><a class="markdownIt-Anchor" href="#三-你选的专业究竟是什么"></a> 三、你选的专业究竟是什么</h2>
-<p>终极答案是：<strong>看培养方案。</strong></p>
-<p>当你对某个学校的某个专业产生兴趣时，请在搜索引擎上花时间找找它的培养方案，了解你的大学生活需要学什么。请注意，同名专业在不同大学的内容可能完全不相同。如果你找不到，尽可能地问学长学姐或者招生组要到。如果你看不懂课程名称或介绍，可以稍微去搜索一下，有一个简要的了解。不过，理所当然地，课程名和专业名一样不靠谱，但是再去找课程大纲的成本可能非常高，因此多问是一个好选择。</p>
-<p><strong>如果你遇到的是大类招生</strong>——请提起 998244353％ 的<strong>小心</strong>。一定一定一定问清楚专业分流的情况，预估一下你有可能会被分向什么专业，并做好最坏的打算，尤其是当一个专业组里出现极其不同的两个专业的情况。如果你需要在大一获得很好的成绩来分流到好的专业，从而被迫在大学的第一年继续参与到内卷当中，请尽情内卷，只要你清楚这可能是最后一次你依赖这个单一的评价体系。（对于研究生申请，请应润尽润）</p>
-<h2 id="四-你真正应该关注的变量"><a class="markdownIt-Anchor" href="#四-你真正应该关注的变量"></a> 四、你真正应该关注的变量</h2>
-<ul>
-<li>
-<p>专业评级需要关注吗？除了<strong>高校声明了针对本科生的资源分配</strong>的情况（如清华叉院，上交ACM班等），其他情况估计率不需要。比如，你可能感觉不出一个专业评定为 A- 的学校和专业评定为 C 的学校的同一个专业上起来有什么区别，因为它们有可能一样烂。</p>
-</li>
-<li>
-<p>学校氛围需要关注吗？是的，这很重要。一个学校的整体氛围很可能会隐性地塑造你的未来发展。学校整体提供的资源、学术倾向和氛围、日常生活的方方面面甚至是文艺氛围都会影响你的生活与发展。因此，可能的话，问问学长学姐平常的生活是怎么样的，多问几个，然后对比。</p>
-</li>
-<li>
-<p>生活水平重要吗？是的，它比相当一部分内容要重要。现在关于大学生活水平已经有了非常好的参考，即 <strong><a href="https://colleges.chat">colleges.chat</a></strong>，你可以访问这个网站获得非常详细的信息；同时你也可以问问学长学姐。如果有不能忍受的条件，请一定一定慎重考虑。</p>
-</li>
-<li>
-<p>教学水平重要吗？无比重要，但没有用。既然你选择在国内就读本科，那么不要对教学水平抱有任何期望。总体上来说，如果把视线放在三本到一本，那么分数越高，遇到优质教学的概率就越大；但如果把视野放到所有 985 这样的小范围里，那么教学质量具有高度随机性。你必须做好自学的准备。当然，你还是可以向学长学姐们打听教学水平——如果他们只是说某几个老师的教学不错，那就要小心了。</p>
-</li>
-<li>
-<p>（补充）科研水平重要吗？不一定重要。本来是想写不重要的，但现在也已经有一些学校愿意给本科生充足的真正的科研机会，因此 it depends。总体上来说，科研相关的内容与低年级本科生的关联不大，因此即使一个高校的某个学科成为特色，也不妨碍它的教学很烂。同时，对于本科生来说，科研在很多时候都是成为劳动力，尽管学习如何成为合格的劳动力也很重要，但这可能与你想象的科研生活相差甚远；同时，早入实验室有时候并不是一件好事。因此，如果你对科研有强烈的意愿，请了解你期望的学校愿意给你哪些机会，同时请理性地面对科研和学术共同体在这个时代下的现实。</p>
-</li>
-</ul>
-<h2 id="五-如果你已经做出了选择"><a class="markdownIt-Anchor" href="#五-如果你已经做出了选择"></a> 五、如果你已经做出了选择</h2>
-<p>首先恭喜你，你可以继续过幸福快乐的暑假了。对那些让你自学的人说拜拜，因为这是你的<strong>最后一个没有压力、可以认真地感受这个世界的暑假</strong>。把时间浪费在学一些通识课程上是相当糟糕的选择。</p>
-<p>当然，你也可以选择一些感兴趣的内容随便学学。暑假两个月学习的内容开学可能两周就讲完了，所以学多少内容不重要。</p>
-<p>最后，希望你从此开始，不再是一个孩子。</p>
-]]></content>
-      <tags>
-        <tag>学习</tag>
-        <tag>大学</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>免费套壳ChatGPT</title>
     <url>/posts/eacb6cc2/</url>
     <content><![CDATA[<p>3，4月注册的 chatgpt 账号免费额度7月1号就要过期了，看到身边不太了解网络的同学纷纷在寻找不用翻墙的镜像网站，甚至花高额的金钱购买，还有哪些一开始就不了解翻墙的人们用着各种不知道啥时候跑路的套壳网站。</p>
@@ -250,21 +245,6 @@ hexo s<br />
 ]]></content>
       <tags>
         <tag>ChatGPT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搬运图片的压缩和超分科普文章</title>
-    <url>/posts/70bca06b/</url>
-    <content><![CDATA[<p>压缩算法webp和jepg算法</p>
-<p>压缩算法文章推荐:<br />
-<a href="https://blog.kaciras.com/article/19/Introduction-to-Web-Image-Formats">Web 优化：图片压缩简介</a><br />
-<a href="https://blog.kaciras.com/article/24/analyze-WebP-encode-options">Web 优化：WebP 参数分析</a><br />
-<a href="https://ic-analyzer.kaciras.com/">ICAnalyzer</a></p>
-<p>超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>图片处理</tag>
       </tags>
   </entry>
   <entry>
@@ -288,6 +268,40 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>做了梦</title>
+    <url>/posts/53faa85e/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="2a0cf1e0bb43343e0ac61cad8c63f2328c18dc3b345e1f60b7b66aa710c8cf45">ae36d2d855de2c9363d7fdc87d4b2983083fe6659532b8ebcc06e72c0fad64606214f95ddd13fdbce88944e6516c6f8ca97644747a0f890cc7127ee2b9d5769171c437dfc1a61af08c041e0f33b5497f77e6163e1c80ee77e1107508e608aa3cc4b6ab530f44c057ea2ec63bc90a16cb50b08f88024dec06c5fb8be1d206c24d8a0228b3184231ef4bbb3b168142716b6492abff1cb43e7d7cfcf2b3a432eb567338553a413aa1b020961241487947941ced29014a1286f463de6a6bb299ada9ee847c2f4b5688240f10bf8482d6fb807dc0da4fc75d6662e9c8bf6a711b7d726a8c80e503126c6a48dfcb47da67a3017ab5b295998672fc348b0128583fdf110df31d847b31c7c5ca5edb9318411fb8af03414d8f77866c26ead538f55b4410280b8dd248521dad02077aa95d38f6d3cfec4970945cf7be8fbb6a6cf61218150ec6573de7b557c114b340066c99bde1909457182468d9eae117f3b25ca61a4ed7b33608109f7e30e30eee4ccaecb5b88ce0b0aa27a16e18ce1d0062bf29930aeb6272fcf2b834ebdea27346ca39416f9c3c11d0a86f02c53fa43ebf347c4e46230f7d9ffdf0c5d38a7e1859fbea6ef43ef6a23fda4deec38d8be0524fe18097232d21353868a0cc103624a58d6ad54880ca5af22f3d000606299c9e967cc53b489500784da0067519ec197b250c8c97982a798af4ad83e0e37702149e7caf1aadaf84e3b25d8432c5e9540c927bfb7a0822e4fa0f6eea8c5ec36c8b7face569367129d07db7fc83059c02ad6f79a0a602ca8e21fcee626ce8ee983bcc19965ce2104181aa0a14c8b28d87d0fdc11321b1abe17c7e8bbcbd5afdffb267fae95dbe8164299d526850e4d37f68f30a3c2eb74b971d797dba82066985f634e4ad751ed75ce95f76ab2cd690a7526da282e3cece08c125cf510ac8111910f05a54524c92cc86d9161f2010e449f90de44843261f089ed25a00e59c963d4a470f0b0d18d12c5f8aadf14d251456dbd668d4f3116633a60780de7650a4c35dfd9544915ae81e73b26f1888d0bb670b3665145b2dbec654268a24244ea9f14f7810bcc4a9ad4381d12a2b0d421de96fd0f7aba79205be8d1416b39c140ccd295fa10bd2be84b5be0e61c1ead05e6f87bf80e20897804972506c07d64f0145352240f95b730685e3b54c1aacc19437d8819c251c21e7dde67b3d5468b406557fdf56230167711aee5be42e4ae4d9d02d28b888fee88ed8d07b461d693dc491bdc82234a3d0adb1ff89a46214467084e691896e0773586f3073290697a2db49ee6117df90b659d2a4a2c3137231f24c8862086e962676b63550fc69f4dcaceabd2d5fa09c5dca4df8da911ced5b275288621f2827c5f28cbb05ae1f91ba1816dada684dc6feba2d00ae63ab3aea1bc141175d9a737c72025f2b72ed8b14fb44c1a61bf4e3</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>梦</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搬运图片的压缩和超分科普文章</title>
+    <url>/posts/70bca06b/</url>
+    <content><![CDATA[<p>压缩算法webp和jepg算法</p>
+<p>压缩算法文章推荐:<br />
+<a href="https://blog.kaciras.com/article/19/Introduction-to-Web-Image-Formats">Web 优化：图片压缩简介</a><br />
+<a href="https://blog.kaciras.com/article/24/analyze-WebP-encode-options">Web 优化：WebP 参数分析</a><br />
+<a href="https://ic-analyzer.kaciras.com/">ICAnalyzer</a></p>
+<p>超分算法Waifu2x，Real-ESRGAN，Real-CUGAN</p>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>图片处理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>新游戏</title>
     <url>/posts/7de1e3c6/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -305,6 +319,22 @@ hexo s<br />
       <tags>
         <tag>游戏</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>最近的大事</title>
+    <url>/posts/2fdb2896/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="0084db063eec47f17a01e9cb7054e62e02940d469261cc6a39746b22e59c19c3">dc898b41545c63879ebb034cb7dcab040d79fb8f61ddcd2fe2058206e4d2b422ba5baf5c4df4dfb55f996bb875d42ed05415750db5103bc87877006a9207feeee7b02dee1d781ea12b7f4eff0a0649d5068e4b60620a5bbc94b61a78c81f34c8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
     <title>更换FireFox浏览器</title>
@@ -329,20 +359,40 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>最近的大事</title>
-    <url>/posts/2fdb2896/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="0084db063eec47f17a01e9cb7054e62e02940d469261cc6a39746b22e59c19c3">dc898b41545c63879ebb034cb7dcab040d79fb8f61ddcd2fe2058206e4d2b422ba5baf5c4df4dfb55f996bb875d42ed05415750db5103bc87877006a9207feeee7b02dee1d781ea12b7f4eff0a0649d5068e4b60620a5bbc94b61a78c81f34c8</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>流氓软件的清除</title>
+    <url>/posts/eb137a6e/</url>
+    <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
+<p>  前几日偶然借用朋友的电脑，一上手，锁屏界面的「一刀999」复古金色大字便糊了我一脸，进到桌面，一地不出名的“推荐下载”软件，左下角的牛皮癣弹窗时不时还冒了出来，这让有些广告洁癖的我使用体验极差。<br />
+  一问电脑主人，他根本不知道有些软件是哪来的，这些软件看来是「流氓捆绑」行为的产物了，虽然我理解广告是免费软件为了生存而加的，但在用户不知情的情况下自行静默安装并乱弹广告，这完全是绑架用户电脑当作牛皮癣发放机使用的不要脸行为。<br />
+<img src="https://img.112203.xyz/2023/12/399fd57531b9f9dee5d5686e5b43e8cc.webp" alt="用Win7系统虚拟机模拟用户环境" />  于是我就帮忙清理了清理，顺手记录一下流程。</p>
+<h2 id="正文"><a class="markdownIt-Anchor" href="#正文"></a> 正文</h2>
+<p>  这些流氓软件按照顽固程度大致可分为两种：无驱动保护的和有驱动保护的。</p>
+<h3 id="无驱动保护类的"><a class="markdownIt-Anchor" href="#无驱动保护类的"></a> 无驱动保护类的</h3>
+<p>  基本思路就是先用卸载软件把陌生软件清理一下，再用“<a href="https://blog.csdn.net/hfhbutn">四海一叶秋</a>”大佬开发的“<a href="https://free.lanzoux.com/b0cpu1guf">SoftCnKiller</a><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>”扫描一遍就差不多了<br />
+  用市面上常见且靠谱的卸载软件就基本可以卸载干净，比如：Total Uninstaller，HiBit Uninstaller，Revo Uninstaller，Geek Uninstall，IObit Uninstaller等。</p>
+<p>我个人喜欢并推荐用<a href="http://www.hibitsoft.ir/Uninstaller.html">HiBit Uninstaller</a>:体积小，免费无广告，有官方便携版，扫描算法优秀，并且附带小工具都挺好用的。备用链接:<a href="https://boundaryjie-z.lanzout.com/iMZI10vtcfzi">蓝奏云链接</a></p>
+<p>1.首次打开时会弹窗，选择第一项“将应用程序设置和数据保存在Windows用户文件夹和注册表中”<br />
+<img src="https://img.112203.xyz/2023/12/1f6ba97357e875c64804a1ffe6fca22f.webp" alt="首次打开选择软件数据文件夹" />2.把“打开程序时检查更新”去勾，然后取消此界面<br />
+<img src="https://img.112203.xyz/2023/12/37156f1587e30016b8897cdff54dce5f.webp" alt="打开程序时检查更新" />3.右上角设置一下中文<br />
+<img src="https://img.112203.xyz/2023/12/838b00634239f9c42ec442def0708c6c.webp" alt="设置中文" />4.勾选要卸载的软件并启动卸载后，会先调用软件自带的卸载程序，注意甄别卸载选项，一步步卸载。(可能某些软件会有卸载失败的弹窗，重试三次还是弹窗就可以先跳过这个软件)<img src="https://img.112203.xyz/2023/12/1702806339285.webp" alt="某壁纸软件的混淆选项" />5.上一步完成后启用高级扫描，检查扫描结果中是否有重要文件。<img src="https://img.112203.xyz/2023/12/1702806778913.webp" alt="启用高级扫描" /><img src="https://img.112203.xyz/2023/12/1702807570819.webp" alt="扫描结果检查" />6.使用SoftCnKiller收尾，先更新一下黑名单。<img src="https://img.112203.xyz/2023/12/1702807682610.webp" alt="更新黑名单" />7.启动SoftCnKiller主程序自动扫描，全选，处理选中。<img src="https://img.112203.xyz/2023/12/1702807899574.webp" alt="收尾工作" /></p>
+<h3 id="有驱动保护类的"><a class="markdownIt-Anchor" href="#有驱动保护类的"></a> 有驱动保护类的</h3>
+<p>  把无驱动保护的清理完成后，接下来就是流氓中的大流氓——驱动保护类流氓，一般这种流氓软件是各类顽固病毒或者杀毒软件(2345安全卫士等)。<br />
+  有些捆绑软件的安装目录里可能没有卸载程序(病毒就更不用说了)，所以我当时清理同学电脑时用的是ARK工具或者进pe直接删除流氓软件文件夹，然后一个一个把驱动文件禁用，最后用<a href="https://weishi.360.cn/jijiuxiang/index.html">360系统急救箱 </a>强力模式+全盘扫描扫两遍，基本上可以解决。但手动寻找不仅效率低，而且很有可能有遗漏风险，前两天我发现“<a href="https://blog.csdn.net/hfhbutn">四海一叶秋</a>”大佬还开发了“<a href="https://free.lanzoui.com/iBaxn0v3ke0j">ScanSrv</a><sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”，软件内置有黑名单，进pe后直接用它精确禁用服务，省心省力。我喜欢用<a href="https://firpe.cn/page-247">FirPE</a>来搞，直接安装在系统里，可以联网，自带有清理程序。</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>官方作者发的使用视频：<a href="https://www.bilibili.com/video/BV1Rt4y1L79u/">SoftCnKiller的使用方法介绍及一些流氓软件残留的处理方法</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>官方作者发的使用视频：<a href="https://www.bilibili.com/video/BV1Ub4y1D7Yc/">ScanSrv服务管理工具，轻松解决各种木马驱动</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>软件</tag>
+        <tag>流氓软件</tag>
+      </tags>
   </entry>
   <entry>
     <title>浅谈 Windows 杀毒软件的推荐 (一)</title>
@@ -510,42 +560,6 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>笔记本电脑</tag>
         <tag>电源设置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>流氓软件的清除</title>
-    <url>/posts/eb137a6e/</url>
-    <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
-<p>  前几日偶然借用朋友的电脑，一上手，锁屏界面的「一刀999」复古金色大字便糊了我一脸，进到桌面，一地不出名的“推荐下载”软件，左下角的牛皮癣弹窗时不时还冒了出来，这让有些广告洁癖的我使用体验极差。<br />
-  一问电脑主人，他根本不知道有些软件是哪来的，这些软件看来是「流氓捆绑」行为的产物了，虽然我理解广告是免费软件为了生存而加的，但在用户不知情的情况下自行静默安装并乱弹广告，这完全是绑架用户电脑当作牛皮癣发放机使用的不要脸行为。<br />
-<img src="https://img.112203.xyz/2023/12/399fd57531b9f9dee5d5686e5b43e8cc.webp" alt="用Win7系统虚拟机模拟用户环境" />  于是我就帮忙清理了清理，顺手记录一下流程。</p>
-<h2 id="正文"><a class="markdownIt-Anchor" href="#正文"></a> 正文</h2>
-<p>  这些流氓软件按照顽固程度大致可分为两种：无驱动保护的和有驱动保护的。</p>
-<h3 id="无驱动保护类的"><a class="markdownIt-Anchor" href="#无驱动保护类的"></a> 无驱动保护类的</h3>
-<p>  基本思路就是先用卸载软件把陌生软件清理一下，再用“<a href="https://blog.csdn.net/hfhbutn">四海一叶秋</a>”大佬开发的“<a href="https://free.lanzoux.com/b0cpu1guf">SoftCnKiller</a><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>”扫描一遍就差不多了<br />
-  用市面上常见且靠谱的卸载软件就基本可以卸载干净，比如：Total Uninstaller，HiBit Uninstaller，Revo Uninstaller，Geek Uninstall，IObit Uninstaller等。</p>
-<p>我个人喜欢并推荐用<a href="http://www.hibitsoft.ir/Uninstaller.html">HiBit Uninstaller</a>:体积小，免费无广告，有官方便携版，扫描算法优秀，并且附带小工具都挺好用的。备用链接:<a href="https://boundaryjie-z.lanzout.com/iMZI10vtcfzi">蓝奏云链接</a></p>
-<p>1.首次打开时会弹窗，选择第一项“将应用程序设置和数据保存在Windows用户文件夹和注册表中”<br />
-<img src="https://img.112203.xyz/2023/12/1f6ba97357e875c64804a1ffe6fca22f.webp" alt="首次打开选择软件数据文件夹" />2.把“打开程序时检查更新”去勾，然后取消此界面<br />
-<img src="https://img.112203.xyz/2023/12/37156f1587e30016b8897cdff54dce5f.webp" alt="打开程序时检查更新" />3.右上角设置一下中文<br />
-<img src="https://img.112203.xyz/2023/12/838b00634239f9c42ec442def0708c6c.webp" alt="设置中文" />4.勾选要卸载的软件并启动卸载后，会先调用软件自带的卸载程序，注意甄别卸载选项，一步步卸载。(可能某些软件会有卸载失败的弹窗，重试三次还是弹窗就可以先跳过这个软件)<img src="https://img.112203.xyz/2023/12/1702806339285.webp" alt="某壁纸软件的混淆选项" />5.上一步完成后启用高级扫描，检查扫描结果中是否有重要文件。<img src="https://img.112203.xyz/2023/12/1702806778913.webp" alt="启用高级扫描" /><img src="https://img.112203.xyz/2023/12/1702807570819.webp" alt="扫描结果检查" />6.使用SoftCnKiller收尾，先更新一下黑名单。<img src="https://img.112203.xyz/2023/12/1702807682610.webp" alt="更新黑名单" />7.启动SoftCnKiller主程序自动扫描，全选，处理选中。<img src="https://img.112203.xyz/2023/12/1702807899574.webp" alt="收尾工作" /></p>
-<h3 id="有驱动保护类的"><a class="markdownIt-Anchor" href="#有驱动保护类的"></a> 有驱动保护类的</h3>
-<p>  把无驱动保护的清理完成后，接下来就是流氓中的大流氓——驱动保护类流氓，一般这种流氓软件是各类顽固病毒或者杀毒软件(2345安全卫士等)。<br />
-  有些捆绑软件的安装目录里可能没有卸载程序(病毒就更不用说了)，所以我当时清理同学电脑时用的是ARK工具或者进pe直接删除流氓软件文件夹，然后一个一个把驱动文件禁用，最后用<a href="https://weishi.360.cn/jijiuxiang/index.html">360系统急救箱 </a>强力模式+全盘扫描扫两遍，基本上可以解决。但手动寻找不仅效率低，而且很有可能有遗漏风险，前两天我发现“<a href="https://blog.csdn.net/hfhbutn">四海一叶秋</a>”大佬还开发了“<a href="https://free.lanzoui.com/iBaxn0v3ke0j">ScanSrv</a><sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”，软件内置有黑名单，进pe后直接用它精确禁用服务，省心省力。我喜欢用<a href="https://firpe.cn/page-247">FirPE</a>来搞，直接安装在系统里，可以联网，自带有清理程序。</p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>官方作者发的使用视频：<a href="https://www.bilibili.com/video/BV1Rt4y1L79u/">SoftCnKiller的使用方法介绍及一些流氓软件残留的处理方法</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>官方作者发的使用视频：<a href="https://www.bilibili.com/video/BV1Ub4y1D7Yc/">ScanSrv服务管理工具，轻松解决各种木马驱动</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>软件</tag>
-        <tag>流氓软件</tag>
       </tags>
   </entry>
   <entry>
