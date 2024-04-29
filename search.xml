@@ -1,39 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo中live2d看板娘禁用手机端加载</title>
-    <url>/posts/b5878383/</url>
-    <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
-<p>博客搭建时我加入了一个live2d看板娘，使用的是<a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang/live2d-widget</a>项目。</p>
-<p>前两天我发现手机端虽然看不到，但还是会加载css和js，影响手机端加载速度，项目中也没找到相关配置项，引入一个js便可以解决此问题。</p>
-<h2 id="正文"><a class="markdownIt-Anchor" href="#正文"></a> 正文</h2>
-<p>①我这里以Butterfly主题为例，在引入live2d-widget时会在<code>主题配置文件</code>中的<code>inject.bottom</code>里添加:</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-<p>若是将项目下载到了本地，那就应该是添加了:</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;/live2d-widget/autoload.js&quot;</span>&gt;&lt;/script&gt;   #注意自己的本地路径</span><br></pre></td></tr></table></figure>
-<p>②以下载到本地的为例，首先在你的<code>/live2d-widget/src/</code>文件夹下新建一个<code>mobile.js</code>  (路径和名称可修改)<br />
-内容为:</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">browserRedirect</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> sUserAgent = navigator.<span class="property">userAgent</span>.<span class="title function_">toLowerCase</span>();</span><br><span class="line">    <span class="keyword">var</span> bIsIpad = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/ipad/i</span>) == <span class="string">&quot;ipad&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsIphoneOs = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/iphone os/i</span>) == <span class="string">&quot;iphone os&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsMidp = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/midp/i</span>) == <span class="string">&quot;midp&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsUc7 = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/rv:1.2.3.4/i</span>) == <span class="string">&quot;rv:1.2.3.4&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsUc = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/ucweb/i</span>) == <span class="string">&quot;ucweb&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsAndroid = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/android/i</span>) == <span class="string">&quot;android&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsCE = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/windows ce/i</span>) == <span class="string">&quot;windows ce&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsWM = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/windows mobile/i</span>) == <span class="string">&quot;windows mobile&quot;</span>; </span><br><span class="line">    <span class="keyword">if</span> (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) &#123;&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&#x27;&lt;script src=&quot;/live2d-widget/autoload.js&quot;&gt;&lt;/script&gt; &#x27;</span>);  <span class="comment">//如果不是以上的手机端UA,便加载autoload.js</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">browserRedirect</span>(); </span><br></pre></td></tr></table></figure>
-<p>然后把①中的:</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;/live2d-widget/autoload.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-<p>替换为</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;/live2d-widget/src/mobile.js&quot;</span>&gt;&lt;/script&gt; </span><br></pre></td></tr></table></figure>
-<p>③看看效果<br />
-hexo cl<br />
-hexo g<br />
-hexo s<br />
-三连后，上localhost:4000<br />
-<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_47-tuya.webp" alt="localhost:4000" /><br />
-浏览器模拟手机端，可以看到live2d-widget中只有mobile.js加载了，其他css和js并没有加载。</p>
-<p>问题解决😊</p>
-<hr />
-<p>参考链接:<a href="https://imbhj.com/37579d1">https://imbhj.com/37579d1</a></p>
-]]></content>
-      <tags>
-        <tag>live2d</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Windows电脑“裸奔”教程</title>
     <url>/posts/dbe428da/</url>
     <content><![CDATA[<h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
@@ -70,6 +37,49 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>Hexo中live2d看板娘禁用手机端加载</title>
+    <url>/posts/b5878383/</url>
+    <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
+<p>博客搭建时我加入了一个live2d看板娘，使用的是<a href="https://github.com/stevenjoezhang/live2d-widget">stevenjoezhang/live2d-widget</a>项目。</p>
+<p>前两天我发现手机端虽然看不到，但还是会加载css和js，影响手机端加载速度，项目中也没找到相关配置项，引入一个js便可以解决此问题。</p>
+<h2 id="正文"><a class="markdownIt-Anchor" href="#正文"></a> 正文</h2>
+<p>①我这里以Butterfly主题为例，在引入live2d-widget时会在<code>主题配置文件</code>中的<code>inject.bottom</code>里添加:</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p>若是将项目下载到了本地，那就应该是添加了:</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;/live2d-widget/autoload.js&quot;</span>&gt;&lt;/script&gt;   #注意自己的本地路径</span><br></pre></td></tr></table></figure>
+<p>②以下载到本地的为例，首先在你的<code>/live2d-widget/src/</code>文件夹下新建一个<code>mobile.js</code>  (路径和名称可修改)<br />
+内容为:</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">browserRedirect</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> sUserAgent = navigator.<span class="property">userAgent</span>.<span class="title function_">toLowerCase</span>();</span><br><span class="line">    <span class="keyword">var</span> bIsIpad = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/ipad/i</span>) == <span class="string">&quot;ipad&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsIphoneOs = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/iphone os/i</span>) == <span class="string">&quot;iphone os&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsMidp = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/midp/i</span>) == <span class="string">&quot;midp&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsUc7 = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/rv:1.2.3.4/i</span>) == <span class="string">&quot;rv:1.2.3.4&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsUc = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/ucweb/i</span>) == <span class="string">&quot;ucweb&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsAndroid = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/android/i</span>) == <span class="string">&quot;android&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsCE = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/windows ce/i</span>) == <span class="string">&quot;windows ce&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> bIsWM = sUserAgent.<span class="title function_">match</span>(<span class="regexp">/windows mobile/i</span>) == <span class="string">&quot;windows mobile&quot;</span>; </span><br><span class="line">    <span class="keyword">if</span> (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) &#123;&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="variable language_">document</span>.<span class="title function_">write</span>(<span class="string">&#x27;&lt;script src=&quot;/live2d-widget/autoload.js&quot;&gt;&lt;/script&gt; &#x27;</span>);  <span class="comment">//如果不是以上的手机端UA,便加载autoload.js</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">browserRedirect</span>(); </span><br></pre></td></tr></table></figure>
+<p>然后把①中的:</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;/live2d-widget/autoload.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p>替换为</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;/live2d-widget/src/mobile.js&quot;</span>&gt;&lt;/script&gt; </span><br></pre></td></tr></table></figure>
+<p>③看看效果<br />
+hexo cl<br />
+hexo g<br />
+hexo s<br />
+三连后，上localhost:4000<br />
+<img src="https://absurd4755.oss-cn-qingdao.aliyuncs.com/Await7955/image_47-tuya.webp" alt="localhost:4000" /><br />
+浏览器模拟手机端，可以看到live2d-widget中只有mobile.js加载了，其他css和js并没有加载。</p>
+<p>问题解决😊</p>
+<hr />
+<p>参考链接:<a href="https://imbhj.com/37579d1">https://imbhj.com/37579d1</a></p>
+]]></content>
+      <tags>
+        <tag>live2d</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《餐瘾地城》治好了我的电子阳痿</title>
+    <url>/posts/ff178b38/</url>
+    <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。剧情和人物对话是本作的精华所在，前期的荒诞幽默，后期的逐渐扩充世界观，推动着玩家不断向前。<img src="https://img.112203.xyz/2023/12/964f9e7a0a2c58f5383c27f77b2d279b.webp" alt="还真是" />因为我有比较严重的3d眩晕症，所以几乎和第一人称游戏告别了，画面摇晃厉害的第三人称游戏也只能限着时间游玩。因此挑选一款好玩的游戏对我来说还是有些难度的，前些时间我到处搜集各式各样的2d游戏，《餐瘾地城》也是其中之一，当时平平无奇的它也并没有引起我太大注意，在库里吃灰许久，偶然间在刷b站时看到游玩视频，引起了我的兴趣。</p>
+<p>整体游戏难度不大，剧情不错，普通难度通关时间在17个小时左右，阿区值得购买，国区价格见仁见智。</p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>个人自用mpv配置</title>
     <url>/posts/93603f4e/</url>
     <content><![CDATA[<h1 id="展示"><a class="markdownIt-Anchor" href="#展示"></a> 展示</h1>
@@ -99,16 +109,6 @@ hexo s<br />
         <tag>Windows</tag>
         <tag>mpv</tag>
         <tag>视频播放器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《餐瘾地城》治好了我的电子阳痿</title>
-    <url>/posts/ff178b38/</url>
-    <content><![CDATA[<p>  2月时阿区买了个游戏——餐瘾地城，最近开始玩了，本来以为是平平无奇的横板打怪小游戏，打完第一章后便一发不可收拾。剧情和人物对话是本作的精华所在，前期的荒诞幽默，后期的逐渐扩充世界观，推动着玩家不断向前。<img src="https://img.112203.xyz/2023/12/964f9e7a0a2c58f5383c27f77b2d279b.webp" alt="还真是" />因为我有比较严重的3d眩晕症，所以几乎和第一人称游戏告别了，画面摇晃厉害的第三人称游戏也只能限着时间游玩。因此挑选一款好玩的游戏对我来说还是有些难度的，前些时间我到处搜集各式各样的2d游戏，《餐瘾地城》也是其中之一，当时平平无奇的它也并没有引起我太大注意，在库里吃灰许久，偶然间在刷b站时看到游玩视频，引起了我的兴趣。</p>
-<p>整体游戏难度不大，剧情不错，普通难度通关时间在17个小时左右，阿区值得购买，国区价格见仁见智。</p>
-]]></content>
-      <tags>
-        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
@@ -232,7 +232,7 @@ hexo s<br />
     <title>做了梦</title>
     <url>/posts/53faa85e/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="2a0cf1e0bb43343e0ac61cad8c63f2328c18dc3b345e1f60b7b66aa710c8cf45">ae36d2d855de2c9363d7fdc87d4b2983083fe6659532b8ebcc06e72c0fad64606214f95ddd13fdbce88944e6516c6f8ca97644747a0f890cc7127ee2b9d5769171c437dfc1a61af08c041e0f33b5497f77e6163e1c80ee77e1107508e608aa3cc4b6ab530f44c057ea2ec63bc90a16cb50b08f88024dec06c5fb8be1d206c24d8a0228b3184231ef4bbb3b168142716b6492abff1cb43e7d7cfcf2b3a432eb567338553a413aa1b020961241487947941ced29014a1286f463de6a6bb299ada9ee847c2f4b5688240f10bf8482d6fb807dc0da4fc75d6662e9c8bf6a711b7d726a8c80e503126c6a48dfcb47da67a3017ab5b295998672fc348b0128583fdf110df31d847b31c7c5ca5edb9318411fb8af03414d8f77866c26ead538f55b4410280b8dd248521dad02077aa95d38f6d3cfec4970945cf7be8fbb6a6cf61218150ec6573de7b557c114b340066c99bde1909457182468d9eae117f3b25ca61a4ed7b33608109f7e30e30eee4ccaecb5b88ce0b0aa27a16e18ce1d0062bf29930aeb6272fcf2b834ebdea27346ca39416f9c3c11d0a86f02c53fa43ebf347c4e46230f7d9ffdf0c5d38a7e1859fbea6ef43ef6a23fda4deec38d8be0524fe18097232d21353868a0cc103624a58d6ad54880ca5af22f3d000606299c9e967cc53b489500784da0067519ec197b250c8c97982a798af4ad83e0e37702149e7caf1aadaf84e3b25d8432c5e9540c927bfb7a0822e4fa0f6eea8c5ec36c8b7face569367129d07db7fc83059c02ad6f79a0a602ca8e21fcee626ce8ee983bcc19965ce2104181aa0a14c8b28d87d0fdc11321b1abe17c7e8bbcbd5afdffb267fae95dbe8164299d526850e4d37f68f30a3c2eb74b971d797dba82066985f634e4ad751ed75ce95f76ab2cd690a7526da282e3cece08c125cf510ac8111910f05a54524c92cc86d9161f2010e449f90de44843261f089ed25a00e59c963d4a470f0b0d18d12c5f8aadf14d251456dbd668d4f3116633a60780de7650a4c35dfd9544915ae81e73b26f1888d0bb670b3665145b2dbec654268a24244ea9f14f7810bcc4a9ad4381d12a2b0d421de96fd0f7aba79205be8d1416b39c140ccd295fa10bd2be84b5be0e61c1ead05e6f87bf80e20897804972506c07d64f0145352240f95b730685e3b54c1aacc19437d8819c251c21e7dde67b3d5468b406557fdf56230167711aee5be42e4ae4d9d02d28b888fee88ed8d07b461d693dc491bdc82234a3d0adb1ff89a46214467084e691896e0773586f3073290697a2db49ee6117df90b659d2a4a2c3137231f24c8862086e962676b63550fc69f4dcaceabd2d5fa09c5dca4df8da911ced5b275288621f2827c5f28cbb05ae1f91ba1816dada684dc6feba2d00ae63ab3aea1bc141175d9a737c72025f2b72ed8b14fb44c1a61bf4e3</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="892b8a4a900a262fe28017a4c0883c50d0d168deb2bf6a30033f814cb3b38870">ae36d2d855de2c9363d7fdc87d4b2983083fe6659532b8ebcc06e72c0fad64606214f95ddd13fdbce88944e6516c6f8ca97644747a0f890cc7127ee2b9d5769171c437dfc1a61af08c041e0f33b5497f77e6163e1c80ee77e1107508e608aa3cc4b6ab530f44c057ea2ec63bc90a16cb50b08f88024dec06c5fb8be1d206c24d8a0228b3184231ef4bbb3b168142716bf43773caa2783b1da48638971fab40ff263d15ebfc9eeb393846ec0f330b97305ce1ef5d70aad59a3cfc77817b9584389e9e52efce72d423bca671104eea73278797acc35c21cbbdaf8b825ca4fca1a6558d7e9e0f5a138379e19b51721e1641de3b474a542fc5789bc7752fb25ffd7975d2e66a7aa444b6e05ff583717e91a450e43cccc1a14579d8b3a9beaff7557b7257061d385dff09303ba61fe8929230eb42dabcfd44de892f0fccd84df1aae74f4c9820cf2a76d5d2c04efcc7403eb1de58ebd04d105be1bc18b4e948aaacab51409d1642cde4a848d20aa2c1f7bb4160476828eb869e5a6fa0be7391e1a23fec1fc1bc5b16bce45cdeae5820d60b13bd5f6fdc21a3c0670a973371617366d853a568ff2d7381def239ae9123e857717a1f7d9a99a36d3beb0b45b7112af4ff74245069f330aa65e8e9c358ecae0b926f20bbfd8780a495223e4333917943cbaf6386f17ba4d7721de2418491afe468e23a9dc9a2480c9b662c0228aee529bd388a244ee7e54a6d8eaabae35b5405e0e32c76837ad6f5151ef39d928f77fcdac8c4823c99d1cfed91564bb8f4e290f7f43cb3f631d6245f8c91112066fb3f8ca7cc1713a8371ba945c2370c221ac0ebde3c97653a02b4e0b04e72fd796d748b29c2116cbaeaa1030a1269fc63632405e68451b2f53bcc710a39f4d9f5696979599e1e801b1716db33c9acf864e9a575334aefd754d1c4d6931415ccc04e44d0b2a08a4f60a74773760d45f72e0f9361d3c8c401cce6da90791069482e88f25f91e3329543e53d2d1bdeb1d55e26400012a58d393a28b552544cb011e398faf83b47dd32d923b7b946b3065af0fe4c24844e19c09ec0567a698649d188320c82f8a64ef1862589130e73b1cdaf31a6e1164069767e65caf2387a002b0f2785d74188a48b9905efed9a3293f006d55adfee13cf7d37a69c1a3df950f401a58ef4b7a612bdca620d3c609e4060fd607772de6a7de215bafc74705afc050c6e1c7e4e7b39a0f0e746f55f19b39583b91aff135d9ac9251285a9c7f9b71653df76fe02133acd4bae166bf35e359f99a1522677c730d24f7ce13e4e9a953731f4f63567850ccb5e22d7d344bd097ba2b5ea2bdffaa5300d8c614fd27ab717752becc741c8a59a2b8e3a70e62449d296635e54c8cc2d991cfba90ce16d0abba116a35f74f85e0796674c7cf3687f3962584f5884187a126b0170bad4905ce6e9b110355f1edfb9f42877f51c0ec2bad85debc53aa4ef2ace3cc10b27590c96ca6ea7faeebf4e0f62a90c93fcf243aee39188042fa085dee6ff0967a3a448c6377775e0f4cee2f445f6570ca387101082f89a8c65a9f43d6293ef14e00e6cbbf093b4c14462c16fbf4a3141e296c9673287daa2bfd68f1349f59d30a7f4448b96db17b9415df81ad5248b7a62cf8da0b2d014f68692eda5866c360be3eb00305b0bfc8baf8a9935e00cd350632479e4d42c5d46f9d3b0e1c91852ec709d911452fc1737f9a8f29019ed052d9c3ac13511d32cae3de5859e445b05ad7eb7bb0d2e7f4344e07b8014e54bc0c7484b0ec577921f1093457586b5056a0b0927d5e5503e90dae518c978794ae1d84efa101b2d50abe5b407ec8245652f3a9acf0b157868f52a35d33c39b7c2bd6dae910ace8c67a2abf958f106556bd50b80e6ac6e5eab08844c22fca340a4b664259436b5ec36a191cf871c2e5983fd528ffa26b4802123d28f4f25e32e47d96307bb726cf79f165c2602b7cd65b3e639b9839b22759e94e8f92a127382b568b0819a5186bc105ea56b54acd4235f93a12fb5d80eb6fc16d8a20ce604b9f505290896d3ac246bf756bd1bfc7c558cefc5f0540699faff7c34792a139a383438aa406aa1e51d08f00309490beab200f202d7db86d0476be2edb6cee8a813a3509f510d7a47b0f9536ef751fa5bf6fd9b1e739c07d06c25c3564de5d36f9a859cd37b151b0ab02b01e08e4d284b6f7d0b33a5d9975579443292276e133bfc74afe096dc9da1fa812072f0ac934111fce961c9dc4141f776720f67479201356c2435566b7cf7d577e075894a738b41e0024e26f8180791c34082</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -302,28 +302,6 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
-    <title>更换FireFox浏览器</title>
-    <url>/posts/9847d699/</url>
-    <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
-<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
-<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>浏览器</tag>
-        <tag>私密</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>新游戏</title>
     <url>/posts/7de1e3c6/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -357,42 +335,6 @@ hexo s<br />
   </div>
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
-    <title>流氓软件的清除</title>
-    <url>/posts/eb137a6e/</url>
-    <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
-<p>  前几日偶然借用朋友的电脑，一上手，锁屏界面的「一刀999」复古金色大字便糊了我一脸，进到桌面，一地不出名的“推荐下载”软件，左下角的牛皮癣弹窗时不时还冒了出来，这让有些广告洁癖的我使用体验极差。<br />
-  一问电脑主人，他根本不知道有些软件是哪来的，这些软件看来是「流氓捆绑」行为的产物了，虽然我理解广告是免费软件为了生存而加的，但在用户不知情的情况下自行静默安装并乱弹广告，这完全是绑架用户电脑当作牛皮癣发放机使用的不要脸行为。<br />
-<img src="https://img.112203.xyz/2023/12/399fd57531b9f9dee5d5686e5b43e8cc.webp" alt="用Win7系统虚拟机模拟用户环境" />  于是我就帮忙清理了清理，顺手记录一下流程。</p>
-<h2 id="正文"><a class="markdownIt-Anchor" href="#正文"></a> 正文</h2>
-<p>  这些流氓软件按照顽固程度大致可分为两种：无驱动保护的和有驱动保护的。</p>
-<h3 id="无驱动保护类的"><a class="markdownIt-Anchor" href="#无驱动保护类的"></a> 无驱动保护类的</h3>
-<p>  基本思路就是先用卸载软件把陌生软件清理一下，再用“<a href="https://blog.csdn.net/hfhbutn">四海一叶秋</a>”大佬开发的“<a href="https://free.lanzoux.com/b0cpu1guf">SoftCnKiller</a><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>”扫描一遍就差不多了<br />
-  用市面上常见且靠谱的卸载软件就基本可以卸载干净，比如：Total Uninstaller，HiBit Uninstaller，Revo Uninstaller，Geek Uninstall，IObit Uninstaller等。</p>
-<p>我个人喜欢并推荐用<a href="http://www.hibitsoft.ir/Uninstaller.html">HiBit Uninstaller</a>:体积小，免费无广告，有官方便携版，扫描算法优秀，并且附带小工具都挺好用的。备用链接:<a href="https://boundaryjie-z.lanzout.com/iMZI10vtcfzi">蓝奏云链接</a></p>
-<p>1.首次打开时会弹窗，选择第一项“将应用程序设置和数据保存在Windows用户文件夹和注册表中”<br />
-<img src="https://img.112203.xyz/2023/12/1f6ba97357e875c64804a1ffe6fca22f.webp" alt="首次打开选择软件数据文件夹" />2.把“打开程序时检查更新”去勾，然后取消此界面<br />
-<img src="https://img.112203.xyz/2023/12/37156f1587e30016b8897cdff54dce5f.webp" alt="打开程序时检查更新" />3.右上角设置一下中文<br />
-<img src="https://img.112203.xyz/2023/12/838b00634239f9c42ec442def0708c6c.webp" alt="设置中文" />4.勾选要卸载的软件并启动卸载后，会先调用软件自带的卸载程序，注意甄别卸载选项，一步步卸载。(可能某些软件会有卸载失败的弹窗，重试三次还是弹窗就可以先跳过这个软件)<img src="https://img.112203.xyz/2023/12/1702806339285.webp" alt="某壁纸软件的混淆选项" />5.上一步完成后启用高级扫描，检查扫描结果中是否有重要文件。<img src="https://img.112203.xyz/2023/12/1702806778913.webp" alt="启用高级扫描" /><img src="https://img.112203.xyz/2023/12/1702807570819.webp" alt="扫描结果检查" />6.使用SoftCnKiller收尾，先更新一下黑名单。<img src="https://img.112203.xyz/2023/12/1702807682610.webp" alt="更新黑名单" />7.启动SoftCnKiller主程序自动扫描，全选，处理选中。<img src="https://img.112203.xyz/2023/12/1702807899574.webp" alt="收尾工作" /></p>
-<h3 id="有驱动保护类的"><a class="markdownIt-Anchor" href="#有驱动保护类的"></a> 有驱动保护类的</h3>
-<p>  把无驱动保护的清理完成后，接下来就是流氓中的大流氓——驱动保护类流氓，一般这种流氓软件是各类顽固病毒或者杀毒软件(2345安全卫士等)。<br />
-  有些捆绑软件的安装目录里可能没有卸载程序(病毒就更不用说了)，所以我当时清理同学电脑时用的是ARK工具或者进pe直接删除流氓软件文件夹，然后一个一个把驱动文件禁用，最后用<a href="https://weishi.360.cn/jijiuxiang/index.html">360系统急救箱 </a>强力模式+全盘扫描扫两遍，基本上可以解决。但手动寻找不仅效率低，而且很有可能有遗漏风险，前两天我发现“<a href="https://blog.csdn.net/hfhbutn">四海一叶秋</a>”大佬还开发了“<a href="https://free.lanzoui.com/iBaxn0v3ke0j">ScanSrv</a><sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”，软件内置有黑名单，进pe后直接用它精确禁用服务，省心省力。我喜欢用<a href="https://firpe.cn/page-247">FirPE</a>来搞，直接安装在系统里，可以联网，自带有清理程序。</p>
-<hr class="footnotes-sep" />
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>官方作者发的使用视频：<a href="https://www.bilibili.com/video/BV1Rt4y1L79u/">SoftCnKiller的使用方法介绍及一些流氓软件残留的处理方法</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>官方作者发的使用视频：<a href="https://www.bilibili.com/video/BV1Ub4y1D7Yc/">ScanSrv服务管理工具，轻松解决各种木马驱动</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>Windows</tag>
-        <tag>软件</tag>
-        <tag>流氓软件</tag>
-      </tags>
   </entry>
   <entry>
     <title>浅谈 Windows 杀毒软件的推荐 (一)</title>
@@ -550,6 +492,42 @@ hexo s<br />
       </tags>
   </entry>
   <entry>
+    <title>流氓软件的清除</title>
+    <url>/posts/eb137a6e/</url>
+    <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
+<p>  前几日偶然借用朋友的电脑，一上手，锁屏界面的「一刀999」复古金色大字便糊了我一脸，进到桌面，一地不出名的“推荐下载”软件，左下角的牛皮癣弹窗时不时还冒了出来，这让有些广告洁癖的我使用体验极差。<br />
+  一问电脑主人，他根本不知道有些软件是哪来的，这些软件看来是「流氓捆绑」行为的产物了，虽然我理解广告是免费软件为了生存而加的，但在用户不知情的情况下自行静默安装并乱弹广告，这完全是绑架用户电脑当作牛皮癣发放机使用的不要脸行为。<br />
+<img src="https://img.112203.xyz/2023/12/399fd57531b9f9dee5d5686e5b43e8cc.webp" alt="用Win7系统虚拟机模拟用户环境" />  于是我就帮忙清理了清理，顺手记录一下流程。</p>
+<h2 id="正文"><a class="markdownIt-Anchor" href="#正文"></a> 正文</h2>
+<p>  这些流氓软件按照顽固程度大致可分为两种：无驱动保护的和有驱动保护的。</p>
+<h3 id="无驱动保护类的"><a class="markdownIt-Anchor" href="#无驱动保护类的"></a> 无驱动保护类的</h3>
+<p>  基本思路就是先用卸载软件把陌生软件清理一下，再用“<a href="https://blog.csdn.net/hfhbutn">四海一叶秋</a>”大佬开发的“<a href="https://free.lanzoux.com/b0cpu1guf">SoftCnKiller</a><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>”扫描一遍就差不多了<br />
+  用市面上常见且靠谱的卸载软件就基本可以卸载干净，比如：Total Uninstaller，HiBit Uninstaller，Revo Uninstaller，Geek Uninstall，IObit Uninstaller等。</p>
+<p>我个人喜欢并推荐用<a href="http://www.hibitsoft.ir/Uninstaller.html">HiBit Uninstaller</a>:体积小，免费无广告，有官方便携版，扫描算法优秀，并且附带小工具都挺好用的。备用链接:<a href="https://boundaryjie-z.lanzout.com/iMZI10vtcfzi">蓝奏云链接</a></p>
+<p>1.首次打开时会弹窗，选择第一项“将应用程序设置和数据保存在Windows用户文件夹和注册表中”<br />
+<img src="https://img.112203.xyz/2023/12/1f6ba97357e875c64804a1ffe6fca22f.webp" alt="首次打开选择软件数据文件夹" />2.把“打开程序时检查更新”去勾，然后取消此界面<br />
+<img src="https://img.112203.xyz/2023/12/37156f1587e30016b8897cdff54dce5f.webp" alt="打开程序时检查更新" />3.右上角设置一下中文<br />
+<img src="https://img.112203.xyz/2023/12/838b00634239f9c42ec442def0708c6c.webp" alt="设置中文" />4.勾选要卸载的软件并启动卸载后，会先调用软件自带的卸载程序，注意甄别卸载选项，一步步卸载。(可能某些软件会有卸载失败的弹窗，重试三次还是弹窗就可以先跳过这个软件)<img src="https://img.112203.xyz/2023/12/1702806339285.webp" alt="某壁纸软件的混淆选项" />5.上一步完成后启用高级扫描，检查扫描结果中是否有重要文件。<img src="https://img.112203.xyz/2023/12/1702806778913.webp" alt="启用高级扫描" /><img src="https://img.112203.xyz/2023/12/1702807570819.webp" alt="扫描结果检查" />6.使用SoftCnKiller收尾，先更新一下黑名单。<img src="https://img.112203.xyz/2023/12/1702807682610.webp" alt="更新黑名单" />7.启动SoftCnKiller主程序自动扫描，全选，处理选中。<img src="https://img.112203.xyz/2023/12/1702807899574.webp" alt="收尾工作" /></p>
+<h3 id="有驱动保护类的"><a class="markdownIt-Anchor" href="#有驱动保护类的"></a> 有驱动保护类的</h3>
+<p>  把无驱动保护的清理完成后，接下来就是流氓中的大流氓——驱动保护类流氓，一般这种流氓软件是各类顽固病毒或者杀毒软件(2345安全卫士等)。<br />
+  有些捆绑软件的安装目录里可能没有卸载程序(病毒就更不用说了)，所以我当时清理同学电脑时用的是ARK工具或者进pe直接删除流氓软件文件夹，然后一个一个把驱动文件禁用，最后用<a href="https://weishi.360.cn/jijiuxiang/index.html">360系统急救箱 </a>强力模式+全盘扫描扫两遍，基本上可以解决。但手动寻找不仅效率低，而且很有可能有遗漏风险，前两天我发现“<a href="https://blog.csdn.net/hfhbutn">四海一叶秋</a>”大佬还开发了“<a href="https://free.lanzoui.com/iBaxn0v3ke0j">ScanSrv</a><sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”，软件内置有黑名单，进pe后直接用它精确禁用服务，省心省力。我喜欢用<a href="https://firpe.cn/page-247">FirPE</a>来搞，直接安装在系统里，可以联网，自带有清理程序。</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>官方作者发的使用视频：<a href="https://www.bilibili.com/video/BV1Rt4y1L79u/">SoftCnKiller的使用方法介绍及一些流氓软件残留的处理方法</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>官方作者发的使用视频：<a href="https://www.bilibili.com/video/BV1Ub4y1D7Yc/">ScanSrv服务管理工具，轻松解决各种木马驱动</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>软件</tag>
+        <tag>流氓软件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>笔记本续航的一篇文章</title>
     <url>/posts/591ede03/</url>
     <content><![CDATA[<p>这两天对笔记本电脑的续航延长比较有兴趣，稍微搜索了一下，找到一篇不错的文章。</p>
@@ -629,6 +607,28 @@ ipv6DNS地址可自行去官网查询，这里不占篇幅赘述<img src="https:
 ]]></content>
       <tags>
         <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>更换FireFox浏览器</title>
+    <url>/posts/9847d699/</url>
+    <content><![CDATA[<p>近来edge更新的越来越臃肿，星期天闲来无事，把浏览器从edge换成了FireFox<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。安装好后首次打开FireFox，有弹窗可直接将edge的书签和历史记录导入，而后我又迁移了一下常用拓展和脚本，用“Header Editor<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>”把FireFox的UA伪装成Chrome，几乎无痛的将浏览器更换了😇。</p>
+<p>Mozilla宣言:<a href="https://www.mozilla.org/zh-CN/about/manifesto">https://www.mozilla.org/zh-CN/about/manifesto</a></p>
+<p>PS:第一天就遇到了几个小毛病，网上查阅资料，发现从about:config界面都有解决选项。</p>
+<hr class="footnotes-sep" />
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>FireFox国际版:<a href="https://www.mozilla.org/zh-CN/firefox/new/">https://www.mozilla.org/zh-CN/firefox/new/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Header Editor项目:<a href="https://github.com/FirefoxBar/HeaderEditor">https://github.com/FirefoxBar/HeaderEditor</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>Windows</tag>
+        <tag>浏览器</tag>
+        <tag>私密</tag>
       </tags>
   </entry>
 </search>
