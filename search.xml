@@ -359,6 +359,25 @@ hexo s<br />
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
+    <title>有点</title>
+    <url>/posts/a20e707e/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="cdfaa559ef89197e2d7b98b2a318b85ced5dd39dfb38c32d7f09ef3467be9cc1">0d172f8cc88adf34e90074ee9044d64799ac75df9baad0d69ff0430cbeff1aa2f967636b7380c972352fc81fdd63c4dfb1973effb343148650af320b9a24a3de87ac8b39808da6130199cbbe130be64c84265a20b65e0bddeb7c4a27fd70adbe4f9882b87d0dde17d272a02ff3562b3bf6ca914cdf77381cd99ff8302ace37601ec9f8c4dadf94adaf35382bcbeb02c16b42fd087fce8fd97ef579b9fedade4784c2d1dedd6e13e0527ba23ca102b97ce2ae45c9011da067f1d39e89a8315fbfdb228402c832274a1f15ca77b1f84e6833a15789f5e6aff8e0b8a4a8a6bcca885ac71d38fc66cc431302c38629edb5613eb784497c12d07012005eef52606506f32ff554c105e86a52f3b61c726c0c8b12e1980e742db2c73d80179196770e8a0f37f5854573b2be4803c64798b4ddf91fce5c8f3fb0831fdf9c3978643edd21bc01cd9bcab94cd27f29d72c87112edebc312f084095c925064f7dea9a6b5c452ad7f87b565aec5b322e9a23d1c1c81a7a81af93cc10034e2f42e2259bbe6e7c921dd8a21d6a59374d8154b2b0c7e995</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>私密</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>流氓软件的清除</title>
     <url>/posts/eb137a6e/</url>
     <content><![CDATA[<h2 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h2>
